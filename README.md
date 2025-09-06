@@ -34,9 +34,9 @@ Agosto 2025
 
 | Versión | Fecha             | Autor                                                                                                                                                     | Descripción de modificación                                                                                                                                                                                                                                                                                                                                        |
 | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **TB1** | Lunes 07 de Abril | - Carlos Alejandro De La Cruz Villarreal<br>-Alexander Paolo Justo Yauricasa<br>- Ariana Lizeth Ramirez Carrasco<br>- Fabian Alonso Reyes Trujillano<br>- Eddo Su Caletti <br>-Miguel Angel Vidal Castro| Se han incluído los siguientes capítulos:<br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis<br>- Capítulo III: Requirements Specification<br>- Capítulo IV: Product Design<br>- Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8<br>- Avance de Conclusiones, Bibliografía y Anexos |
-| **TP1** | Lunes 28 de Mayo | - Carlos Alejandro De La Cruz Villarreal<br>-Alexander Paolo Justo Yauricasa<br>- Ariana Lizeth Ramirez Carrasco<br>- Fabian Alonso Reyes Trujillano<br>- Eddo Su Caletti <br>-Miguel Angel Vidal Castro| Se han Areglado los siguientes capitulos: <br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis correcciones en las entrevitas y en los segmentos dados <br>- Capítulo III: Requirements Specification correcciones en las User histories con los segmentas propuesos del capitulo 1 <br>- Capítulo IV: Product Design correciones de los ink y de los diagramas <br>- Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8 y adiones de las reuniones <br>- Avance de Conclusiones, Bibliografía y Anexos <br>-Creacion del frontend de la aplicacion de VitaMeet|
-| **TB2** | Sabado 21 de  Junio | - Carlos Alejandro De La Cruz Villarreal<br>-Alexander Paolo Justo Yauricasa<br>- Ariana Lizeth Ramirez Carrasco<br>- Fabian Alonso Reyes Trujillano<br>- Eddo Su Caletti <br>-Miguel Angel Vidal Castro| Se han Areglado los siguientes capitulos: <br>- Capítulo I: Introducción<br>- Capítulo II: Requirements Elicitation & Analysis correcciones en las entrevitas y en los segmentos dados <br>- Capítulo III: Requirements Specification correcciones en las User histories con los segmentas propuesos del capitulo 1 <br>- Capítulo IV: Product Design correciones de los ink y de los diagramas <br>- Avance del Capítulo V: Product Implementation, Validation & Deployment hasta el punto 5.2.1.8 y adiones de las reuniones <br>- Avance de Conclusiones, Bibliografía y Anexos <br>-Areglos del frontend de la aplicación web <br>- Creacion del backen con sus respectivos areglos|
+|  |  | |  |
+|  |  | |  |
+|  |  | |  |
 
 # Project Report Collaboration Insights
 
@@ -67,9 +67,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo II: Requirements & Analysis](#capítulo-ii-requirements-analysis)
   - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
   - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
 
 ## [Capítulo I: Introducción](/report/chapter1/chapter-1.md)
@@ -77,15 +77,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   - [1.1.1. Descripción de la Startup](/report/chapter1/chapter-1.md#111-descripción-de-la-starup)
   - [1.1.2. Perfiles de integrantes del equipo](/report/chapter1/chapter-1.md#112-perfiles-de-integrantes-del-equipo)
 - [1.2. Solution Profile](/report/chapter1/chapter-1.md#12-Solution-Profile)
-  - [1.2.1. Antecedentes y problemática](/report/chapter1/chapter-1.md#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](/report/chapter1/chapter-1.md#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](/report/chapter1/chapter-1.md#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](/report/chapter1/chapter-1.md#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](/report/chapter1/chapter-1.md#1223-lean-uX-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](/report/chapter1/chapter-1.md#1224-lean-uX-canvas)
+  - [1.2.1. Nombre del producto](/report/chapter1/chapter-1.md#121-nombre-del-producto)
+  - [1.2.2. Antecedentes y problemática](/report/chapter1/chapter-1.md#122-antecedentes-y-problemática)
+  - [1.2.3. Lean UX Process](/report/chapter1/chapter-1.md#123-lean-ux-process)
+    - [1.2.3.1. Lean UX Problem Statements](/report/chapter1/chapter-1.md#1231-lean-ux-problem-statements)
+    - [1.2.3.2. Lean UX Assumptions](/report/chapter1/chapter-1.md#1232-lean-ux-assumptions)
+    - [1.2.3.3. Lean UX Hypothesis Statements](/report/chapter1/chapter-1.md#1233-lean-uX-hypothesis-statements)
+    - [1.2.3.4. Lean UX Canvas](/report/chapter1/chapter-1.md#1234-lean-uX-canvas)
 - [1.3. Segmentos objetivo](/report/chapter1/chapter-1.md#13-segmentos-objetivo)
 
-## [Capítulo II: Requirements Elicitation & Analysis](/report/chapter2/chapter-2.md)
+## [Capítulo II: Requirements & Analysis](/report/chapter2/chapter-2.md)
 - [2.1. Competidores](/report/chapter2/chapter-2.md#21-competidores)
   - [2.1.1. Análisis competitivo](/report/chapter2/chapter-2.md#211-análisis-competitivo)
   - [2.1.2. Estrategias y tácticas frente a competidores](/report/chapter2/chapter-2.md#212-estrategias-y-tácticas-frente-a-competidores)
@@ -107,17 +108,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - [3.3. Impact Mapping](/report/chapter3/chapter-3.md#33-impact-mapping)
 - [3.4. Product Backlog](/report/chapter3/chapter-3.md#33-impact-mapping)
 
-## [Capítulo IV: Product Design](/report/chapter4/chapter-4.md)
-- [4.1. Style Guidelines](/report/chapter4/chapter-4.md#41-style-guidelines)
-  - [4.1.1. General Style Guidelines](/report/chapter4/chapter-4.md#42-information-architecture)
-  - [4.1.2. Web Style Guidelines](/report/chapter4/chapter-4.md#412-web-style-guidelines)
-- [4.2. Information Architecture](/report/chapter4/chapter-4.md#42-information-architecture)
-  - [4.2.1. Organization Systems](/report/chapter4/chapter-4.md#421-organization-systems)
-  - [4.2.2. Labeling Systems](/report/chapter4/chapter-4.md#422-labeling-systems)
-  - [4.2.3. SEO Tags and Meta Tags](/report/chapter4/chapter-4.md#423-seo-tags-and-meta-tags)
-  - [4.2.4. Searching Systems](/report/chapter4/chapter-4.md#424-searching-systems)
-  - [4.2.5. Navigation Systems](/report/chapter4/chapter-4.md#425-navigation-systems)
-- [4.3. Landing Page UI Design](/report/chapter4/chapter-4.md#43-landing-page-ui-design)
+## [Capítulo IV: Product Architecture Design](/report/chapter4/chapter-4.md)
+- [4.1. Desing Concepts, ViewPoints & ER Diagrams](/report/chapter4/chapter-4.md#41-Desing-Concepts-ViewPoints-ER-Diagrams)
+  - [4.1.1. Principles Statements](/report/chapter4/chapter-4.md#42-principles-statements)
+  - [4.1.2. Approaches Statements Architectural Styles & Patterns
+](/report/chapter4/chapter-4.md#412-approaches-statements-architectural-styles-patterns
+  - [4.1.3. Context Diagram](/report/chapter4/chapter-4.md#413-context-diagram)
+  - [4.1.4. Approach driven ViewPoints Diagrams](/report/chapter4/chapter-4.md#414-approach-driven-viewPoints-diagrams)
+  - [4.1.5. Relational/Non Relational Database Diagram ](/report/chapter4/chapter-4.md#415-relational-non-relational-database-diagram )
+  - [4.1.6. Design Patterns](/report/chapter4/chapter-4.md#416-design-patterns)
+  - [4.1.7. Tactics](/report/chapter4/chapter-4.md#417-tactics)
+- [4.2. Architectural Drivers](/report/chapter4/chapter-4.md#42-architectural-drivers)
+  - [4.2.1. Design Purpose](/report/chapter4/chapter-4.md#421-design-purpose)
+  - [4.2.2. Primary Functionality (Primary User Stories)](/report/chapter4/chapter-4.md#422-primary-functionality)
+  - [4.2.3. Quality Attribute Scenarios](/report/chapter4/chapter-4.md#423-quality-attribute-scenarios)
+  - [4.2.4. Constraints](/report/chapter4/chapter-4.md#424-constraints)
+  - [4.2.5. Architectural Concerns](/report/chapter4/chapter-4.md#425-architectural-concerns)
+- [4.3. ADD Iterations](/report/chapter4/chapter-4.md#43-ADD-iterations)
   - [4.3.1. Landing Page Wireframe](/report/chapter4/chapter-4.md#431-landing-page-wireframe)
   - [4.3.2. Landing Page Mock-up](/report/chapter4/chapter-4.md#432-landing-page-mock-up)
 - [4.4. Web Applications UX/UI Design](/report/chapter4/chapter-4.md#44-web-applications-uxui-design)
