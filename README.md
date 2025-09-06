@@ -228,7 +228,19 @@ Este problema afecta a cientos de adultos mayores en Lima y a sus familias, en u
 
 #### 1.2.3. Lean UX Process
 
-#### 1.2.3.1. Lean UX Problem Statements]
+#### 1.2.3.1. Lean UX Problem Statements
+
+**Problem Statement 1**
+**Usuarios:** Familiares de adultos mayores que residen en asilos.
+**Necesidad:** Necesitan mantenerse informados sobre el estado de salud y bienestar de sus seres queridos, pero actualmente no cuentan con acceso a información en tiempo real ni con canales efectivos de comunicación que les brinden tranquilidad y confianza.
+
+**Problem Statement 2**
+**Usuarios:** Personal de cuidado en asilos de ancianos.
+**Necesidad:** Requieren una forma más eficiente y no intrusiva de registrar, organizar y compartir información sobre la salud y el estado emocional de los residentes, sin que esto interfiera con sus labores cotidianas ni consuma tiempo excesivo.
+
+**Problem Statement 3**
+**Usuarios:** Directores o administradores de asilos.
+**Necesidad:** Buscan garantizar una atención de calidad y mantener la confianza de las familias, pero carecen de herramientas tecnológicas que les permitan tomar decisiones basadas en datos actualizados y evidencias concretas.
 
 #### 1.2.3.2. Lean UX Assumptions
 
