@@ -111,8 +111,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## [Capítulo IV: Product Architecture Design](/report/chapter4/chapter-4.md)
 - [4.1. Desing Concepts, ViewPoints & ER Diagrams](/report/chapter4/chapter-4.md#41-Desing-Concepts-ViewPoints-ER-Diagrams)
   - [4.1.1. Principles Statements](/report/chapter4/chapter-4.md#42-principles-statements)
-  - [4.1.2. Approaches Statements Architectural Styles & Patterns
-](/report/chapter4/chapter-4.md#412-approaches-statements-architectural-styles-patterns
+  - [4.1.2. Approaches Statements Architectural Styles & Patterns](/report/chapter4/chapter-4.md#412-approaches-statements-architectural-styles-patterns)
   - [4.1.3. Context Diagram](/report/chapter4/chapter-4.md#413-context-diagram)
   - [4.1.4. Approach driven ViewPoints Diagrams](/report/chapter4/chapter-4.md#414-approach-driven-viewPoints-diagrams)
   - [4.1.5. Relational/Non Relational Database Diagram ](/report/chapter4/chapter-4.md#415-relational-non-relational-database-diagram )
