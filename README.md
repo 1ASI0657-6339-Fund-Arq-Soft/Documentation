@@ -195,6 +195,37 @@ Este nombre transmite la esencia del producto: una plataforma que centraliza inf
 
 #### 1.2.2. Antecedentes y problemática
 
+**WHAT**
+
+Existe una falta de transparencia y comunicación efectiva entre los asilos y los familiares sobre el bienestar de los adultos mayores.
+
+**WHY**
+
+La información no fluye de manera clara ni constante, lo que genera preocupación, desconfianza y dificulta el seguimiento del cuidado.
+
+**WHERE**
+
+El problema se presenta en asilos de Lima, donde los canales tradicionales de comunicación son limitados y poco accesibles.
+
+**WHO**
+
+Los principales afectados son:
+
+- Familiares que no pueden acceder fácilmente a información actualizada.
+- Personal de cuidado, que enfrenta dificultades para comunicar el estado real de los residentes.
+
+**WHEN**
+
+La falta de información ocurre de forma constante, especialmente en momentos críticos de salud o durante visitas esporádicas.
+
+**HOW**
+
+La información se gestiona de forma manual y fragmentada, lo que impide el acceso en tiempo real y dificulta el seguimiento continuo.
+
+**HOW MUCH**
+
+Este problema afecta a cientos de adultos mayores en Lima y a sus familias, en un contexto nacional de alta vulnerabilidad para la población adulta mayor.
+
 #### 1.2.3. Lean UX Process
 
 #### 1.2.3.1. Lean UX Problem Statements]
