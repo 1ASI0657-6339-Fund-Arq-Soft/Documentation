@@ -244,6 +244,36 @@ Este problema afecta a cientos de adultos mayores en Lima y a sus familias, en u
 
 #### 1.2.3.2. Lean UX Assumptions
 
+**¿Quiénes son nuestros usuarios?**
+
+Familiares de adultos mayores que viven en asilos y no pueden acceder fácilmente a información actualizada, y personal de cuidado (enfermeros, cuidadores) que enfrenta dificultades para comunicar el estado real de los residentes.
+
+**¿Dónde encaja nuestro producto en su vida o trabajo?**
+
+Para los familiares, SeniorHub se convierte en una fuente confiable de información sobre el bienestar de sus seres queridos, accesible desde cualquier lugar. Para el personal de cuidado, la plataforma facilita el registro rápido y organizado de datos relevantes sin interrumpir sus rutinas.
+
+**¿Qué problema podría afrontar nuestro producto y cómo podemos resolverlo?**
+
+**Problema:** Los familiares se sienten desconectados por la falta de información clara y constante, mientras que el personal está sobrecargado con registros manuales y comunicación informal.
+
+**Solución:** SeniorHub centraliza la información del residente, permite actualizaciones en tiempo real para los familiares y ofrece herramientas intuitivas para que el personal registre y comparta datos de forma eficiente.
+
+**¿Cuándo y cómo se utiliza?**
+
+SeniorHub se utiliza durante las rutinas de cuidado para registrar observaciones físicas y emocionales, y por los familiares en cualquier momento desde sus dispositivos móviles para revisar el estado de sus seres queridos y comunicarse con el personal.
+
+**¿Qué características son importantes?**
+
+- Registro rápido y sencillo del estado físico y emocional.
+- Actualizaciones en tiempo real para los familiares.
+- Alertas ante cambios importantes en la salud.
+- Canal de comunicación directa entre familia y personal.
+- Interfaz accesible y amigable para usuarios no técnicos.
+
+**¿Cómo debe verse y comportarse nuestro producto?**
+
+SeniorHub debe tener un diseño cálido, profesional y fácil de usar. Debe transmitir confianza, mostrar los datos de forma clara y visual, y comportarse de manera fluida y confiable, siempre centrado en mejorar el bienestar del residente y la conexión entre familia y cuidadores.
+
 #### 1.2.3.3. Lean UX Hypothesis Statements
 
 #### 1.2.3.4. Lean UX Canvas
