@@ -399,6 +399,41 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+**Diferenciación por enfoque institucional**
+
+- **Estrategia:** Enfocar SeniorHub exclusivamente en instituciones geriátricas (asilos, residencias y centros de cuidado prolongado), no en domicilios individuales.
+- **Táctica:** Desarrollar funcionalidades específicas como: Control de turnos del personal, Historial clínico y emocional por residente, Alertas múltiples para distintos roles (enfermería, médicos, familiares) y Reportes agregados para administradores.
+
+> Esta estrategia **responde a las fortalezas** de Birdie y GrandPad en el cuidado domiciliario, pero especializa SeniorHub en un segmento institucional poco cubierto, donde la personalización y gestión clínica son más críticas.
+
+**Modelo SaaS accesible y escalable**
+
+**Estrategia:** Ofrecer SeniorHub como una plataforma SaaS sin hardware propietario, con precios accesibles.
+**Táctica:** Diseñar planes escalables según el número de residentes, con opciones básicas (solo monitoreo) y premium (alertas, comunicación, reportes).
+
+> Esta estrategia **aprovecha las debilidades** de CarePredict y GrandPad, cuyos modelos requieren inversión en dispositivos físicos. También mitiga barreras económicas en mercados emergentes como Perú.
+
+**Valor diferencial: bienestar emocional y social**
+
+**Estrategia:** Incorporar el monitoreo emocional y social como parte central del producto.
+**Táctica:** Incluir módulos de: Actividades grupales y seguimiento de participación, Retroalimentación emocional del residente y Interacción familiar (mensajes, fotos, videollamadas integradas).
+
+> Esta propuesta **capitaliza las debilidades** de CarePredict y Birdie, que se enfocan en datos físicos, y aprovecha la oportunidad de una población mayor más conectada digital y emocionalmente.
+
+**Interoperabilidad como ventaja competitiva**
+
+**Estrategia:** Diseñar SeniorHub como un sistema abierto y adaptable.
+**Táctica:** Desarrollar una API pública que permita integrar: Historias clínicas electrónicas, CRMs institucionales, Dispositivos IoT (sensores, wearables) y Herramientas de comunicación interna.
+
+> Esta táctica **responde a la amenaza** de la rápida evolución tecnológica y aprovecha la debilidad de plataformas cerradas como Birdie y GrandPad.
+
+**Enfoque en privacidad y cumplimiento normativo**
+
+**Estrategia:** Incorporar políticas de privacidad desde el diseño (privacy by design).
+**Táctica:** Alinear la plataforma con normativas internacionales como GDPR y HIPAA, y destacar este cumplimiento como valor agregado.
+
+> Esta medida **mitiga amenazas legales y regulatorias**, fortalece la confianza institucional y brinda un diferenciador competitivo en entornos altamente regulados.
+
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas 
