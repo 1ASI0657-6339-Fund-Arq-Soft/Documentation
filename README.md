@@ -15,7 +15,7 @@ Profesor: Ernesto Ocampo Tello
 
 "Informe de Avance 1"
 
-Startup: Los tralaleritos
+Startup: DevElevate
 
 Producto: SeniorHub
 
@@ -173,6 +173,18 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 1.1. Startup Profile
 
 #### 1.1.1. Descripción de la Startup
+
+Somos **DevElevate**, una startup fundada por estudiantes apasionados por la innovación social, dedicada a transformar la calidad de vida en los centros geriátricos mediante soluciones tecnológicas centradas en el bienestar de los adultos mayores.
+Nuestro producto principal, **SeniorHub**, es una plataforma digital diseñada para mejorar la experiencia de vida en los asilos, permitiendo el monitoreo integral del estado físico, emocional y mental de los residentes. **SeniorHub** ofrece reportes detallados, alertas inteligentes y herramientas de comunicación que fortalecen el vínculo entre cuidadores, personal médico y familiares.
+Con **SeniorHub**, buscamos no solo optimizar el cuidado diario, sino también brindar tranquilidad y confianza a las familias, asegurando que sus seres queridos estén bien atendidos, acompañados y conectados.
+
+**Misión**
+
+Nuestra misión en DevElevate es empoderar a los adultos mayores y sus redes de apoyo mediante herramientas digitales avanzadas que mejoren la comunicación, el monitoreo de salud y la calidad de vida en entornos geriátricos.
+
+**Visión**
+
+Aspiramos a convertirnos en la plataforma líder en el cuidado de adultos mayores, promoviendo conexiones humanas más profundas y ofreciendo soluciones tecnológicas que impulsen su bienestar integral.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
