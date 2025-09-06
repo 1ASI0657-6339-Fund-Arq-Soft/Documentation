@@ -42,37 +42,11 @@ Agosto 2025
 
 URL Project Report (Github): https://github.com/1ASI0657-6339-Fund-Arq-Soft/Documentation
 
-
-# Student Outcome
-
-**ABET – EAC - Student Outcome 5**
-
-*Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
-
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
-
-| Criterio Específico | Acciones Realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1** <br>-Fabian Reyes Trujillano: <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro: <br>| **TB1** <br>-Fabian Reyes Trujillano:  <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro:| **TB1** <br>-Fabian Reyes Trujillano: <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro: <br>| **TB1** <br>-Fabian Reyes Trujillano:  <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro:|
-
 # Contenido
-## Tabla de Contenidos
+## Tabla de Contenido
+[Student Outcome](#student-outcome)
 
-- [Universidad Peruana de Ciencias Aplicadas](#universidad-peruana-de-ciencias-aplicadas)
-  - [Carrera de Ingeniería de Software](#carrera-de-ingeniería-de-software)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Student Outcome](#student-outcome)
-- [Contenido](#contenido)
-  - [Tabla de Contenidos](#tabla-de-contenidos)
-  - [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [Capítulo II: Requirements & Analysis](#capítulo-ii-requirements-analysis)
-  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [Capítulo IV: Product Architecture Design](#capítulo-iv-product-architecture-design)
-  - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-
-## [Capítulo I: Introducción](/report/chapter1/chapter-1.md)
+[Capítulo I: Introducción](/report/chapter1/chapter-1.md)
 - [1.1. Startup Profile](/report/chapter1/chapter-1.md#11-startup-profile)
   - [1.1.1. Descripción de la Startup](/report/chapter1/chapter-1.md#111-descripción-de-la-starup)
   - [1.1.2. Perfiles de integrantes del equipo](/report/chapter1/chapter-1.md#112-perfiles-de-integrantes-del-equipo)
@@ -86,7 +60,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     - [1.2.3.4. Lean UX Canvas](/report/chapter1/chapter-1.md#1234-lean-uX-canvas)
 - [1.3. Segmentos objetivo](/report/chapter1/chapter-1.md#13-segmentos-objetivo)
 
-## [Capítulo II: Requirements & Analysis](/report/chapter2/chapter-2.md)
+[Capítulo II: Requirements & Analysis](/report/chapter2/chapter-2.md)
 - [2.1. Competidores](/report/chapter2/chapter-2.md#21-competidores)
   - [2.1.1. Análisis competitivo](/report/chapter2/chapter-2.md#211-análisis-competitivo)
   - [2.1.2. Estrategias y tácticas frente a competidores](/report/chapter2/chapter-2.md#212-estrategias-y-tácticas-frente-a-competidores)
@@ -102,13 +76,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   - [2.3.5. As-is Scenario Mapping](/report/chapter2/chapter-2.md#235-as-is-scenario-mapping)
 - [2.4. Ubiquitous Language](/report/chapter2/chapter-2.md#24-ubiquitous-language)
 
-## [Capítulo III: Requirements Specification](/report/chapter3/chapter-3.md)
+[Capítulo III: Requirements Specification](/report/chapter3/chapter-3.md)
 - [3.1. To-Be Scenario Mapping](/report/chapter3/chapter-3.md#31-to-be-scenario-mapping)
 - [3.2. User Stories](/report/chapter3/chapter-3.md#32-user-stories)
 - [3.3. Impact Mapping](/report/chapter3/chapter-3.md#33-impact-mapping)
 - [3.4. Product Backlog](/report/chapter3/chapter-3.md#33-impact-mapping)
 
-## [Capítulo IV: Product Architecture Design](/report/chapter4/chapter-4.md)
+[Capítulo IV: Product Architecture Design](/report/chapter4/chapter-4.md)
 - [4.1. Desing Concepts, ViewPoints & ER Diagrams](/report/chapter4/chapter-4.md#41-Desing-Concepts-ViewPoints-ER-Diagrams)
   - [4.1.1. Principles Statements](/report/chapter4/chapter-4.md#42-principles-statements)
   - [4.1.2. Approaches Statements Architectural Styles & Patterns](/report/chapter4/chapter-4.md#412-approaches-statements-architectural-styles-patterns)
@@ -142,7 +116,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - [4.8. Database Design](/report/chapter4/chapter-4.md#48-database-design)
   - [4.8.1. Database Diagram](/report/chapter4/chapter-4.md#481-database-diagram)
 
-## [Capítulo V: Product Implementation, Validation & Deployment](/report/chapter5/chapter-5.md)
+[Capítulo V: Product Implementation, Validation & Deployment](/report/chapter5/chapter-5.md)
 - [5.1. Software Configuration Management](/report/chapter5/chapter-5.md#51-software-configuration-management)
   - [5.1.1. Software Development Environment Configuration](/report/chapter5/chapter-5.md#512-source-code-management)
   - [5.1.2. Source Code Management](/report/chapter5/chapter-5.md#513-source-code-style-guide--conventions)
@@ -181,9 +155,86 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
   - [5.3.2. Registro de Entrevistas](/report/chapter5/chapter-5.md#532-registro-de-entrevistas)
   - [5.3.3. Evaluaciones según heurísticas](/report/chapter5/chapter-5.md#533-evaluaciones-según-heurísticas)
 
+# Student Outcome
+
+**ABET – EAC - Student Outcome 5**
+
+*Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+
+| Criterio Específico | Acciones Realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1** <br>-Fabian Reyes Trujillano: <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro: <br>| **TB1** <br>-Fabian Reyes Trujillano:  <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro:| **TB1** <br>-Fabian Reyes Trujillano: <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro: <br>| **TB1** <br>-Fabian Reyes Trujillano:  <br>-Eddo Su Caletti: <br> -Miguel Angel Vidal Castro:|
+
+## Capítulo I: Introducción
+
+### 1.1. Startup Profile
+
+#### 1.1.1. Descripción de la Startup
+
+#### 1.1.2. Perfiles de integrantes del equipo
+
+### 1.2. Solution Profile
+
+#### 1.2.1. Nombre del producto
+
+#### 1.2.2. Antecedentes y problemática
+
+#### 1.2.3. Lean UX Process
+
+#### 1.2.3.1. Lean UX Problem Statements]
+
+#### 1.2.3.2. Lean UX Assumptions
+
+#### 1.2.3.3. Lean UX Hypothesis Statements
+
+#### 1.2.3.4. Lean UX Canvas
+
+### 1.3. Segmentos objetivo
+
+## Capítulo II: Requirements & Analysis
+
+### 2.1. Competidores
+
+#### 2.1.1. Análisis competitivo
+
+#### 2.1.2. Estrategias y tácticas frente a competidores
+
+### 2.2. Entrevistas
+
+#### 2.2.1. Diseño de entrevistas 
+
+#### 2.2.2. Registro de entrevistas
+
+#### 2.2.3. Análisis de entrevistas
+
+### 2.3. Needfinding
+
+#### 2.3.1. User Personas
+
+#### 2.3.2. User Task Matrix
+
+#### 2.3.3. User Journey Mapping
+
+#### 2.3.4. Empathy Mapping
+
+#### 2.3.5. As-is Scenario Mapping
+
+### 2.4. Ubiquitous Language
+
+## Capítulo III: Requirements Specification
+
+### 3.1. To-Be Scenario Mapping
+
+### 3.2. User Stories
+
+### 3.3. Impact Mapping
+
+### 3.4. Product Backlog
+
 ## [Conclusiones](/report/chapter5/chapter-5.md#conclusiones)
-
-
 
 ## [Video About-The-Team](/report/chapter5/chapter-5.md#video-about-the-team)
 
