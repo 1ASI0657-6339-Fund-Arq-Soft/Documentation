@@ -175,8 +175,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 #### 1.1.1. Descripción de la Startup
 
 Somos **DevElevate**, una startup fundada por estudiantes apasionados por la innovación social, dedicada a transformar la calidad de vida en los centros geriátricos mediante soluciones tecnológicas centradas en el bienestar de los adultos mayores.
-Nuestro producto principal, **SeniorHub**, es una plataforma digital diseñada para mejorar la experiencia de vida en los asilos, permitiendo el monitoreo integral del estado físico, emocional y mental de los residentes. **SeniorHub** ofrece reportes detallados, alertas inteligentes y herramientas de comunicación que fortalecen el vínculo entre cuidadores, personal médico y familiares.
-Con **SeniorHub**, buscamos no solo optimizar el cuidado diario, sino también brindar tranquilidad y confianza a las familias, asegurando que sus seres queridos estén bien atendidos, acompañados y conectados.
 
 **Misión**
 
@@ -191,6 +189,9 @@ Aspiramos a convertirnos en la plataforma líder en el cuidado de adultos mayore
 ### 1.2. Solution Profile
 
 #### 1.2.1. Nombre del producto
+
+**SeniorHub** es el nombre del producto principal de DevElevate, elegido por su claridad y propósito. **“Senior”** representa a los adultos mayores, el grupo central al que se dirige la solución, mientras que **“Hub”** simboliza un centro de conexión digital donde se integran cuidadores, médicos y familiares para mejorar el monitoreo y la comunicación sobre el bienestar de los residentes en asilos.
+Este nombre transmite la esencia del producto: una plataforma que centraliza información crítica, facilita el acceso en tiempo real y fortalece los vínculos humanos en entornos geriátricos, promoviendo cuidado, confianza y acompañamiento.
 
 #### 1.2.2. Antecedentes y problemática
 
