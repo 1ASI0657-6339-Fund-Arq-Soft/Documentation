@@ -290,6 +290,8 @@ SeniorHub debe tener un diseño cálido, profesional y fácil de usar. Debe tran
 
 #### 1.2.3.4. Lean UX Canvas
 
+![LeanUXCanvas](./assets/LeanUXCanvas.png)
+
 ### 1.3. Segmentos objetivo
 
 ## Capítulo II: Requirements & Analysis
