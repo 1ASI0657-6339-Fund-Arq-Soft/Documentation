@@ -294,6 +294,38 @@ SeniorHub debe tener un diseño cálido, profesional y fácil de usar. Debe tran
 
 ### 1.3. Segmentos objetivo
 
+**a) Familiares mayores de 18 años preocupados por el bienestar de sus seres queridos**
+
+**Descripción del segmento:**
+Este grupo está compuesto por hijos, nietos y otros parientes adultos de residentes en asilos. Su principal motivación es asegurar que sus seres queridos reciban una atención adecuada, especialmente cuando no pueden estar presentes físicamente. Buscan herramientas que les brinden tranquilidad, acceso a información confiable y una vía de comunicación directa con el personal de cuidado.
+
+**Características demográficas:**
+- Edad: Mayores de 18 años.
+- Ubicación: Lima Metropolitana, otras regiones del Perú y el extranjero.
+- Nivel educativo: Secundaria completa o superior.
+- Uso de tecnología: Usuarios activos de smartphones, redes sociales y plataformas digitales.
+
+**Datos de sustento:**
+- El 69.7% de los hogares en Lima tienen acceso a Internet (INEI, 2022).
+- Por cada adulto mayor, hay al menos dos familiares interesados en su cuidado (MIMP).
+
+
+**b) Profesionales de la salud y cuidadores en asilos de ancianos**
+
+**Descripción del segmento:**
+Incluye enfermeros, técnicos en enfermería, médicos geriatras y cuidadores formales que trabajan directamente con adultos mayores en instituciones geriátricas. Son responsables del registro de información sobre los residentes y de mantener la comunicación con los familiares. Buscan soluciones que les permitan optimizar su tiempo y mejorar la calidad del cuidado sin aumentar su carga laboral.
+
+**Características demográficas:**
+
+- Edad: Entre 25 y 60 años.
+- Nivel educativo: Formación técnica o universitaria en salud.
+- Ubicación: Asilos públicos y privados en Lima.
+- Uso de tecnología: Experiencia con sistemas electrónicos de registro y dispositivos móviles.
+
+**Datos de sustento:**
+- Más de 1,300 instituciones de cuidado de adultos mayores en Lima (Minsa).
+- El 81% del personal de salud en estos centros reporta necesidad de herramientas digitales (Observatorio de Salud Pública del Perú).
+
 ## Capítulo II: Requirements & Analysis
 
 ### 2.1. Competidores
