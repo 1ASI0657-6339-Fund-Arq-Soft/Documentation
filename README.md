@@ -276,6 +276,18 @@ SeniorHub debe tener un diseño cálido, profesional y fácil de usar. Debe tran
 
 #### 1.2.3.3. Lean UX Hypothesis Statements
 
+**Creemos que** al brindar acceso rápido y remoto a información confiable sobre el estado de salud y bienestar de los residentes, los familiares se sentirán más tranquilos y conectados con el cuidado que reciben sus seres queridos.
+
+**Sabremos que** hemos tenido éxito cuando más del 70% de los familiares reporten sentirse mejor informados y confiados en encuestas periódicas.
+
+**Sabremos que** esto es verdad porque aumentará la frecuencia de accesos a la plataforma y la duración de las consultas realizadas fuera del horario de visitas.
+
+**Creemos que** al ofrecer herramientas digitales intuitivas para registrar y compartir información sobre los residentes, el personal de cuidado reducirá su carga administrativa y podrá dedicar más tiempo a la atención directa.
+
+**Sabremos que** hemos tenido éxito cuando el personal reporte una disminución significativa en el tiempo dedicado a tareas manuales y un aumento en la satisfacción laboral.
+
+**Sabremos que** esto es verdad porque se observará un incremento en el número de registros clínicos completos, oportunos y consistentes dentro de la plataforma.
+
 #### 1.2.3.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo
