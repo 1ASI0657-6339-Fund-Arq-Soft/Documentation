@@ -334,33 +334,68 @@ Incluye enfermeros, técnicos en enfermería, médicos geriatras y cuidadores fo
 
 <img src="./assets/carepredict_logo.jpg" alt="carepredict_logo" height="200"/>
 
-Origen: Estados Unidos
-Descripción:
+**Origen:** Estados Unidos
+**Descripción:**
 CarePredict ha desarrollado Tempo, un wearable con inteligencia artificial que monitorea los patrones de actividad de adultos mayores. Detecta cambios en comportamiento que pueden indicar problemas de salud, permitiendo intervenciones tempranas.
-Diferenciador: Tecnología predictiva basada en IA y sensores portátiles.
-Enfoque: Prevención y monitoreo continuo en entornos residenciales y asistenciales.
+**Diferenciador:** Tecnología predictiva basada en IA y sensores portátiles.
+**Enfoque:** Prevención y monitoreo continuo en entornos residenciales y asistenciales.
 
 2. **Birdie**
 
 <img src="./assets/birdie_logo.png" alt="birdie_logo" height="200"/>
 
-Origen: Reino Unido
-Descripción:
+**Origen:** Reino Unido
+**Descripción:**
 Birdie ofrece una plataforma digital para el cuidado domiciliario de adultos mayores. Permite a los cuidadores registrar visitas, medicación, observaciones y generar reportes accesibles para familiares y profesionales de salud.
-Diferenciador: Gestión integral del cuidado en el hogar con enfoque colaborativo.
-Enfoque: Cuidado domiciliario, comunicación y documentación clínica.
+**Diferenciador:** Gestión integral del cuidado en el hogar con enfoque colaborativo.
+**Enfoque:** Cuidado domiciliario, comunicación y documentación clínica.
 
 3. **GrandPad**
 
 <img src="./assets/grandpad_logo.jpg" alt="grandpad_logo" height="200"/>
 
-Origen: Estados Unidos
-Descripción:
+**Origen:** Estados Unidos
+**Descripción:**
 GrandPad proporciona tablets diseñadas específicamente para adultos mayores, con funciones simplificadas como videollamadas, acceso a fotos, música y correo electrónico. Busca combatir la soledad y facilitar la conexión familiar.
-Diferenciador: Interfaz ultra accesible para personas mayores con poca experiencia tecnológica.
-Enfoque: Inclusión digital y conexión emocional.
+**Diferenciador:** Interfaz ultra accesible para personas mayores con poca experiencia tecnológica.
+**Enfoque:** Inclusión digital y conexión emocional.
 
 #### 2.1.1. Análisis competitivo
+
+### **¿Por qué llevar a cabo este análisis?**
+
+Llevar a cabo este análisis permite identificar y comparar las fortalezas, debilidades y propuestas de valor de los principales competidores, con el fin de mejorar la estrategia de **AgeCare**, detectar oportunidades en el mercado y definir una ventaja competitiva clara y sostenible.
+
+---
+
+### Perfil 
+| Perfil       | SeniorHub                                                                 | CarePredict                                                                 | Birdie                                                                              | GrandPad                                                                 |
+|--------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Overview     | Plataforma digital para monitoreo físico, emocional y comunicación en asilos. | Sistema de monitoreo inteligente para la salud de adultos mayores basado en wearables y IA. | Plataforma digital para la gestión de cuidado domiciliario, enfocada en agencias y cuidadores. | Tablets simplificadas diseñadas para adultos mayores, centradas en la conexión social. |
+| Ventaja Competitiva      | Centralización de datos, comunicación directa con familiares, alertas inteligentes. | Predicción temprana de problemas de salud mediante IA. | Mejora en la calidad del cuidado y comunicación en tiempo real. | Interfaz accesible para adultos mayores con baja alfabetización digital.    |
+
+
+### Perfil de Marketing
+| Perfil de Markteing     | SeniorHub                                                     | CarePredict                                                 | Birdie                                                                 | GrandPad                                                   |
+|----------------------|-------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------------|
+| Mercado Objetivo | Asilos privados y familiares de adultos mayores.   | Centros geriátricos y residencias para adultos mayores. | Agencias de cuidado domiciliario y cuidadores independientes. | Familias con adultos mayores que buscan conexión digital.    |
+| Estrategias de Marketing    | Alianzas con asilos, demostraciones, redes sociales. | Eventos de salud, marketing institucional, conferencias geriátricas. | Publicidad médica, asociaciones de cuidado, marketing digital.  | Marketing de contenido, redes sociales, ferias de salud. |
+
+### Perfil de Producto 
+| Perfil de Producto | SeniorHub                                                                 | CarePredict                                                            | Birdie                                                                 | GrandPad                                           |
+|-----------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------------|
+| Productos & Servicios                | Plataforma web y móvil, alertas, historial, comunicación familiar. | Wearable con sensores, app móvil, reportes automáticos.| Software en la nube, app para cuidadores, alertas familiares. | Tablet con apps preinstaladas, soporte técnico 24/7. |
+| Precios & Costos           | SaaS por suscripción mensual, escalable por número de residentes. | Suscripción mensual con costos iniciales altos por hardware. | Suscripción por cuidador o agencia, precio medio-alto. | Compra única + suscripción mensual (desde $49/mes). |
+| Canales de Distribucion      | Web, móvil (Android/iOS), alianzas con asilos. | Web, app móvil, integración con sistemas médicos.| Web, app móvil para cuidadores y familiares. | Venta directa en web, retail tech, asociaciones. |
+
+
+### Análisis SWTO 
+| Analisis SWTO | SeniorHub                            | CarePredict                              | Birdie                                      | GrandPad                                             |
+|------------|------------------------------------|-------------------------------------------|---------------------------------------------|------------------------------------------------------|
+|        Fortalezas    | Plataforma integral, interfaz amigable, enfoque en bienestar y conexión familiar. | Tecnología avanzada de IA. Wearables precisos. Detección temprana de emergencias. | Automatización, buen diseño UX, escalabilidad.| Hardware accesible, alta adopción entre adultos mayores. |
+|    Debilidades         | Requiere adopción tecnológica por parte de asilos. | Alto costo, dependencia del wearable. | Limitado a cuidado domiciliario, menor enfoque emocional. | Menor foco en salud física, limitada interoperabilidad.|
+|     Oportunidades          | Integración con seguros, expansión regional, alianzas con salud pública. | Asociaciones con hospitales, expansión global. | Entrada a mercados latinos, servicios premium. | Crecimiento de población mayor digital, integración con salud. |
+|    Amenazas      | Competencia con grandes empresas tech, lenta adopción institucional. | Evolución tecnológica rápida, privacidad de datos. | Nuevas plataformas gratuitas, regulación cambiante. | Reemplazo por smartphones, competencia en hardware. |
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
