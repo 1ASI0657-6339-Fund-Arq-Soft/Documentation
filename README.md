@@ -186,6 +186,26 @@ Aspiramos a convertirnos en la plataforma líder en el cuidado de adultos mayore
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+#### **Fatima Andrea Asmad Padilla – Ingeniería de Software – U20221B490**  
+<img src="./assets/F_asmad.jpg" alt="Fatima Asmad" height="200"/>
+
+Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada tarea que realizo, buscando siempre dar lo mejor de mí en cualquier proyecto o actividad asignada. Actualmente curso el sexto ciclo de la carrera de Ingeniería de Software, lo cual me ha permitido adquirir una base sólida en distintas áreas del desarrollo tecnológico.
+
+---
+
+#### **Andrés Fernado Rodriguez Zuluoeta – Ingeniería de Software – u202124213**  
+<img src="XXX" alt="XXX" height="200"/>
+
+XXX
+
+---
+
+#### **Fabian Alonso Reyes Trujillano – Ingeniería de Software – U202218233**  
+<img src="XXX" alt="XXX" height="200"/>
+
+XXX
+
+---
 ### 1.2. Solution Profile
 
 #### 1.2.1. Nombre del producto
