@@ -2,7 +2,40 @@
 
 ### 2.1. Competidores
 
+
+1. **CarePredict**
+
+<img src="./assets/carepredict_logo.jpg" alt="carepredict_logo" height="200"/>
+
+**Origen:** Estados Unidos
+**Descripción:**
+CarePredict ha desarrollado Tempo, un wearable con inteligencia artificial que monitorea los patrones de actividad de adultos mayores. Detecta cambios en comportamiento que pueden indicar problemas de salud, permitiendo intervenciones tempranas.
+**Diferenciador:** Tecnología predictiva basada en IA y sensores portátiles.
+**Enfoque:** Prevención y monitoreo continuo en entornos residenciales y asistenciales.
+
+2. **Birdie**
+
+<img src="./assets/birdie_logo.png" alt="birdie_logo" height="200"/>
+
+**Origen:** Reino Unido
+**Descripción:**
+Birdie ofrece una plataforma digital para el cuidado domiciliario de adultos mayores. Permite a los cuidadores registrar visitas, medicación, observaciones y generar reportes accesibles para familiares y profesionales de salud.
+**Diferenciador:** Gestión integral del cuidado en el hogar con enfoque colaborativo.
+**Enfoque:** Cuidado domiciliario, comunicación y documentación clínica.
+
+3. **GrandPad**
+
+<img src="./assets/grandpad_logo.jpg" alt="grandpad_logo" height="200"/>
+
+**Origen:** Estados Unidos
+**Descripción:**
+GrandPad proporciona tablets diseñadas específicamente para adultos mayores, con funciones simplificadas como videollamadas, acceso a fotos, música y correo electrónico. Busca combatir la soledad y facilitar la conexión familiar.
+**Diferenciador:** Interfaz ultra accesible para personas mayores con poca experiencia tecnológica.
+**Enfoque:** Inclusión digital y conexión emocional.
+
 #### 2.1.1. Análisis competitivo
+
+
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
@@ -58,4 +91,5 @@
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
