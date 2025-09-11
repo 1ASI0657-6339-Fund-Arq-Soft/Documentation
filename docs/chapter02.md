@@ -113,6 +113,45 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 #### 2.2.1. Diseño de entrevistas 
 
+
+**Preguntas Generales**
+
+1. ¿Cuál es su nombre completo?  
+2. ¿Cuántos años tienes?  
+3. ¿Cuál es su situación actual? ¿Trabaja, estudia o ambos?  
+4. ¿En qué ciudad resides?  
+
+**Segmento 1: Familiares mayores de 18 años preocupados por el bienestar de sus seres queridos**
+
+1. ¿Con qué frecuencia visitas o te comunicas con tu familiar en el asilo?
+2. ¿Qué aspectos del cuidado de tu familiar en el asilo te generan mayor preocupación?
+3. ¿Cómo te gustaría estar informado sobre el estado y la atención que recibe tu familiar en el asilo?
+4. ¿Qué tipo de información consideras más relevante para tomar decisiones informadas sobre el cuidado de tu familiar?
+5. ¿Qué importancia le das a la comunicación con el personal del asilo sobre el estado de tu familiar?
+6. ¿Cómo crees que una plataforma digital como SeniorHub podría mejorar tu experiencia y tranquilidad en relación con el cuidado de tu familiar?
+7. ¿Qué actividades o servicios adicionales te gustaría que se ofrecieran en el asilo para mejorar la calidad de vida de tu familiar?
+8. ¿Qué tan importante es para ti participar activamente en decisiones relacionadas con el cuidado de tu familiar en el asilo?
+9. ¿Cómo percibes la atención emocional y afectiva que recibe tu familiar por parte del personal del asilo?
+10. ¿Qué medidas consideras necesarias para garantizar la privacidad y seguridad de la información proporcionada a través de SeniorHub?
+11. ¿Qué beneficios crees que obtendrías de una plataforma como SeniorHub que te permita estar informado sobre la salud física y mental de tu familiar en tiempo real?
+12. ¿Qué sugerencias tendrías para mejorar la comunicación y la participación de los familiares en el cuidado de los residentes en el asilo?
+
+
+**Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos**
+
+1. ¿Cuáles consideras que son los mayores desafíos en la atención y cuidado de los adultos mayores en el asilo?
+2. ¿Cómo utilizas actualmente la tecnología en tu trabajo diario y qué mejoras crees que podrían implementarse?
+3. ¿Qué estrategias utilizas para mantener una comunicación efectiva con los familiares de los residentes?
+4. ¿Qué cambios o mejoras sugieres para optimizar la gestión de datos y la prestación de atención en el asilo?
+5. ¿Cómo crees que la tecnología podría ayudarte a mejorar la calidad de vida de los residentes y tu eficiencia en el trabajo?
+6. ¿Qué formación o capacitación adicional consideras necesaria para mejorar la atención y cuidado de los residentes?
+7. ¿Cómo evalúas la satisfacción de los familiares con respecto al cuidado y atención que reciben sus seres queridos?
+8. ¿Qué medidas tomas para promover un ambiente seguro y acogedor para los residentes?
+9. ¿Cómo abordarías los desafíos de la salud mental en los residentes y qué recursos utilizas para brindar apoyo?
+10. ¿Cómo gestionas la distribución de tareas y la coordinación del personal para garantizar una atención de calidad?
+11. ¿Qué medidas implementarías para garantizar la privacidad y dignidad de los residentes en el asilo?
+12. ¿Qué importancia le das a la actualización y seguimiento de las políticas y normativas en el cuidado de los adultos mayores en el asilo?
+
 #### 2.2.2. Registro de entrevistas
 
 | **Entrevista 1** |
@@ -161,6 +200,7 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
