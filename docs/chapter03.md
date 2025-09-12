@@ -229,16 +229,3 @@ Los principales requerimientos que debe cumplir el sistema son:
 - Brindar una experiencia de uso intuitiva y accesible para usuarios con distintos niveles de alfabetización digital.
 - Generar confianza y transparencia mediante reportes, notificaciones y trazabilidad de las acciones.
 
-## 3.4. Métricas de alcance
-
-Para medir el impacto y verificar que el proyecto cumple con su objetivo, se establecen las siguientes métricas de alcance:
-
-| ID | Métrica | Valor Esperado | Relacionado con |
-|----|---------|----------------|-----------------|
-| M1 | Notificaciones enviadas en tiempo real | Retraso máximo de 5 segundos en la entrega | Gestión de Notificaciones |
-| M2 | Escalabilidad inicial | Soportar al menos 100 residentes activos y 200 familiares conectados | Gestión de Adultos Mayores, Gestión de Citas |
-| M3 | Disponibilidad del sistema | 90% de disponibilidad mensual | Todos los microservicios |
-| M4 | Precisión de registros | ≥ 95% de éxito en guardado de información de residentes y citas | Gestión de Adultos Mayores, Gestión de Citas |
-| M5 | Experiencia de usuario | El 80% de los usuarios debe completar tareas básicas (ej. reservar cita, ver perfil) en menos de 3 minutos | Gestión de Citas, Perfil de Residentes |
-| M6 | Transacciones de pago | Confirmación en menos de 10 segundos para el 95% de pagos procesados | Payment |
-| M7 | Seguridad de acceso | 100% de los usuarios deben autenticarse antes de acceder a datos sensibles | Todos los microservicios |
