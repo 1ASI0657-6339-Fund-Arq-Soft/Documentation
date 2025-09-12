@@ -17,21 +17,21 @@ Aspiramos a convertirnos en la plataforma líder en el cuidado de adultos mayore
 #### 1.1.2. Perfiles de integrantes del equipo
 
 #### **Fatima Andrea Asmad Padilla – Ingeniería de Software – U20221B490**  
-<img src="./assets/F_asmad.jpg" alt="Fatima Asmad" height="200"/>
+<img src="../assets/F_asmad.jpg" alt="Fatima Asmad" height="200"/>
 
 Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada tarea que realizo, buscando siempre dar lo mejor de mí en cualquier proyecto o actividad asignada. Actualmente curso el sexto ciclo de la carrera de Ingeniería de Software, lo cual me ha permitido adquirir una base sólida en distintas áreas del desarrollo tecnológico.
 
 ---
 
 #### **Andrés Fernado Rodriguez Zuluoeta – Ingeniería de Software – u202124213**  
-<img src="./assets/andres.jpg" alt="Andres Rodriguez" height="200"/>
+<img src="../assets/andres.jpg" alt="Andres Rodriguez" height="200"/>
 
 Soy estudiante de Ingeniería de Software, me interesa fortalecer mis competencias técnicas y desarrollar proyectos que me permitan aplicar la teoría en escenarios prácticos. Considero que la constancia y la responsabilidad son cualidades que definen mi forma de trabajo.
 
 ---
 
 #### **Fabian Alonso Reyes Trujillano – Ingeniería de Software – U202218233**  
-<img src="./assets/foto-fab2.jpg" alt="Fabian Reyes" height="200"/>
+<img src="../assets/Fabian-2.jpg" alt="Fabian Reyes" height="200"/>
 
 Me llamo Fabian tengo 20 años. Soy estudiante de la carrera de ingenieria de software. Soy una persona segura de sí misma, capaz de tomar decisiones importantes y brindar ideas rápidas para solucionar un problema. Tengo conocimientos intermedios en C++, Python, HTML.
 
@@ -140,7 +140,7 @@ SeniorHub debe tener un diseño cálido, profesional y fácil de usar. Debe tran
 
 #### 1.2.3.4. Lean UX Canvas
 
-![LeanUXCanvas](./assets/LeanUXCanvas.png)
+![LeanUXCanvas](../assets/LeanUXCanvas.png)
 
 ### 1.3. Segmentos objetivo
 
