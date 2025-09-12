@@ -206,8 +206,35 @@ A continuación, se presentan los User Personas desarrollados para los dos segme
 **Profesionales de la salud y cuidadores en asilos**
 
 <img src="..\assets/José Cruz (1).png" alt="UP Jose Cruz" /> 
+
 #### 2.3.2. User Task Matrix
 
+En este cuadro, se presentan las tareas realizadas por los dos User Personas:
+
+- José Cruz (Profesional de la salud y cuidadora en un asilo de ancianos).
+- Ana Rodríguez (Familiar preocupado por el bienestar de su ser querido en un asilo).
+
+Cada fila muestra una tarea clave y su frecuencia e importancia para cada persona.
+
+| **Tareas**                                                                                  | **José Cruz (Profesional de salud)** |           | **Ana Rodríguez (Familiar)**          |           |
+|---------------------------------------------------------------------------------------------|-------------------|------------|-------------------|------------|
+|                                                                                             | **Frecuencia**    | **Importancia** | **Frecuencia**    | **Importancia** |
+| Registrar información médica de los residentes                                            | Alta              | Alta       | Baja              | Baja       |
+| Comunicar el estado físico y emocional de los residentes a los familiares                   | Media             | Alta       | Alta              | Alta       |
+| Actualizar el plan de cuidado individual de los residentes                                  | Alta              | Alta       | Baja              | Baja       |
+| Responder preguntas o inquietudes de los familiares                                          | Alta              | Alta       | Alta              | Alta       |
+| Acceder a historiales médicos de los residentes                                              | Alta              | Alta       | Baja              | Baja       |
+| Participar en la toma de decisiones médicas                                                  | Alta              | Alta       | Baja              | Baja       |
+| Gestionar la comunicación diaria entre el personal de salud                                 | Alta              | Alta       | Baja              | Baja       |
+| Verificar el cumplimiento de la medicación de los residentes                                | Alta              | Alta       | Baja              | Baja       |
+| Solicitar informes sobre el estado de los residentes                                        | Baja              | Alta       | Alta              | Alta       |
+| Revisar las alertas de salud (por ejemplo, caídas, cambios en la salud)                     | Alta              | Alta       | Baja              | Baja       |
+| Establecer contacto con el personal para coordinar visitas o cuidados adicionales           | Baja              | Media      | Alta              | Alta       |
+| Monitorear el bienestar emocional de los residentes                                          | Media             | Alta       | Baja              | Baja       |
+| Tomar decisiones sobre el cambio de residencia o cuidados adicionales                       | Baja              | Media      | Alta              | Alta       |
+| Tener acceso a información sobre actividades recreativas y sociales de los residentes       | Baja              | Baja       | Alta              | Alta       |
+| Obtener feedback o recomendaciones del personal del asilo sobre el bienestar de su ser querido | Baja              | Alta       | Alta              | Alta       |
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
@@ -223,6 +250,7 @@ A continuación, se presentan los User Personas desarrollados para los dos segme
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
