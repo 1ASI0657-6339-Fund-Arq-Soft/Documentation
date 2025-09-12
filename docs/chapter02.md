@@ -309,15 +309,21 @@ A continuación se presenta el Empathy Mapping de los dos segmentos clave de Sen
 
 #### 2.3.5. As-is Scenario Mapping
 
+En esta sección se presenta un análisis detallado de la situación actual (AS-IS) para los diferentes usuarios involucrados en el cuidado de los residentes en asilos de ancianos. A través de este mapeo, identificamos los procesos, las interacciones y las emociones clave de los familiares, el personal del asilo y los administradores, proporcionando una visión clara de los puntos críticos y áreas de oportunidad en la gestión de la atención.
+
+Este análisis ha sido realizado y visualizado mediante la herramienta Lucidchart. Se puede acceder al diagrama completo en el siguiente enlace: [https://lucid.app/lucidspark/92b841d0-08ce-4fd3-b87d-7a17b662cafc/edit?viewport_loc=2959%2C-4393%2C7780%2C8866%2C0_0&invitationId=inv_fc4d10a1-d450-4682-93eb-fb2c0d8a6412](https://lucid.app/lucidspark/92b841d0-08ce-4fd3-b87d-7a17b662cafc/edit?viewport_loc=2959%2C-4393%2C7780%2C8866%2C0_0&invitationId=inv_fc4d10a1-d450-4682-93eb-fb2c0d8a6412)
+
+**Profesionales de la salud y cuidadores en asilos**
+
+<img src="..\assets/As-Is 1.png" alt="As-Is José Cruz" /> 
+
+**Familiares preocupados por sus seres queridos**
+
+<img src="..\assets/As-Is 2.png" alt="As-Is Ana Rodrigez" /> 
+
 ### 2.4. Ubiquitous Language
 
-#### 2.3.3. User Journey Mapping
 
-#### 2.3.4. Empathy Mapping
-
-#### 2.3.5. As-is Scenario Mapping
-
-### 2.4. Ubiquitous Language
 
 
 
