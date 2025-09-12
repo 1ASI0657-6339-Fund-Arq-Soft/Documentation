@@ -155,16 +155,18 @@ URL Project Report (Github): https://github.com/1ASI0657-6339-Fund-Arq-Soft/Docu
   - [5.4.2. Cloud Architecture Deployment (AWS, Microsoft Azure or Google Cloud)](#542-cloud-architecture-deployment-aws-microsoft-azure-or-google-cloud)
 # Student Outcome
 
-**ABET – EAC - Student Outcome 5**
+**ABET – EAC - Student Outcome 7**
 
-*Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.*
+Aprendizaje Continuo y Autónomo
 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5.
+*Criterio: La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del equipo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome.
 
 | Criterio Específico | Acciones Realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia** |**TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta:|**TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta:|**TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta:| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta: <br>| **TB1** <br>-Fabian Reyes Trujillano: <br>-Fatima Asmad Padilla: <br> -Andrés Rodriguez Zuluoeta:|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.** | **TB1** <br>-Fabian Reyes Trujillano: Aplicó metodologías ágiles para estructurar el backlog y escenarios futuros, incorporando buenas prácticas de arquitectura de software. <br>-Fatima Asmad Padilla: Investigó y aplicó el proceso Lean UX, desarrolló perfiles de usuario y mapas de empatía, integrando conceptos modernos de diseño centrado en el usuario. <br> -Andrés Rodriguez Zuluoeta: Desarrolló el Impact Map y realizó análisis estratégico de entrevistas, aplicando conceptos de planificación y priorización de funcionalidades. <br>| **TB1** <br>-Fabian Reyes Trujillano: Mostró dominio de herramientas ágiles y técnicas modernas de especificación de requisitos. <br>-Fatima Asmad Padilla: Demostró capacidad para integrar nuevos conceptos de UX y análisis de usuarios en el desarrollo del proyecto. <br> -Andrés Rodriguez Zuluoeta: Aplicó conocimientos estratégicos para definir el impacto del producto y sus funcionalidades clave. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.** |**TB1** <br>-Fabian Reyes Trujillano: Adaptó sus conocimientos técnicos al contexto del proyecto, mostrando apertura a nuevas herramientas y enfoques de desarrollo. <br>-Fatima Asmad Padilla: Participó activamente en entrevistas y análisis de usuarios, demostrando disposición para aprender de la experiencia directa con stakeholders. <br> -Andrés Rodriguez Zuluoeta: Reconoció la importancia de entender al usuario final y de actualizar sus habilidades para contribuir al desarrollo del producto. <br>| **TB1** <br>-Fabian Reyes Trujillano: Reflejó compromiso con el aprendizaje permanente para mejorar su desempeño profesional. <br>-Fatima Asmad Padilla: Evidenció actitud proactiva hacia el aprendizaje continuo y la mejora del diseño del producto. <br> -Andrés Rodriguez Zuluoeta: Mostró conciencia sobre la necesidad de actualizar sus conocimientos para aportar valor al proyecto.|
 
 ## Capítulo I: Introducción
 
