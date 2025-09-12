@@ -4,10 +4,12 @@
 
 Segmento 1: Familiares mayores de 18 años preocupados por el bienestar de sus seres queridos
 
+![To-Be Scenario Mapping 1](../assets/to-be-mapping-s1.png)
 
 
 Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos 
 
+![To-Be Scenario Mapping 2](../assets/to-be-mapping-s2.png)
 
 ## 3.2. User Stories.
 | Epic/Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
