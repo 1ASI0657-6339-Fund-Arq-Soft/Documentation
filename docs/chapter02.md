@@ -193,8 +193,19 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 ### 2.3. Needfinding
 
+La etapa de Needfinding en el desarrollo de SeniorHub busca identificar las necesidades reales, motivaciones y frustraciones de los usuarios clave: familiares de adultos mayores en asilos y el personal de cuidado. A través de entrevistas y observaciones, se recolecta información valiosa que permite validar hipótesis, descubrir oportunidades de mejora y diseñar una solución centrada en el usuario. Este proceso garantiza que la plataforma responda de forma efectiva a los desafíos cotidianos del entorno geriátrico, fortaleciendo la propuesta de valor y el impacto social del producto.
+
 #### 2.3.1. User Personas
 
+A continuación, se presentan los User Personas desarrollados para los dos segmentos clave de SeniorHub. Estos perfiles permiten comprender mejor sus necesidades, comportamientos y expectativas, y sirven como guía para diseñar soluciones centradas en el usuario.
+
+**Familiares preocupados por sus seres queridos**
+
+<img src="..\assets/Ana Rodríguez.png" alt="UP Ana Rodrigez" /> 
+
+**Profesionales de la salud y cuidadores en asilos**
+
+<img src="..\assets/José Cruz (1).png" alt="UP Jose Cruz" /> 
 #### 2.3.2. User Task Matrix
 
 #### 2.3.3. User Journey Mapping
@@ -212,6 +223,7 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
