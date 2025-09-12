@@ -194,9 +194,9 @@ Mi perfil se caracteriza por la responsabilidad, disciplina y compromiso en cada
 ---
 
 #### **Andrés Fernado Rodriguez Zuluoeta – Ingeniería de Software – u202124213**  
-<img src="XXX" alt="XXX" height="200"/>
+<img src="./assets/andres.jpg" alt="Andres Rodriguez" height="200"/>
 
-XXX
+Soy estudiante de Ingeniería de Software, me interesa fortalecer mis competencias técnicas y desarrollar proyectos que me permitan aplicar la teoría en escenarios prácticos. Considero que la constancia y la responsabilidad son cualidades que definen mi forma de trabajo.
 
 ---
 
