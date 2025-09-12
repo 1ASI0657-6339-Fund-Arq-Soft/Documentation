@@ -191,6 +191,26 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 #### 2.2.3. Análisis de entrevistas
 
+**Entrevista 1:**
+
+La entrevista con Erika Balarezo evidencia que uno de los principales problemas en los asilos es la sobrecarga laboral del personal. Ella destaca que deben atender a muchos residentes y, al mismo tiempo, llevar registros manuales, lo cual consume tiempo y reduce la calidad de atención. Aunque utiliza el celular y un sistema básico para comunicarse con las familias, considera que estas herramientas son insuficientes.
+
+Una de sus principales sugerencias es la digitalización de registros médicos y administrativos, lo que permitiría centralizar la información y facilitar el acceso a los cuidadores y familiares. También señala que la tecnología podría ahorrar tiempo, generar reportes automáticos y aumentar la confianza de los familiares, quienes actualmente se sienten insatisfechos cuando no reciben información frecuente sobre sus seres queridos.
+
+Otro punto relevante es la necesidad de capacitación en herramientas digitales, ya que el personal no siempre está familiarizado con estas soluciones. En cuanto al bienestar de los residentes, explica que se realizan actividades sociales y terapias grupales, aunque la falta de personal y de psicólogos especializados limita el impacto de estas iniciativas.
+
+Finalmente, resalta la importancia de implementar un sistema digital de turnos para mejorar la coordinación interna, así como garantizar la privacidad de los datos médicos y la actualización constante de protocolos geriátricos. En conjunto, sus aportes muestran que SeniorHub debe priorizar la digitalización de procesos, la seguridad de la información y herramientas que alivien la carga administrativa.
+
+**Entrevista 2:**
+
+La entrevista con Fátima Urbina revela que, desde la perspectiva de los familiares, la mayor preocupación radica en la falta de información constante y clara sobre el estado de los adultos mayores. Ella se comunica casi todos los días por teléfono con su madre, pero solo puede visitarla una vez a la semana, lo que le genera ansiedad sobre el cuidado recibido.
+
+Sus principales inquietudes están relacionadas con el estado emocional de su madre —que a veces se siente sola— y con la correcta administración de sus medicamentos. Por esta razón, considera indispensable contar con una plataforma digital que brinde actualizaciones en tiempo real sobre la salud, el ánimo y la participación en actividades de los residentes.
+
+Fátima propone que SeniorHub incluya un chat directo con cuidadores y notificaciones instantáneas, de manera que los familiares puedan sentirse parte activa en el proceso de cuidado. También sugiere que los asilos ofrezcan talleres de memoria, actividades sociales y programas de ejercicio adaptados, como complemento a la atención básica.
+
+Otro aspecto que considera fundamental es la privacidad y seguridad de los datos médicos, a los que solo deberían acceder los familiares autorizados mediante credenciales seguras. Finalmente, recalca que el mayor beneficio de una plataforma como SeniorHub sería reducir la distancia emocional y aumentar la confianza en el servicio del asilo, incluso cuando los familiares no puedan estar presentes físicamente.
+
 ### 2.3. Needfinding
 
 La etapa de Needfinding en el desarrollo de SeniorHub busca identificar las necesidades reales, motivaciones y frustraciones de los usuarios clave: familiares de adultos mayores en asilos y el personal de cuidado. A través de entrevistas y observaciones, se recolecta información valiosa que permite validar hipótesis, descubrir oportunidades de mejora y diseñar una solución centrada en el usuario. Este proceso garantiza que la plataforma responda de forma efectiva a los desafíos cotidianos del entorno geriátrico, fortaleciendo la propuesta de valor y el impacto social del producto.
@@ -277,6 +297,7 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
