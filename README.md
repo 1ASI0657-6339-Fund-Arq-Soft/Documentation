@@ -201,9 +201,9 @@ Soy estudiante de Ingeniería de Software, me interesa fortalecer mis competenci
 ---
 
 #### **Fabian Alonso Reyes Trujillano – Ingeniería de Software – U202218233**  
-<img src="XXX" alt="XXX" height="200"/>
+<img src="./assets/foto-fab2.jpg" alt="Fabian Reyes" height="200"/>
 
-XXX
+Me llamo Fabian tengo 20 años. Soy estudiante de la carrera de ingenieria de software. Soy una persona segura de sí misma, capaz de tomar decisiones importantes y brindar ideas rápidas para solucionar un problema. Tengo conocimientos intermedios en C++, Python, HTML.
 
 ---
 ### 1.2. Solution Profile
