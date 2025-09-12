@@ -240,6 +240,24 @@ Finalmente, resalta la importancia de implementar un sistema digital de turnos p
 
 **Entrevista 2:**
 
+La entrevista con Christopher Adrián Carlos Urcia Tardío pone en evidencia las limitaciones actuales del sistema de atención en asilos, especialmente frente a la escasez de personal y la necesidad de atender múltiples requerimientos individuales. Su testimonio resalta cómo los procesos administrativos, aunque necesarios, consumen tiempo valioso que podría destinarse al cuidado directo de los residentes. Por ello, Christopher sugiere que la implementación de un sistema digital ágil y centralizado permitiría reducir errores, mejorar la eficiencia del equipo y, sobre todo, facilitar la conexión entre el personal y las familias.
+
+Además, subraya la importancia de la comunicación empática y constante, así como el valor que una plataforma tecnológica podría tener para facilitar terapias, monitoreo y actividades recreativas. Reconoce que, si bien se utilizan herramientas como llamadas y mensajes, una solución más estructurada permitiría optimizar la información compartida con los familiares. También hace énfasis en la necesidad de formación continua, tanto en tecnología como en enfermedades neurodegenerativas, lo cual habla de su compromiso con una atención integral y de calidad. Finalmente, sugiere que el respeto a la privacidad, la actualización en normativas y la creación de un ambiente seguro y digno son pilares fundamentales del servicio que brindan, elementos que una app como VibeFit podría reforzar significativamente.
+
+
+**Entrevista 3:**
+
+La entrevista a Mario Stefano Alesandro Barriento Seminario revela importantes necesidades y oportunidades de mejora en el ámbito del cuidado de adultos mayores. Su experiencia demuestra que la atención personalizada es un desafío constante, especialmente por las múltiples condiciones médicas y emocionales que presentan los residentes. Este enfoque individualizado requiere una gestión organizada y sensible, donde el tiempo y los recursos del personal son factores clave. En ese sentido, Mario señala que la tecnología actualmente tiene un rol limitado, siendo utilizada principalmente para el control de medicación y registros, pero manifiesta la necesidad de sistemas integrados y accesibles que permitan una mejor coordinación entre personal, pacientes y familiares.
+
+Asimismo, enfatiza la importancia de la comunicación empática y continua con los familiares, lo cual no solo mejora la satisfacción, sino que también fortalece la confianza en el equipo de trabajo. Además, reconoce que herramientas tecnológicas sencillas, como recordatorios o actividades digitales, pueden aumentar tanto la calidad de vida de los residentes como la eficiencia del personal, especialmente en tareas repetitivas.
+
+En cuanto al recurso humano, Mario destaca la urgencia de capacitaciones específicas en demencia, cuidados paliativos y manejo emocional, elementos clave para un abordaje profesional y humano. También demuestra conciencia sobre el valor de respetar la intimidad y dignidad de los residentes, proponiendo medidas prácticas para garantizarla. Por último, remarca la necesidad de estar actualizados en las normativas del sector, entendiendo que esto no solo asegura una mejor atención, sino que también protege legalmente al personal y otorga credibilidad a la institución.
+
+Este análisis evidencia una fuerte alineación entre las necesidades reales del personal de salud y las oportunidades que puede ofrecer un sistema tecnológico bien diseñado. La implementación de soluciones digitales enfocadas en gestión, comunicación y personalización del cuidado no solo es deseable, sino necesaria.
+
+
+**Entrevista 4:**
+
 La entrevista con Fátima Urbina revela que, desde la perspectiva de los familiares, la mayor preocupación radica en la falta de información constante y clara sobre el estado de los adultos mayores. Ella se comunica casi todos los días por teléfono con su madre, pero solo puede visitarla una vez a la semana, lo que le genera ansiedad sobre el cuidado recibido.
 
 Sus principales inquietudes están relacionadas con el estado emocional de su madre —que a veces se siente sola— y con la correcta administración de sus medicamentos. Por esta razón, considera indispensable contar con una plataforma digital que brinde actualizaciones en tiempo real sobre la salud, el ánimo y la participación en actividades de los residentes.
@@ -247,6 +265,20 @@ Sus principales inquietudes están relacionadas con el estado emocional de su ma
 Fátima propone que SeniorHub incluya un chat directo con cuidadores y notificaciones instantáneas, de manera que los familiares puedan sentirse parte activa en el proceso de cuidado. También sugiere que los asilos ofrezcan talleres de memoria, actividades sociales y programas de ejercicio adaptados, como complemento a la atención básica.
 
 Otro aspecto que considera fundamental es la privacidad y seguridad de los datos médicos, a los que solo deberían acceder los familiares autorizados mediante credenciales seguras. Finalmente, recalca que el mayor beneficio de una plataforma como SeniorHub sería reducir la distancia emocional y aumentar la confianza en el servicio del asilo, incluso cuando los familiares no puedan estar presentes físicamente.
+
+**Entrevista 5:**
+
+La entrevista con Stefano revela una perspectiva anticipada pero muy valiosa sobre las expectativas de los familiares al momento de internar a un ser querido en un asilo. Aunque aún no ha iniciado el proceso, Stefano muestra una clara preocupación por la seguridad, tanto en el manejo de los datos personales como en el cuidado físico y emocional del residente. Esta doble dimensión de seguridad indica que los futuros usuarios valoran no solo la protección de la información, sino también la confianza en el equipo humano que brinda atención.
+
+Stefano destaca la importancia de contar con feedback diario y monitoreo continuo, lo que sugiere una necesidad de trazabilidad y transparencia en tiempo real. Además, insiste en que la comunicación constante con los cuidadores es clave para mantener un entorno activo, confiable y emocionalmente saludable. Su interés por un servicio médico personalizado como funcionalidad adicional refuerza la idea de que los familiares buscan soluciones que no solo informen, sino que también enriquezcan la calidad del cuidado. En este sentido, SeniorHub tiene la oportunidad de posicionarse como una plataforma integral que combine tecnología, sensibilidad humana y personalización del servicio.
+
+**Entrevista 6:**
+
+El análisis de la entrevista con Carlos Angulo Solis revela una necesidad latente de soluciones tecnológicas que no solo informen, sino que también empoderen a los usuarios en el cuidado de su salud y la de sus seres queridos. Aunque Carlos no es un usuario habitual de aplicaciones de salud, muestra un interés genuino por herramientas que ofrezcan información clara, en tiempo real y con valor práctico para la toma de decisiones. Este perfil evidencia una oportunidad para atraer a personas que, si bien no están inmersas en el ecosistema digital de bienestar, podrían comprometerse activamente si la solución propuesta responde a sus necesidades de forma intuitiva y útil.
+
+Carlos busca una plataforma que le proporcione reportes periódicos, alertas, y un historial accesible de salud física y emocional, lo que indica la importancia de la trazabilidad y la personalización de datos. También destaca el valor de la participación activa en los cuidados, dejando claro que no basta con observar: se quiere involucrar. Este tipo de usuario espera un sistema que equilibre la tecnología con la sensibilidad humana, sin descuidar aspectos fundamentales como la privacidad de los datos.
+
+En ese sentido, su testimonio sugiere que VibeFit podría posicionarse no solo como una app de monitoreo, sino como una aliada para la gestión proactiva del bienestar familiar, integrando funcionalidades de seguimiento, comunicación con profesionales y espacios para la toma de decisiones compartidas. Su caso refuerza la idea de que una plataforma efectiva debe ser comprensible, empática y flexible, capaz de adaptarse a distintos niveles de experiencia tecnológica y emocional.
 
 ### 2.3. Needfinding
 
@@ -376,6 +408,7 @@ El Lenguaje Ubicuo de SeniorHub establece un vocabulario común entre desarrolla
 | Bitácora de Cuidado (Care Log) | Registro digital donde el personal documenta observaciones, intervenciones y rutinas de atención. |
 | Actividad Recreativa (Recreational Activity) | Evento o dinámica organizada dentro del asilo para promover el bienestar emocional y social del residente. |
 | Mensaje Interno (Internal Message) | Comunicación directa entre el personal del asilo y los familiares a través de la plataforma. |
+
 
 
 
