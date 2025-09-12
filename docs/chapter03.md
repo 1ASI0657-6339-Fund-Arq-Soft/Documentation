@@ -134,8 +134,11 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 
 Segmento 1: Familiares mayores de 18 años preocupados por el bienestar de sus seres queridos
 
-
 Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos 
+
+
+![Impact Mapping](../assets/ImpactMap.png)
+
 
 
 
