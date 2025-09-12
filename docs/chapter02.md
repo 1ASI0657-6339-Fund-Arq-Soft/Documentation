@@ -235,6 +235,33 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 | Tener acceso a información sobre actividades recreativas y sociales de los residentes       | Baja              | Baja       | Alta              | Alta       |
 | Obtener feedback o recomendaciones del personal del asilo sobre el bienestar de su ser querido | Baja              | Alta       | Alta              | Alta       |
 
+**Explicación de las Tareas con Mayor Frecuencia e Importancia**
+
+**Personal de Cuidado (Ej. José Cruz)**
+
+- Registrar información médica de los residentes: Esta tarea es de alta frecuencia e importancia, ya que José debe documentar constantemente el estado físico y emocional de los residentes para garantizar una atención adecuada y actualizada.
+- Actualizar el plan de cuidado individual: Es una tarea crítica que requiere ajustes frecuentes según la evolución de cada residente, lo que implica una alta responsabilidad clínica.
+- Responder preguntas o inquietudes de los familiares: José interactúa regularmente con los familiares, quienes buscan claridad y tranquilidad sobre el estado de sus seres queridos, por lo que esta tarea es esencial en su rutina diaria.
+
+
+**Familiar Responsable (Ej. Ana Rodríguez)**
+
+- Comunicar el estado físico y emocional de los residentes: Ana necesita recibir esta información de forma constante y clara para sentirse conectada y segura respecto al cuidado de su madre.
+- Solicitar informes sobre el estado de los residentes: Esta tarea es muy importante para Ana, ya que le permite tomar decisiones informadas y evaluar la calidad del servicio del asilo.
+- Establecer contacto con el personal para coordinar visitas o cuidados adicionales: Ana realiza esta tarea con frecuencia para mantenerse involucrada en el proceso de cuidado y asegurar que se atiendan las necesidades específicas de su madre.
+
+
+**Principales Diferencias**
+
+- Enfoque de la tarea: José se centra en tareas operativas y clínicas, mientras que Ana se enfoca en recibir información y participar en decisiones relacionadas con el bienestar emocional y físico de su familiar.
+- Importancia de la toma de decisiones: Para José, las decisiones médicas son parte de su responsabilidad profesional; para Ana, la toma de decisiones está ligada a la confianza y tranquilidad sobre el cuidado recibido.
+
+
+**Coincidencias**
+
+- Comunicación del estado del residente: Aunque desde roles distintos, ambos consideran esta tarea como altamente importante. José la ejecuta, Ana la necesita.
+- Responder preguntas o inquietudes: Es una tarea compartida que refleja la necesidad de una comunicación efectiva y empática entre el personal y los familiares.
+
 #### 2.3.3. User Journey Mapping
 
 #### 2.3.4. Empathy Mapping
@@ -250,6 +277,7 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
