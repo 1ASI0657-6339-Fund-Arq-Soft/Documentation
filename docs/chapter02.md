@@ -284,6 +284,17 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 
 #### 2.3.3. User Journey Mapping
 
+En esta sección se describe el recorrido completo de los usuarios clave en la solución SeniorHub, desde el primer contacto con la plataforma hasta el logro de sus objetivos principales. Se detallan las fases del viaje, emociones, pensamientos y acciones, con el fin de identificar oportunidades de mejora en la experiencia. Los mapas están segmentados por tipo de usuario: profesionales de la salud y cuidadores en asilos, así como familiares preocupados por sus seres queridos.
+
+**Profesionales de la salud y cuidadores en asilos**
+
+<img src="..\assets/MAP_ Personal de Cuidado.png" alt="UP Ana Rodrigez" /> 
+
+**Familiares preocupados por sus seres queridos**
+
+<img src="..\assets/MAP_ Familiar Responsable.png" alt="UP Ana Rodrigez" /> 
+
+
 #### 2.3.4. Empathy Mapping
 
 #### 2.3.5. As-is Scenario Mapping
@@ -297,6 +308,7 @@ Cada fila muestra una tarea clave y su frecuencia e importancia para cada person
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
