@@ -177,6 +177,18 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 | <strong>Foto del entrevistado:</strong><br><img src="..\assets\FatimaUrbina.png" alt="FatimaUrbina" height="200"/> |
 
 
+&nbsp;
+
+| **Entrevista 3** |
+|------------------|
+| <strong>Nombre:</strong> Stefano Valenzuela |
+| <strong>Edad:</strong> 20 |
+| <strong>Procedencia:</strong> Lima |
+| <strong>Segmento:</strong> Familiares mayores de 18 años preocupados por el bienestar de sus seres queridos |
+| <strong>Resumen:</strong> Stefano tiene pensado proximamente internar a su abuelito, por lo cual su opinion es de suma importancia para nosotros. Nos comenta que lo que más valora al momento de tener a algún familiar en un asilo ssería la seguridad, tanto de la información o datos del paciente, como del cuidado con este por parte del personal. Considera que tener un feedback diario o un monitoreo sería la mejor opción para conocer de forma continua la información o actividades diarias del pacioente, también insiste en que la comunicación con los cuidadores debe ser constante para mantener un ambiente activo y agradable entre el usuario y la plataforma. Como funcionalidad extra, nos comenta que un servicio médico personalizado seria un excelente servicio extra para contribuir al buen cuidado de los pacientes del asilo.|
+| <strong>Enlace de video:</strong> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218233_upc_edu_pe/EXpq9LApKyRNhFuu8xTX6pABjcxrAIABudw8DnDoMtmg2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmTlXL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218233_upc_edu_pe/EXpq9LApKyRNhFuu8xTX6pABjcxrAIABudw8DnDoMtmg2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmTlXL) |
+| <strong>Foto del entrevistado:</strong><br><img src="..\assets\AlessandroValenzuela.jpg" alt="AlessandroValenzuela" height="200"/> |
+
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
@@ -200,6 +212,7 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
