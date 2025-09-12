@@ -174,3 +174,50 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 | 31      | US-31         | Testimonios                              | Como visitante, quiero leer experiencias de otros usuarios, para confiar en la plataforma.              | 2 |
 | 32      | US-32         | Call to Action                           | Como visitante, quiero ver botones claros de registro, para iniciar fácilmente.                        | 1 |
 | 33      | US-33         | Optimización SEO                         | Como equipo de marketing, quiero que la landing esté optimizada, para atraer más visitas.              | 3 |
+
+
+## 3.5 Alcance del Proyecto
+
+El proyecto SeniorHub tiene como finalidad mejorar la comunicación y la gestión del cuidado de adultos mayores en asilos, ofreciendo a familiares y cuidadores una plataforma digital confiable, segura y de fácil uso.
+
+### 3.5.1. Justificación
+
+En la actualidad, los familiares manifiestan preocupación por la falta de información en tiempo real sobre la salud y el bienestar emocional de sus seres queridos. A su vez, los cuidadores enfrentan sobrecarga laboral debido a la necesidad de atender a muchos residentes y registrar manualmente sus datos. SeniorHub busca responder a estas problemáticas con una solución tecnológica que optimice la gestión del cuidado y brinde tranquilidad a los familiares.
+
+### 3.5.2. Cobertura del sistema
+
+El sistema abarcará las siguientes funcionalidades principales, implementadas bajo una arquitectura de microservicios:
+
+1. **Gestión de Notificaciones**: envío de alertas en tiempo real sobre cambios de salud, recordatorios de medicación y citas.
+2. **Gestión de Citas**: reserva, cancelación y recordatorios de visitas médicas o familiares.
+3. **Gestión de Adultos Mayores**: registro, historial médico simple y actividades diarias.
+4. **Gestión de Enfermeras**: asignación de personal, turnos y evaluación del servicio.
+5. **Gestión de Alimentos**: planificación de dietas, control de ingesta y registro de preferencias.
+6. **Pagos (Payment)**: registro, historial y confirmación de pagos en línea.
+
+**Fuera del alcance**: integración con sistemas externos de salud pública, gestión avanzada de historias clínicas completas, inteligencia artificial para predicción de riesgos médicos y soporte telefónico directo.
+
+### 3.5.3. Requerimientos de negocio
+
+Los principales requerimientos que debe cumplir el sistema son:
+
+- Proveer información confiable y en tiempo real sobre la salud y actividades de los adultos mayores.
+- Reducir la carga administrativa de los cuidadores mediante la digitalización de registros.
+- Facilitar la comunicación efectiva entre familiares y personal del asilo.
+- Garantizar la seguridad y privacidad de los datos médicos y financieros.
+- Brindar una experiencia de uso intuitiva y accesible para usuarios con distintos niveles de alfabetización digital.
+- Generar confianza y transparencia mediante reportes, notificaciones y trazabilidad de las acciones.
+
+## 3.4. Métricas de alcance
+
+Para medir el impacto y verificar que el proyecto cumple con su objetivo, se establecen las siguientes métricas de alcance:
+
+| ID | Métrica | Valor Esperado | Relacionado con |
+|----|---------|----------------|-----------------|
+| M1 | Notificaciones enviadas en tiempo real | Retraso máximo de 5 segundos en la entrega | Gestión de Notificaciones |
+| M2 | Escalabilidad inicial | Soportar al menos 100 residentes activos y 200 familiares conectados | Gestión de Adultos Mayores, Gestión de Citas |
+| M3 | Disponibilidad del sistema | 90% de disponibilidad mensual | Todos los microservicios |
+| M4 | Precisión de registros | ≥ 95% de éxito en guardado de información de residentes y citas | Gestión de Adultos Mayores, Gestión de Citas |
+| M5 | Experiencia de usuario | El 80% de los usuarios debe completar tareas básicas (ej. reservar cita, ver perfil) en menos de 3 minutos | Gestión de Citas, Perfil de Residentes |
+| M6 | Transacciones de pago | Confirmación en menos de 10 segundos para el 95% de pagos procesados | Payment |
+| M7 | Seguridad de acceso | 100% de los usuarios deben autenticarse antes de acceder a datos sensibles | Todos los microservicios |
