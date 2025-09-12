@@ -323,6 +323,24 @@ Este análisis ha sido realizado y visualizado mediante la herramienta Lucidchar
 
 ### 2.4. Ubiquitous Language
 
+El Lenguaje Ubicuo de SeniorHub establece un vocabulario común entre desarrolladores, profesionales de la salud y usuarios, asegurando una comunicación clara y coherente durante todo el desarrollo del sistema. Este glosario define los términos clave del dominio y se utiliza de forma consistente en la plataforma, documentación e interacción con los stakeholders.
+
+| Término | Definición|
+|---------|-----------|
+| Residente (Resident) | Persona adulta mayor que vive en un asilo y es usuaria directa del sistema de atención.|
+| Familiar (Family Member) | Pariente o tutor legal del residente que tiene acceso a la información sobre su bienestar a través de la plataforma. |
+| Cuidador (Caregiver) | Personal del asilo encargado del cuidado directo del residente, incluyendo tareas físicas, emocionales y sociales.|
+| Enfermera (Nurse) | Profesional de salud que realiza evaluaciones médicas y seguimiento clínico del residente. |
+| Asilo (Asylum) | Institución donde residen y reciben atención adultos mayores; cliente directo de SeniorHub. |
+| Informe Médico (Medical Report) | Documento digital generado por el personal de salud con el historial clínico y reportes actuales del residente. |
+| Registro de Actividades Diarias (Daily Activity Log) | Bitácora de las actividades físicas, sociales y recreativas en las que participa un residente cada día. |
+| Alerta de Salud (Health Alert) | Notificación automática generada por el sistema ante cambios críticos en el estado del residente. |
+| Panel Familiar (Family Dashboard) | Interfaz personalizada donde el familiar puede visualizar el estado del residente, actividades, alertas y mensajes. |
+| Bitácora de Cuidado (Care Log) | Registro digital donde el personal documenta observaciones, intervenciones y rutinas de atención. |
+| Actividad Recreativa (Recreational Activity) | Evento o dinámica organizada dentro del asilo para promover el bienestar emocional y social del residente. |
+| Mensaje Interno (Internal Message) | Comunicación directa entre el personal del asilo y los familiares a través de la plataforma. |
+
+
 
 
 
