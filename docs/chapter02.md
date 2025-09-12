@@ -168,6 +168,30 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 | **Entrevista 2** |
 |------------------|
+| <strong>Nombre:</strong> Christopher Adrián Carlos Urcia Tardío |
+| <strong>Edad:</strong> 25 |
+| <strong>Procedencia:</strong> Lima |
+| <strong>Segmento:</strong> Profesionales de la salud y cuidadores en asilos de ancianos |
+| <strong>Resumen:</strong> Christopher señala que uno de los mayores desafíos en el cuidado de adultos mayores es atender sus necesidades individuales, especialmente cuando hay poco personal disponible. Actualmente utilizan computadoras para registrar medicamentos y controles, pero considera que sistemas más ágiles mejorarían la eficiencia y la conexión entre el equipo. Para comunicarse con las familias, recurren a llamadas, mensajes y videollamadas, priorizando la amabilidad y la claridad. Sugiere que un sistema centralizado de datos facilitaría el trabajo y reduciría errores. También cree que la tecnología puede mejorar la calidad de vida de los residentes y su propio desempeño, al reducir el papeleo y ofrecer herramientas para terapias o ejercicios. Destaca la necesidad de más capacitación, especialmente en enfermedades como el Alzheimer y en el uso de tecnología. Evalúan la satisfacción familiar mediante reuniones y encuestas, y toman medidas para mantener un entorno seguro, limpio y acogedor. Además, promueven actividades recreativas para el bienestar mental de los residentes y aseguran la privacidad y el respeto de sus decisiones. Finalmente, remarca la importancia de mantenerse actualizados en normativas y políticas para brindar un servicio de calidad. |
+| <strong>Enlace de video:</strong> [https://drive.google.com/file/d/1O6PdCJe6cACyJwkq85c6r39Jqrymv76-/view?usp=sharing](https://drive.google.com/file/d/1O6PdCJe6cACyJwkq85c6r39Jqrymv76-/view?usp=sharing) |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/Urcia.png" alt="Urcia" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 3** |
+|------------------|
+| <strong>Nombre:</strong> Mario Stephano Alessandro Barrientos Seminario |
+| <strong>Edad:</strong> 19 |
+| <strong>Procedencia:</strong> Lima |
+| <strong>Segmento:</strong> Profesionales de la salud y cuidadores en asilos de ancianos |
+| <strong>Resumen:</strong> Mario Stefano Alesandro Barriento Seminario, de 19 años, trabaja y estudia en Lima. Durante la entrevista, destacó que el principal desafío en el cuidado de adultos mayores en asilos es brindar atención personalizada debido a las distintas necesidades médicas y emocionales de cada residente. Actualmente utiliza la tecnología para llevar registros y controlar la medicación, pero considera que sería ideal contar con un sistema más práctico e integrado para facilitar la comunicación con familiares y el acceso a historiales médicos. Resalta la importancia de la comunicación clara y empática con las familias y sugiere que la implementación de tecnologías como recordatorios, actividades interactivas y monitoreo de salud podría mejorar tanto la calidad de vida de los residentes como la eficiencia del personal. También menciona que capacitaciones en demencia, cuidados paliativos y manejo emocional son fundamentales para optimizar la atención. Para promover un ambiente seguro y acogedor, se enfoca en la prevención de riesgos físicos y el apoyo emocional, respetando siempre la privacidad y dignidad de los residentes. Finalmente, subraya la importancia de mantenerse actualizado en políticas y normativas para garantizar una atención ética, segura y profesional. |
+| <strong>Enlace de video:</strong> https://youtu.be/mWJkpLYoQKI |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/Mario.jpg" alt="Mario" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 4** |
+|------------------|
 | <strong>Nombre:</strong> Fatima Urbina |
 | <strong>Edad:</strong> 25 |
 | <strong>Procedencia:</strong> Lima |
@@ -179,7 +203,7 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 
 &nbsp;
 
-| **Entrevista 3** |
+| **Entrevista 5** |
 |------------------|
 | <strong>Nombre:</strong> Stefano Valenzuela |
 | <strong>Edad:</strong> 20 |
@@ -188,6 +212,19 @@ Llevar a cabo este análisis permite identificar y comparar las fortalezas, debi
 | <strong>Resumen:</strong> Stefano tiene pensado proximamente internar a su abuelito, por lo cual su opinion es de suma importancia para nosotros. Nos comenta que lo que más valora al momento de tener a algún familiar en un asilo ssería la seguridad, tanto de la información o datos del paciente, como del cuidado con este por parte del personal. Considera que tener un feedback diario o un monitoreo sería la mejor opción para conocer de forma continua la información o actividades diarias del pacioente, también insiste en que la comunicación con los cuidadores debe ser constante para mantener un ambiente activo y agradable entre el usuario y la plataforma. Como funcionalidad extra, nos comenta que un servicio médico personalizado seria un excelente servicio extra para contribuir al buen cuidado de los pacientes del asilo.|
 | <strong>Enlace de video:</strong> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218233_upc_edu_pe/EXpq9LApKyRNhFuu8xTX6pABjcxrAIABudw8DnDoMtmg2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmTlXL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218233_upc_edu_pe/EXpq9LApKyRNhFuu8xTX6pABjcxrAIABudw8DnDoMtmg2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmTlXL) |
 | <strong>Foto del entrevistado:</strong><br><img src="..\assets\AlessandroValenzuela.jpg" alt="AlessandroValenzuela" height="200"/> |
+
+&nbsp;
+
+| **Entrevista 6** |
+|------------------|
+| <strong>Nombre:</strong> Carlos Angulo Solis |
+| <strong>Edad:</strong> 27 |
+| <strong>Procedencia:</strong> Lima |
+| <strong>Segmento:</strong> Adultos Jóvenes Ocupados (25 - 50 años) |
+| <strong>Resumen:</strong> Carlos expresa que su mayor inquietud es la falta de información constante o detallada sobre temas de salud y bienestar, especialmente en relación con sus seres queridos. Le interesa una herramienta que le permita estar informado en tiempo real sobre aspectos físicos y emocionales, idealmente con alertas, reportes periódicos y un historial accesible. También destaca la importancia de la participación activa en decisiones relacionadas al cuidado. Aunque no es usuario regular de apps de salud, señala que le atraería una plataforma que combine bienestar emocional, recomendaciones personalizadas y privacidad de datos. |
+| <strong>Enlace de video:</strong> [https://drive.google.com/file/d/1XyHZqSwgCH1QAF2ZZtt9kltcLSW96G-W/view?usp=sharing](https://drive.google.com/file/d/1XyHZqSwgCH1QAF2ZZtt9kltcLSW96G-W/view?usp=sharing) |
+| <strong>Foto del entrevistado:</strong><br><img src="./assets/Carlos.png" alt="Carlos" height="200"/> |
+
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -339,6 +376,7 @@ El Lenguaje Ubicuo de SeniorHub establece un vocabulario común entre desarrolla
 | Bitácora de Cuidado (Care Log) | Registro digital donde el personal documenta observaciones, intervenciones y rutinas de atención. |
 | Actividad Recreativa (Recreational Activity) | Evento o dinámica organizada dentro del asilo para promover el bienestar emocional y social del residente. |
 | Mensaje Interno (Internal Message) | Comunicación directa entre el personal del asilo y los familiares a través de la plataforma. |
+
 
 
 
