@@ -54,6 +54,12 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 | US31 | Testimonios | Como visitante, quiero leer experiencias de otros usuarios, para confiar en la plataforma. | - 3 testimonios visibles.<br>- Nombre y foto con permiso.<br>- Texto corto. | E7 |
 | US32 | Call to Action | Como visitante, quiero ver botones claros de registro, para iniciar fácilmente. | - Botón en header/footer.<br>- Redirección a registro o descarga. | E7 |
 | US33 | Optimización SEO | Como equipo de marketing, quiero que la landing esté optimizada, para atraer más visitas. | - Metatags configurados.<br>- Keywords básicas.<br>- Buen puntaje Lighthouse. | E7 |
+| E8 | Requisitos Técnicos de Infraestructura | Epic que agrupa los requerimientos técnicos necesarios para garantizar el funcionamiento óptimo de la plataforma SeniorHub. | N/A | N/A |
+| US34 | Capacidad de usuarios | Como arquitecto de software, quiero que la plataforma soporte hasta 50,000 usuarios potenciales y 7,500 concurrentes, para asegurar escalabilidad y disponibilidad. | - La infraestructura debe permitir hasta 50,000 usuarios registrados.- Debe garantizar estabilidad con 7,500 usuarios concurrentes. | E8 |
+| US35 | Tamaño de transacciónComo desarrollador backend, quiero que el sistema maneje transacciones de hasta 200 KB, para asegurar eficiencia en el procesamiento de datos clínicos. | - Cada operación debe manejar hasta 200 KB de datos.- El sistema debe procesar múltiples transacciones simultáneas sin degradación. | E8 | 
+| US36 | Memoria RAM distribuidaComo ingeniero de infraestructura, quiero que el sistema cuente con 256 GB de RAM distribuidos en módulos físicos, para garantizar rendimiento y alta disponibilidad. | - RAM total: 256 GB DDR4 3200MHz ECC Registered.- Distribución: 2 x 64 GB + 2 x 32 GB + 2 x 16 GB + 4 x 8 GB.- Compatible con servidores de misión crítica. | E8 |
+| US37 | Almacenamiento escalableComo administrador de sistemas, quiero que el sistema tenga 10 TB de almacenamiento con configuración RAID, para proteger los datos y permitir crecimiento. | - Total: 10 TB.- Configuración: 6 x 2 TB HDD RAID 6 + 2 x 1 TB SSD RAID 1 + 2 x 1 TB HDD.- Debe incluir respaldo externo. | E8 | 
+| US38 | Capacidad de redComo arquitecto de red, quiero que la plataforma tenga un ancho de banda de 10 Gbps, para soportar la carga de datos en tiempo real.| - Capacidad mínima: 10 Gbps.- Debe soportar hasta 2.8 GB/minuto en hora pico.- Compatible con videollamadas, alertas y sincronización. | E8 |
 
 **Epic 01: Gestión de Notificaciones**
 
@@ -118,7 +124,7 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 | US-27        | Recordatorio de pago    |
 | US-28        | Historial de pagos      |
 
-**Epic 06: Landing Page**
+**Epic 07: Landing Page**
 
 | **Story ID** | **Título**                |
 |--------------|----------------------------|
@@ -128,6 +134,16 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 | US-32        | Call to Action             |
 | US-33        | Optimización SEO           |
 
+
+**Epic 08: Requisitos Técnicos de Infraestructura**
+
+| **Story ID** | **Título**                |
+|--------------|---------------------------|
+| US-29        | Capacidad de usuarios     |
+| US-30        | Tamaño de transacción     |
+| US-31        | Memoria RAM distribuida   |
+| US-32        | Almacenamiento escalable  |
+| US-33        | Capacidad de red          |
 
 
 ## 3.3. Impact Mapping.
