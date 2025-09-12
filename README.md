@@ -34,9 +34,12 @@ Agosto 2025
 
 | Versión | Fecha             | Autor                                                                                                                                                     | Descripción de modificación                                                                                                                                                                                                                                                                                                                                        |
 | ------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  |  | |  |
-|  |  | |  |
-|  |  | |  |
+| v 1.0 | 04/09/2025 | Fabian Alonso Reyes Trujillano | Creacion del proyecto |
+| v 1.1 | 08/09/2025 | Fatima Andrea Asmad Padilla | Dearrollo capitulo 1 y 2 |
+| v 1.2 | 09/09/2025 | Andrés Fernado Rodriguez Zuluoeta | Se agrego entrevistas y analisis de estas|
+| v 1.3 | 10/09/2025 | Fatima Andrea Asmad Padilla | Se agrego el punto 2.3 Needfinding |
+| v 1.4 | 10/09/2025 | Fabian Alonso Reyes Trujillano y Andrés Fernado Rodriguez Zuluoeta | Se agrego el capitulo 3 |
+| v 1.5 | 11/09/2025 | Fatima Andrea Asmad Padilla | Se agregaron los requisitos funcionales y se hicieron ultimas correcciones |
 
 # Project Report Collaboration Insights
 
