@@ -297,6 +297,16 @@ En esta sección se describe el recorrido completo de los usuarios clave en la s
 
 #### 2.3.4. Empathy Mapping
 
+A continuación se presenta el Empathy Mapping de los dos segmentos clave de SeniorHub. Este ejercicio permite comprender de manera profunda lo que piensan, sienten, ven, escuchan y hacen los usuarios, así como sus dolores y motivaciones, para diseñar soluciones que realmente respondan a sus necesidades.
+
+**Profesionales de la salud y cuidadores en asilos**
+
+<img src="..\assets/José Cruz (3).png" alt="EM Ana Rodrigez" /> 
+
+**Familiares preocupados por sus seres queridos**
+
+<img src="..\assets/Ana Rodríguez (1).png" alt="EM Ana Rodrigez" /> 
+
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
@@ -308,6 +318,7 @@ En esta sección se describe el recorrido completo de los usuarios clave en la s
 #### 2.3.5. As-is Scenario Mapping
 
 ### 2.4. Ubiquitous Language
+
 
 
 
