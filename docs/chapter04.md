@@ -127,6 +127,21 @@ A continuación, se presentan las tácticas relacionadas al desempeño y calidad
 
 #### 4.2.1	Design Purpose
 
+El propósito de diseño de SeniorHub es desarrollar una plataforma web y móvil que facilite la gestión integral del cuidado de adultos mayores en residencias geriátricas y centros especializados. El sistema tiene como objetivo principal ofrecer a médicos, cuidadores y familiares una herramienta centralizada para monitorear, registrar y coordinar el bienestar físico, emocional y social de los residentes.
+
+Asimismo, SeniorHub busca proporcionar a los familiares un canal confiable y accesible para mantenerse informados en tiempo real sobre la salud y actividades de sus seres queridos, fortaleciendo así la confianza y la comunicación con el centro de cuidado.
+
+Desde el punto de vista del personal médico y administrativo, la aplicación permitirá gestionar tratamientos, historiales clínicos, citas médicas y reportes analíticos, optimizando la toma de decisiones y mejorando la calidad del servicio.
+
+En términos de diseño, el sistema está orientado a garantizar:
+
+- Escalabilidad, para adaptarse al crecimiento de la institución y la incorporación de nuevos módulos.
+- Usabilidad, mediante interfaces intuitivas y accesibles tanto para profesionales como para familiares.
+- Seguridad, protegiendo los datos sensibles de salud con mecanismos de autenticación, autorización y cifrado.
+- Interoperabilidad, permitiendo la integración con otros sistemas médicos o de gestión administrativa en el futuro.
+
+Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también un medio de conexión entre los residentes y su entorno familiar y médico, mejorando la experiencia de cuidado de manera integral.
+
 #### 4.2.2	Primary Functionality (Primary User Stories)
 
 #### 4.2.3	Quality Attribute Scenarios
@@ -152,6 +167,7 @@ A continuación, se presentan las tácticas relacionadas al desempeño y calidad
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
