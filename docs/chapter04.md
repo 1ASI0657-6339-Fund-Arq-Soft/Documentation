@@ -144,6 +144,27 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 #### 4.2.2	Primary Functionality (Primary User Stories)
 
+| ID |	Título |	Historia de usuario |
+|----|---------|----------------------|
+| E1-US1 |	Notificación de cambios de salud	| Como familiar quiero recibir notificaciones inmediatas sobre cambios importantes en la salud de mi ser querido, para estar informado en tiempo real.|
+| E1-US2 |	Recordatorio de medicamentos	| Como cuidador quiero programar recordatorios automáticos de medicamentos, para evitar olvidos.|
+| E2-US6 |	Reserva de cita	| Como familiar quiero reservar una cita desde la app, para coordinar mi visita.|
+| E2-US9 |	Cancelar/reprogramar cita |	Como familiar quiero cancelar o mover mi cita, para adaptarme a imprevistos.|
+| E3-US11 |	Registro de residente |	Como cuidador quiero registrar datos básicos y de salud de un residente, para tener historial.|
+| E3-US12 |	Perfil de residente	| Como familiar quiero ver el perfil de mi ser querido, para conocer su estado general.|
+| E3-US14 |	Historial médico simple	| Como cuidador quiero registrar consultas y diagnósticos básicos, para mantener seguimiento.|
+| E4-US16 |	Registro de enfermeras	| Como administrador quiero registrar enfermeras, para asignarlas a residentes.|
+| E4-US18 |	Asignación de enfermera	| Como familiar quiero saber quién cuida a mi ser querido, para tener confianza.|
+| E5-US20 |	Registro de dieta	| Como nutricionista quiero registrar la dieta semanal de cada residente, para planificar su nutrición.|
+| E5-US22 |	Control de ingesta	| Como cuidador quiero marcar si el residente consumió su comida, para monitorear cumplimiento.|
+| E6-US24 |	Pago en línea	| Como familiar quiero pagar la mensualidad desde la app, para mayor comodidad.|
+| E6-US26 |	Comprobante digital	| Como familiar quiero recibir comprobante de pago, para tener respaldo.|
+| E7-US29 |	Información del servicio	| Como visitante quiero ver información clara de SeniorHub, para entender beneficios.|
+| E7-US30 |	Formulario de contacto	| Como visitante quiero enviar mis datos de contacto, para recibir más información.|
+| E7-US32 |	Call to Action	| Como visitante quiero ver botones claros de registro, para iniciar fácilmente.|
+| E8-US34 |	Capacidad de usuarios	| Como arquitecto de software quiero que la plataforma soporte hasta 50,000 usuarios potenciales y 7,500 concurrentes, para asegurar escalabilidad y disponibilidad.|
+| E8-US37 |	Almacenamiento escalable	| Como administrador de sistemas quiero que el sistema tenga 10 TB de almacenamiento con configuración RAID, para proteger los datos y permitir crecimiento.|
+
 #### 4.2.3	Quality Attribute Scenarios
 
 #### 4.2.4	Constraints
@@ -189,6 +210,7 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
