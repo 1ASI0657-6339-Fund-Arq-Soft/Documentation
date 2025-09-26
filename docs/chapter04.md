@@ -161,6 +161,17 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 #### 4.2.5	Architectural Concerns
 
+| ID | Architectural Concerns |
+|----|------------------------|
+| ARC-1 |	Se debe garantizar la seguridad y privacidad de los datos médicos y personales de los residentes, cumpliendo con normas de protección de datos. Ninguna información sensible podrá ser accesible por usuarios no autorizados.|
+| ARC-2 |	La aplicación debe soportar el acceso de al menos 1000 usuarios concurrentes (familiares, médicos y cuidadores), con la posibilidad de escalar progresivamente a medida que la institución crezca.|
+| ARC-3 |	SeniorHub debe integrarse con sistemas externos, como servicios de mensajería para notificaciones, almacenamiento de archivos médicos e historiales clínicos, y eventualmente con sistemas de telemedicina.|
+| ARC-4 |	La aplicación debe permitir el lanzamiento de actualizaciones periódicas, incorporando nuevas funcionalidades y corrigiendo errores, sin interrumpir el servicio principal.|
+| ARC-5 |	SeniorHub debe estar disponible 24/7, considerando que las alertas médicas y las actualizaciones familiares son críticas y no pueden depender de horarios específicos.|
+| ARC-6 |	El desarrollo aprovechará las competencias del equipo en Spring Boot, Angular y MySQL, con la posibilidad de escalar a tecnologías adicionales según la evolución del proyecto.|
+| ARC-7 |	La aplicación se desarrollará bajo una arquitectura de microservicios, con una correcta separación de bounded contexts (gestión de bienestar, interacción familiar, notificaciones, reportes, gestión médica).|
+| ARC-8 |	Se debe considerar la accesibilidad en la interfaz, garantizando que adultos mayores y familiares con baja alfabetización digital puedan interactuar de forma sencilla.|
+
 ### 4.3	ADD Iterations
 
 #### 4.3.X	Iteration N: <Iteration Name>
@@ -178,6 +189,7 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
