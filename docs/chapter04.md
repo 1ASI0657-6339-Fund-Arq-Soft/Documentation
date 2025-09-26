@@ -148,6 +148,17 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 #### 4.2.4	Constraints
 
+| ID |	Constraints |
+|----|--------------|
+| CON-1 |	La aplicación debe ser accesible desde navegadores modernos como Chrome, Firefox, Opera y Microsoft Edge, así como ofrecer compatibilidad móvil mediante diseño responsivo.|
+| CON-2 |	El backend debe desarrollarse en Spring Boot, siguiendo principios de arquitectura limpia y DDD.|
+| CON-3 |	El estilo arquitectónico a utilizar es microservicios, delimitados por bounded contexts.|
+| CON-4 |	El proyecto debe desarrollarse en un periodo de 15 semanas, respetando el cronograma del curso.|
+| CON-5 |	La base de datos principal será MySQL, con soporte para futuras integraciones con otros motores.|
+| CON-6 |	Se aplicará el enfoque de Attribute-Driven Design (ADD) para guiar las decisiones arquitectónicas en base a los atributos de calidad priorizados.|
+| CON-7 |	El sistema debe cumplir con las regulaciones de protección de datos sensibles en el sector salud, garantizando confidencialidad e integridad.|
+| CON-8 |	El frontend debe desarrollarse en Angular, asegurando modularidad y mantenibilidad.|
+
 #### 4.2.5	Architectural Concerns
 
 ### 4.3	ADD Iterations
@@ -167,6 +178,7 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
