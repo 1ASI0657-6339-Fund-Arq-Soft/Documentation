@@ -90,6 +90,39 @@ En el desarrollo del sistema SeniorHub, se emplearán diferentes patrones de dis
 
 #### 4.1.7	Tactics
 
+A continuación, se presentan las tácticas relacionadas al desempeño y calidad del sistema SeniorHub:
+
+**Disponibilidad**
+
+- Implementación de balanceo de carga para distribuir el tráfico entre los servidores, asegurando que los usuarios puedan acceder al sistema sin interrupciones.
+- Uso de monitorización en tiempo real y alertas tempranas para identificar fallos en los microservicios de notificaciones, reportes o autenticación.
+- Diseño de infraestructura tolerante a fallos para que, en caso de caída de un servicio, otro pueda asumir su operación.
+
+**Fiabilidad**
+
+- Ejecución de pruebas exhaustivas (unitarias, integrales y de aceptación) para garantizar la calidad del software.
+- Implementación de copias de seguridad periódicas y redundancia de datos para proteger la información crítica de residentes y familiares.
+- Incorporación de logs detallados y auditorías para el seguimiento de eventos importantes (alertas médicas, accesos de usuarios, modificaciones en reportes).
+
+**Modificabilidad**
+
+- Aplicación del enfoque Domain-Driven Design (DDD), permitiendo la modularidad y evolución independiente de cada bounded context.
+- Uso de refactoring continuo y pruebas automatizadas para mantener el código limpio, fácil de mantener y extender.
+- Adopción de principios SOLID y arquitectura limpia para desacoplar las dependencias tecnológicas del dominio.
+
+**Usabilidad**
+
+- Realización de pruebas de usabilidad con familiares, médicos y adultos mayores para asegurar que la interfaz sea intuitiva y accesible.
+- Incorporación de retroalimentación continua de usuarios para mejorar la experiencia y adaptar la aplicación a las necesidades reales.
+- Inclusión de interfaces accesibles (tipografías claras, contraste adecuado, compatibilidad con lectores de pantalla).
+
+**Seguridad**
+
+- Implementación de autenticación y autorización basada en roles (familiar, residente, médico, cuidador).
+- Uso de cifrado de datos sensibles tanto en tránsito (TLS/HTTPS) como en reposo (en bases de datos).
+- Ejecución de auditorías de seguridad y actualizaciones periódicas para prevenir vulnerabilidades.
+- Aplicación de mecanismos de doble factor de autenticación (2FA) para el acceso de perfiles médicos y administrativos.
+
 ### 4.2	Architectural Drivers
 
 #### 4.2.1	Design Purpose
@@ -119,6 +152,7 @@ En el desarrollo del sistema SeniorHub, se emplearán diferentes patrones de dis
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
