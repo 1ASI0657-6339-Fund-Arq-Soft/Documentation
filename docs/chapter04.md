@@ -30,6 +30,38 @@ Los módulos de alto nivel (como el gestor de reportes médicos) no deben depend
 
 #### 4.1.2	Approaches Statements Architectural Styles & Patterns
 
+**Approaches Statements**
+
+Para el desarrollo del proyecto SeniorHub, adoptaremos el enfoque de Domain-Driven Design (DDD), el cual promueve la estrecha colaboración entre expertos del dominio de atención geriátrica, familiares de los residentes y el equipo de desarrollo de software. Este enfoque permitirá construir un sistema modular, flexible y alineado con las necesidades reales de gestión del cuidado de adultos mayores.
+
+Las principales ventajas de aplicar DDD en SeniorHub son:
+
+**Diseño enfocado en el dominio:** DDD nos proporciona una forma estructurada de modelar el dominio del cuidado de adultos mayores, permitiendo reflejar con precisión los procesos clínicos, administrativos y familiares en el software.
+
+**Lenguaje Ubicuo:** Promueve un vocabulario compartido entre cuidadores, médicos, familiares y desarrolladores, lo cual reduce ambigüedades y facilita la comunicación de los requerimientos de negocio.
+
+**Bounded Contexts:** La identificación de contextos delimitados (por ejemplo: Gestión del Bienestar del Residente, Interacción Familiar, Gestión de Personal Médico, Reportes y Analítica) nos permitirá aislar la complejidad de cada área y mantener independencia entre sus componentes.
+
+**Patrones de diseño propios:** DDD nos ofrece patrones como Aggregates, Entities, Value Objects y Domain Services, que serán fundamentales para modelar procesos críticos como el registro de tratamientos, la comunicación con familiares y la generación de reportes médicos.
+
+**Architectural Styles & Patterns**
+
+La arquitectura de SeniorHub se fundamentará en una combinación de arquitectura limpia y microservicios. Este enfoque, alineado con los principios de DDD, permitirá garantizar la escalabilidad, el mantenimiento y la flexibilidad del sistema.
+
+**Arquitectura limpia (Clean Architecture):** Se organizará el sistema en capas bien definidas (dominio, aplicación, infraestructura y presentación), asegurando la independencia del dominio respecto a frameworks y tecnologías externas.
+
+**Microservicios:** Cada bounded context podrá evolucionar como un microservicio independiente, facilitando la escalabilidad y el despliegue modular. Se contempla implementar microservicios para funcionalidades críticas como:
+
+- Gestión de notificaciones y alertas (recordatorios de medicamentos, alertas médicas).
+
+- Módulo de reportes y analítica (generación de indicadores de salud y calidad de vida).
+
+- Interacción familiar (mensajes, videollamadas y actualizaciones del residente).
+
+- Autenticación y seguridad (gestión de roles para médicos, cuidadores y familiares).
+
+**Patrones de diseño:** Se aplicarán patrones como Repository, CQRS (Command Query Responsibility Segregation) para separar la lectura y escritura de datos, y Event-Driven Architecture para manejar eventos relevantes (ej. “residente dado de alta”, “medicación programada”, “alerta enviada a familiar”).
+
 #### 4.1.3	 Context Diagram
 
 #### 4.1.4	Approach driven ViewPoints Diagrams
@@ -69,4 +101,5 @@ Los módulos de alto nivel (como el gestor de reportes médicos) no deben depend
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
