@@ -70,6 +70,24 @@ La arquitectura de SeniorHub se fundamentará en una combinación de arquitectur
 
 #### 4.1.6	Design Patterns
 
+En el desarrollo del sistema SeniorHub, se emplearán diferentes patrones de diseño con el fin de asegurar la mantenibilidad, escalabilidad y flexibilidad de la aplicación. Estos patrones se agrupan en tres categorías principales: creacionales, estructurales y de comportamiento.
+
+**Patrones Creacionales**
+
+**Factory Pattern:** Este patrón permitirá la creación de objetos de usuario (como Residente, Familiar, Médico o Cuidador) sin necesidad de especificar explícitamente la clase concreta. Gracias a este enfoque, podremos manejar distintos tipos de usuarios en el sistema con mayor flexibilidad, facilitando la extensión a futuros roles sin alterar la lógica central.
+
+**Patrones Estructurales**
+
+**Bridge Pattern:** Se aplicará en la gestión del bienestar del residente, donde los cuidados incluyen múltiples dimensiones (medicación, alimentación, terapias y actividades). Este patrón permitirá separar la abstracción (por ejemplo, un plan de cuidado) de su implementación concreta (ej. medicamentos, dietas, actividades físicas), proporcionando independencia y mejorando la extensibilidad.
+
+**Facade Pattern:** SeniorHub integrará distintos módulos y microservicios (notificaciones, reportes, autenticación, interacción familiar). El patrón Facade nos permitirá ofrecer una interfaz unificada y simplificada hacia los usuarios y al frontend, ocultando la complejidad interna de los subsistemas.
+
+**Patrones de Comportamiento**
+
+**Observer Pattern:** Será utilizado en el sistema de notificaciones y alertas. Cuando ocurra un evento importante (ej. “residente tomó su medicación”, “se generó un nuevo reporte médico” o “se activó una alerta de emergencia”), todos los familiares y cuidadores suscritos recibirán actualizaciones automáticas en tiempo real.
+
+**Strategy Pattern:** Se empleará en la generación de reportes y analítica, donde existen diferentes estrategias de presentación (resumen estadístico, gráficos de evolución, informes clínicos). Esto permitirá cambiar dinámicamente la forma en que se generan y visualizan los reportes sin modificar la lógica principal.
+
 #### 4.1.7	Tactics
 
 ### 4.2	Architectural Drivers
@@ -101,5 +119,6 @@ La arquitectura de SeniorHub se fundamentará en una combinación de arquitectur
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
