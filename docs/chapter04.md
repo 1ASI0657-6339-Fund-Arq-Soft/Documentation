@@ -68,6 +68,10 @@ La arquitectura de SeniorHub se fundamentará en una combinación de arquitectur
 
 #### 4.1.5	Relational/Non Relational Database Diagram 
 
+El modelo relacional propuesto organiza la información en entidades principales como Residente, Familiar, Enfermera, Médico y Hogar de Cuidado, garantizando la integridad de los datos mediante claves primarias y foráneas. Además, se incluyen tablas específicas para gestionar historiales médicos, registros de salud mental, medicamentos y actividades. El modelo también contempla funcionalidades clave como la comunicación entre familiares y cuidadores, la gestión de alertas de salud y la programación de citas, lo que permite una administración estructurada y consistente de la información.
+
+<img src="../assets/DataBaseDiagram.png" alt="DataBaseDiagram"/>
+
 #### 4.1.6	Design Patterns
 
 En el desarrollo del sistema SeniorHub, se emplearán diferentes patrones de diseño con el fin de asegurar la mantenibilidad, escalabilidad y flexibilidad de la aplicación. Estos patrones se agrupan en tres categorías principales: creacionales, estructurales y de comportamiento.
@@ -223,6 +227,7 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 #### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
 
 #### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+
 
 
 
