@@ -225,17 +225,150 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 #### 4.3.1.1	Architectural Design Backlog 1
 
-
+En la primera iteración, el Architectural Design Backlog incluye tareas centradas en el desarrollo de las características fundamentales de nuestro proyecto SeniorHub:
+- Autenticación (Login y registro)
+- Gestión de residentes (registro, historial clínico, alertas).
+- Gestión de usuarios (familiares, cuidadores, médicos, administradores).
+- Módulo de notificaciones y alertas en tiempo real.
+- Módulo de reportes y analítica.
+- Módulo de pagos en línea.
 
 #### 4.3.1.2	Establish Iteration Goal by Selecting Drivers
+El objetivo de esta iteración es entregar el sistema SeniorHub como producto completo, priorizando los atributos de calidad definidos en capítulos previos:
 
+- Disponibilidad (24/7 para alertas críticas).
+- Seguridad (protección de datos sensibles, autenticación basada en roles, cifrado).
+- Escalabilidad (soporte a 7,500 usuarios concurrentes).
+- Usabilidad (interfaces intuitivas para familiares y médicos).
+- Fiabilidad (registro de eventos y reportes 100% disponibles).
 #### 4.3.1.3	Choose One or More Elements of the System to Refine
-
+**Elemento elegido**: Gestión de residentes
+Este módulo es el núcleo del sistema SeniorHub, ya que concentra la información crítica de los adultos mayores en el asilo: datos personales, historiales médicos, actividades, citas y alertas. Refinar este componente asegura que toda la plataforma esté organizada en torno a la atención del residente, permitiendo a familiares, cuidadores y médicos acceder a información confiable y actualizada en tiempo real.
 #### 4.3.1.4	Choose One or More Design Concepts That Satisfy the Selected Drivers
+- Disponibilidad 24/7
 
+    - Balanceo de carga y redundancia en los microservicios críticos (notificaciones y pagos).
+
+    - Monitorización en tiempo real de la salud del sistema, con alertas automáticas para garantizar atención inmediata a incidentes.
+
+- Seguridad
+
+    - Spring Security OAuth para autenticación y control de accesos basados en roles.
+
+- Escalabilidad
+
+    - Arquitectura de microservicios, permitiendo que cada módulo (notificaciones, pagos, reportes) pueda escalar de forma independiente.
+
+    - Uso de infraestructura en la nube, habilitando el escalado automático en picos de carga (familiares concurrentes consultando alertas).
+
+- Usabilidad
+
+    - Diseño centrado en el usuario (UCD), con interfaces simples y accesibles para familiares con baja alfabetización digital.
+
+    - Pruebas de usabilidad periódicas con usuarios reales (familiares, cuidadores y médicos) para validar la facilidad de uso.
+
+- Fiabilidad
+
+    - CQRS (Command Query Responsibility Segregation) en el módulo de reportes, asegurando separación entre lectura y escritura.
+
+    - Auditoría y registro de eventos médicos para garantizar trazabilidad y disponibilidad del 100% de los reportes generados.
 #### 4.3.1.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+- Componentes de Aplicación
 
+    - Módulo de gestión de residentes: administra historiales médicos, actividades y alertas.
+
+    - Módulo de notificaciones: genera y envía notificaciones en tiempo real a familiares y cuidadores.
+
+    - Módulo de pagos: gestiona las transacciones y emite comprobantes digitales.
+
+    - Módulo de reportes: consolida información clínica y genera estadísticas.
+
+    -  Responsabilidad: ejecutar la lógica de negocio del sistema.
+    -  Interfaces: APIs REST internas para comunicación entre microservicios.
+
+- Clientes
+
+    - Aplicación web (Angular) accesible desde navegadores modernos.
+
+    - Aplicación móvil (PWA o app híbrida) para familiares y cuidadores.
+
+     - Responsabilidad: proveer una interfaz amigable e intuitiva a los usuarios finales.
+     - Interfaces: consumo de APIs REST expuestas por el backend.
+
+- Seguridad y Control de Acceso
+
+    - Spring Security con OAuth 2.0 para autenticación y autorización.
+
+    - Autenticación de dos factores (2FA) para médicos y administradores.
+
+    - Cifrado TLS/AES-256 en tránsito y reposo.
+
+    -  Responsabilidad: garantizar confidencialidad, integridad y acceso controlado a los datos.
+     - Interfaces: middleware de seguridad en las llamadas a las APIs.
+
+- Servidores
+
+    - Servidor de aplicaciones (Spring Boot – Microservicios): gestiona la lógica de negocio.
+
+    - Servidor web (NGINX o Apache): sirve el frontend Angular.
+
+    - Servidor de base de datos (MySQL y MongoDB): gestiona datos estructurados y logs de auditoría.
+
+     - Responsabilidad: proveer servicios centrales a la - aplicación y usuarios.
+     Interfaces: HTTP/HTTPS para acceso a aplicaciones y BD.
+
+- Interfaces
+
+    - APIs RESTful: para comunicación entre frontend y backend.
+
+    - Interfaces de integración: con servicios externos (pasarela de pagos, mensajería push).
+
+     - Responsabilidad: definir cómo los componentes interactúan entre sí.
+
+- Servicios
+
+    - Servicio de notificaciones (alertas, recordatorios).
+
+    - Servicio de pagos en línea (integrado con pasarela externa).
+
+    - Servicio de reportes y analítica.
+
+     - Responsabilidad: ofrecer funcionalidades independientes y reutilizables.
+     - Interfaces: endpoints documentados (Swagger/OpenAPI).
+
+- Componentes de Infraestructura
+
+    - Contenedores Docker para despliegue de microservicios.
+
+    - Balanceador de carga para alta disponibilidad.
+
+    - Red segura (VPN + Firewall) para proteger la comunicación interna.
+
+     - Responsabilidad: garantizar la ejecución estable y segura de la aplicación.
+
+- Base de Datos
+
+    - MySQL: almacenamiento de información estructurada (usuarios, residentes, pagos, historiales médicos).
+
+    - MongoDB: almacenamiento de logs, auditorías y notificaciones en tiempo real.
+
+     - Responsabilidad: almacenar, organizar y recuperar datos críticos del sistema.
+     - Interfaces: acceso mediante repositorios en el backend.
 #### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
+- Containers Diagram
+
+![Containers Diagram](../assets/DiagramaContenedores.png)
+
+- Components 
+    - Auth Component
+    ![PSC Diagram](../assets/Auth%20Service.png)
+    - Payment Component
+    ![PSC Diagram](../assets/PaymentService.png)
+    - Reports Component
+    ![rsc Diagram](../assets/ReportsService.png)
+    - Notifications Component
+    ![PSC Diagram](../assets/NotificatiosnService.png)
+
 
 #### 4.3.1.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
