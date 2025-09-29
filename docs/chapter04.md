@@ -64,8 +64,17 @@ La arquitectura de SeniorHub se fundamentará en una combinación de arquitectur
 
 #### 4.1.3	 Context Diagram
 
-#### 4.1.4	Approach driven ViewPoints Diagrams
+![Diagrama de Contexto](../assets/ContextDiagram.png)
 
+#### 4.1.4	Approach driven ViewPoints Diagrams
+##### Activity Diagram
+Se presenta el diagrama de actividades cuando un se registra un altercado o algun evento de salud con el anciano y se notifica al familiar a cargo.
+![ActivityDiagram](../assets/ActivityDiagram.png)
+##### State Diagram   
+Se muestra el diagrama de estado que representa los estados posibles de un residente dentro del hogar geriátrico y cómo estos cambian en función de eventos.
+![StateDiagram](../assets/StateDiagram.png)
+##### Class Diagram
+![Class Diagram](../assets/ClassDiagram.png)
 #### 4.1.5	Relational/Non Relational Database Diagram 
 
 El modelo relacional propuesto organiza la información en entidades principales como Residente, Familiar, Enfermera, Médico y Hogar de Cuidado, garantizando la integridad de los datos mediante claves primarias y foráneas. Además, se incluyen tablas específicas para gestionar historiales médicos, registros de salud mental, medicamentos y actividades. El modelo también contempla funcionalidades clave como la comunicación entre familiares y cuidadores, la gestión de alertas de salud y la programación de citas, lo que permite una administración estructurada y consistente de la información.
@@ -212,21 +221,23 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 ### 4.3	ADD Iterations
 
-#### 4.3.X	Iteration N: <Iteration Name>
+#### 4.3.1	Iteration N° 1
 
-#### 4.3.X.1	Architectural Design Backlog N
+#### 4.3.1.1	Architectural Design Backlog 1
 
-#### 4.3.X.2	Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.X.3	Choose One or More Elements of the System to Refine
 
-#### 4.3.X.4	Choose One or More Design Concepts That Satisfy the Selected Drivers
+#### 4.3.1.2	Establish Iteration Goal by Selecting Drivers
 
-#### 4.3.X.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+#### 4.3.1.3	Choose One or More Elements of the System to Refine
 
-#### 4.3.X.6	Sketch Views (C4 & UML) and Record Design Decisions
+#### 4.3.1.4	Choose One or More Design Concepts That Satisfy the Selected Drivers
 
-#### 4.3.X.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+#### 4.3.1.5	Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
+
+#### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
+
+#### 4.3.1.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
 
 
