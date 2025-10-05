@@ -39,6 +39,62 @@ Se implementa el patrón de relaciones entre entidades mediante anotaciones como
 En conjunto, estos patrones constituyen la base de una Custom Software Library reutilizable y adaptable a los distintos microservicios de SeniorHub. Su diseño promueve una arquitectura más robusta, minimizando la duplicación de código y facilitando la evolución del sistema en futuras iteraciones de desarrollo.
 
 ### 5.1.4 Framework Pattern Driven Refactoring Report
+
+Este informe documenta el proceso de refactorización de la aplicación SeniorHub, centrado en la aplicación de patrones de diseño y el uso de frameworks que facilitan la transición hacia una arquitectura moderna y escalable.
+
+**Objetivos de la Refactorización**
+
+- Dividir la aplicación inicial en microservicios independientes y escalables.
+- Mejorar la modularidad, mantenibilidad y escalabilidad del sistema.
+- Reducir la complejidad y el acoplamiento entre los componentes.
+- Garantizar la consistencia y robustez mediante la adopción de patrones de diseño y frameworks adecuados.
+
+**Contexto Actual**
+
+La aplicación SeniorHub está diseñada como una plataforma para la gestión del bienestar de los adultos mayores en centros de cuidado, ofreciendo módulos como:
+
+- Gestión de residentes y expedientes médicos.
+- Administración de citas y recordatorios.
+- Gestión de notificaciones y alertas a familiares.
+- Módulo de reportes y analítica para el personal médico y administrativo.
+
+Inicialmente, el sistema fue concebido bajo una estructura monolítica. Sin embargo, para garantizar la escalabilidad futura y una mejor separación de responsabilidades, se ha decidido migrar hacia una arquitectura basada en microservicios.
+
+**Patrones de Diseño Seleccionados**
+
+- Decompose by Subdomain: Descomposición del sistema según los subdominios identificados: Resident Care, Appointment Management, Notifications, User Management, Payments.
+- Microservices Architecture Pattern: Implementación de microservicios especializados e independientes, cada uno con su propia lógica de negocio.
+- Gateway Pattern: Uso de un punto central de entrada para enrutar solicitudes hacia los microservicios correspondientes.
+- API Gateway Pattern: Abstracción de la complejidad de la arquitectura y provisión de una única interfaz para clientes y frontend.
+
+**Frameworks Utilizados**
+
+- Spring Boot: Framework principal para la creación de microservicios, con soporte para inyección de dependencias y rápida configuración.
+- Spring Cloud: Para implementar patrones como descubrimiento de servicios, tolerancia a fallos y configuración centralizada.
+- Spring Data JPA: Para la gestión de persistencia de datos de manera uniforme en cada microservicio.
+
+**Proceso de Refactorización**
+
+1) Análisis y Descomposición:
+
+- Se identificaron los distintos subdominios del sistema.
+- Se definió la granularidad de los microservicios.
+
+2) Implementación de Microservicios:
+
+- Creación de microservicios independientes en Spring Boot.
+- Separación de modelos, controladores, servicios y repositorios para cada dominio.
+
+3) Integración y Pruebas:
+
+- Ejecución de pruebas unitarias con JUnit.
+- Validación de flujos de integración entre microservicios usando Postman y Selenium.
+
+4) Despliegue y Monitorización (en progreso):
+
+- Contenerización de microservicios mediante Docker.
+- Configuración planificada en Kubernetes para la orquestación y escalabilidad.
+
 ## 5.2 Software Configuration Management
 ### 5.2.1 Software Development Environment Configuration
 ### 5.2.2  Source Code Management
@@ -54,5 +110,6 @@ En conjunto, estos patrones constituyen la base de una Custom Software Library r
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
