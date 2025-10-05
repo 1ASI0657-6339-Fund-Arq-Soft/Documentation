@@ -138,6 +138,36 @@ En el desarrollo de SeniorHub, se utilizó un conjunto de herramientas y platafo
 - WhatsApp: Complemento para actualizaciones rápidas y comunicación fuera de reuniones.
 
 ### 5.2.2  Source Code Management
+
+Para la gestión del código fuente del proyecto SeniorHub, se utilizó Git como sistema de control de versiones junto con GitHub como plataforma de trabajo colaborativo. Esto permitió mantener un control ordenado de los cambios, integrar de manera continua las funcionalidades desarrolladas y llevar un seguimiento claro de la documentación por capítulos.
+
+Enlace de la organización en GitHub: [https://github.com/1ASI0657-6339-Fund-Arq-Soft](https://github.com/1ASI0657-6339-Fund-Arq-Soft)
+
+A diferencia de un flujo tradicional de ramas como GitFlow, nuestro equipo organizó el trabajo de acuerdo con los capítulos del documento del proyecto, de tal manera que cada capítulo tenía su propia rama y su propia documentación asociada. Esto nos permitió trabajar en paralelo de forma estructurada y facilitar las revisiones de cada sección.
+
+**Estructura de ramas**
+
+- main: Contiene la versión final e integrada del proyecto, incluyendo documentación y código.
+- chapter/*: Ramas dedicadas a cada capítulo del documento. Por ejemplo, chapter-III-architecture o chapter-V-implementation. Estas ramas se integran en main una vez completadas y validadas.
+- feature/*: Se utilizaron para añadir funcionalidades específicas en el backend o frontend, relacionadas a los microservicios o al soporte del documento.
+- fix/*: Usadas para corregir errores encontrados tanto en el código como en la documentación.
+
+**Convenciones de commits**
+
+Para mantener un historial claro y ordenado, se utilizaron commits semánticos, principalmente con los prefijos:
+
+- feat: Para la incorporación de una nueva sección en la documentación (por ejemplo, feat: agregar 5.2.2 Source Code Management) o para nuevas funcionalidades en código.
+- fix: Para corregir errores detectados en capítulos, redacción, o fallos en el código (por ejemplo, fix: corregir diagrama de microservicios en 4.1.2).
+
+**Flujo de trabajo**
+
+- Se crea una rama específica para un capítulo o funcionalidad (chapter-IV-design o feature-auth-service).
+- Se realizan los commits siguiendo la convención feat/ o fix/, según corresponda.
+- Al finalizar, se genera un Pull Request para revisión y comentarios.
+- Tras ser aprobado, el capítulo o funcionalidad se integra en la rama main.
+
+Este enfoque permitió mantener la documentación académica y el código en un solo repositorio, alineando el desarrollo de software con el progreso del documento final del proyecto.
+
 ### 5.2.3 Source Code Style Guide & Conventions
 ### 5.2.4  Software Deployment Configuration
 ## 5.3 Microservices Implementation
@@ -150,6 +180,7 @@ En el desarrollo de SeniorHub, se utilizó un conjunto de herramientas y platafo
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
