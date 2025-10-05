@@ -169,6 +169,50 @@ Para mantener un historial claro y ordenado, se utilizaron commits semánticos, 
 Este enfoque permitió mantener la documentación académica y el código en un solo repositorio, alineando el desarrollo de software con el progreso del documento final del proyecto.
 
 ### 5.2.3 Source Code Style Guide & Conventions
+
+Nuestra guía de estilo y convenciones para el código fuente es esencial para asegurar la limpieza, coherencia y legibilidad en todos nuestros proyectos de desarrollo. Estas directrices permiten que los equipos colaboren de manera efectiva y que el código resultante sea mantenible a largo plazo.
+
+**Convenciones de nomenclatura**
+
+- Clases → PascalCase (ejemplo: UserService, LoginController).
+- Variables y métodos → camelCase (ejemplo: userName, startDate, calculateTotal).
+- Paquetes → lowercase.
+- Constantes → UPPER_CASE con guiones bajos (ejemplo: MAX_USERS, DEFAULT_TIMEOUT).
+
+**Indentación y espaciado**
+
+- Se utilizan 4 espacios por nivel de indentación (no tabulaciones).
+- Se mantiene espaciado consistente, incluyendo un espacio antes y después de los operadores (ejemplo: a + b en lugar de a+b).
+
+**Comentarios y documentación**
+
+- Los comentarios se agregan solo cuando es necesario explicar lógica compleja o dar contexto.
+- Se priorizan comentarios claros, concisos y actualizados.
+- Documentación adicional se mantiene en archivos por capítulo (docs/) dentro del repositorio.
+
+**Organización del código**
+
+- Funciones y variables se agrupan de manera lógica.
+- El código muerto o comentado se elimina para mantener limpieza y eficiencia.
+- Los módulos siguen una estructura coherente y alineada a las prácticas de DDD en el proyecto.
+
+**Convenciones de commits**
+
+Se sigue la convención de Gitflow, usando prefijos en cada commit para indicar su propósito:
+
+- feat: nueva característica.
+- fix: corrección de error.
+- doc: documentación.
+- refactor: refactorización sin cambios funcionales.
+- test: pruebas unitarias o integrales.
+
+**Herramientas de calidad de código**
+
+- Se aplican herramientas de análisis estático como Checkstyle, SonarLint o ESLint según el lenguaje y contexto del módulo.
+- Estas herramientas aseguran el cumplimiento automático de las convenciones y ayudan a identificar problemas potenciales de calidad.
+
+Con estas pautas, garantizamos que nuestro código fuente sea legible, mantenible y consistente, favoreciendo la colaboración y la evolución a largo plazo del proyecto.
+
 ### 5.2.4  Software Deployment Configuration
 ## 5.3 Microservices Implementation
 ### 5.2.1  Sprint 1
@@ -180,6 +224,7 @@ Este enfoque permitió mantener la documentación académica y el código en un 
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
