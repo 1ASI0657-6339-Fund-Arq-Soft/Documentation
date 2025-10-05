@@ -97,6 +97,46 @@ Inicialmente, el sistema fue concebido bajo una estructura monolítica. Sin emba
 
 ## 5.2 Software Configuration Management
 ### 5.2.1 Software Development Environment Configuration
+
+En el desarrollo de SeniorHub, se utilizó un conjunto de herramientas y plataformas que facilitaron la organización, diseño, desarrollo, despliegue y documentación del proyecto, garantizando la colaboración efectiva y la calidad del producto.
+
+**Project Management**
+
+- Trello: Se empleó para la gestión ágil del proyecto, organizando tareas mediante tableros, listas y tarjetas. Permitió hacer seguimiento de los requisitos, historias de usuario y funcionalidades desarrolladas en cada sprint.
+
+**UI/UX Design**
+
+- Figma: Utilizado para la creación de interfaces y prototipos de experiencia de usuario, facilitando la colaboración en tiempo real entre los miembros del equipo.
+- Miro: Herramienta de pizarra digital empleada para sesiones de ideación, esquemas de navegación y definición de wireframes de la aplicación.
+
+**Software Development**
+
+- Visual Studio Code (VS Code): Editor de código utilizado principalmente para el desarrollo frontend y la configuración de microservicios secundarios.
+- IntelliJ IDEA: IDE utilizado para el desarrollo backend en Java con Spring Boot, proporcionando asistencia de código, refactorización y gestión de dependencias.
+- Lenguajes y Frameworks:
+  - Java 17 con Spring Boot 3.x para la implementación del backend y microservicios.
+  - Node.js 18 y Vue.js para el desarrollo del frontend.
+- Base de datos MySQL:
+  - Configuración en puerto 3306.
+  - Usuario: root.
+  - Conexión gestionada a través de Spring Data JPA.
+- Contenedores:
+  - Uso de Docker y Docker Compose para la contenerización de los microservicios y base de datos, permitiendo replicar entornos de desarrollo y facilitar el despliegue en entornos productivos.
+
+**Software Deployment**
+
+- Vercel: Plataforma utilizada para el despliegue del frontend, brindando un entorno optimizado, integración continua y actualizaciones rápidas de la aplicación web.
+- Docker (Backend): Planificado para el despliegue de los microservicios, garantizando portabilidad y escalabilidad.
+
+**Documentation**
+  
+- GitHub: Repositorio principal donde se gestionó el control de versiones y se almacenó la documentación del proyecto, incluyendo manuales técnicos, guía de instalación y reportes de avance.
+
+**Communication**
+
+- Discord: Utilizado como canal de comunicación principal para coordinación en tiempo real del equipo.
+- WhatsApp: Complemento para actualizaciones rápidas y comunicación fuera de reuniones.
+
 ### 5.2.2  Source Code Management
 ### 5.2.3 Source Code Style Guide & Conventions
 ### 5.2.4  Software Deployment Configuration
@@ -110,6 +150,7 @@ Inicialmente, el sistema fue concebido bajo una estructura monolítica. Sin emba
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
