@@ -69,12 +69,19 @@ La arquitectura de SeniorHub se fundamentará en una combinación de arquitectur
 #### 4.1.4	Approach driven ViewPoints Diagrams
 ##### Activity Diagram
 Se presenta el diagrama de actividades cuando un se registra un altercado o algun evento de salud con el anciano y se notifica al familiar a cargo.
+
 ![ActivityDiagram](../assets/ActivityDiagram.png)
+
+
 ##### State Diagram   
 Se muestra el diagrama de estado que representa los estados posibles de un residente dentro del hogar geriátrico y cómo estos cambian en función de eventos.
+
 ![StateDiagram](../assets/StateDiagram.png)
+
 ##### Class Diagram
+
 ![Class Diagram](../assets/ClassDiagram.png)
+
 #### 4.1.5	Relational/Non Relational Database Diagram 
 
 El modelo relacional propuesto organiza la información en entidades principales como Residente, Familiar, Enfermera, Médico y Hogar de Cuidado, garantizando la integridad de los datos mediante claves primarias y foráneas. Además, se incluyen tablas específicas para gestionar historiales médicos, registros de salud mental, medicamentos y actividades. El modelo también contempla funcionalidades clave como la comunicación entre familiares y cuidadores, la gestión de alertas de salud y la programación de citas, lo que permite una administración estructurada y consistente de la información.
@@ -357,24 +364,46 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 #### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
 - Containers Diagram
 
+<div align="center">
 ![Containers Diagram](../assets/DiagramaContenedores.png)
+</div>
 
 - Components 
     - Auth Component
-    ![PSC Diagram](../assets/Auth%20Service.png)
+      
+        ![PSC Diagram](../assets/Auth%20Service.png)
+
     - Payment Component
-    ![PSC Diagram](../assets/PaymentService.png)
+      
+     ![PSC Diagram](../assets/PaymentService.png)
+  
     - Reports Component
-    ![rsc Diagram](../assets/ReportsService.png)
+ 
+     ![rsc Diagram](../assets/ReportsService.png)
+     
     - Notifications Component
-    ![PSC Diagram](../assets/NotificatiosnService.png)
 
+        ![PSC Diagram](../assets/NotificatiosnService.png)
 
-#### 4.3.1.7	Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
+#### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
+El Kanban Board implementado en SeniorHub constituye una herramienta visual esencial para la gestión ágil del flujo de trabajo, enfocada en el análisis del diseño actual del sistema y la revisión de los objetivos de iteración dentro del ciclo de desarrollo del proyecto. Este tablero se emplea para organizar, priorizar y dar seguimiento a las actividades del equipo de desarrollo, ofreciendo una visión clara del progreso y del estado actual de cada tarea.
 
+El tablero se estructura en columnas que representan las diferentes etapas del proceso de desarrollo, como:
 
+- To Do (Por Hacer): donde se registran las tareas planificadas pero aún no iniciadas.
+- In Progress (En Proceso): donde se ubican las tareas actualmente en desarrollo o revisión.
+- Done (Completado): donde se colocan las tareas que han sido finalizadas y verificadas conforme a los criterios de aceptación establecidos.
 
+Cada tarjeta del tablero representa una actividad o User Story relacionada con el diseño, implementación o mejora del sistema SeniorHub. Estas tarjetas incluyen información relevante como el responsable, prioridad, descripción técnica y criterios de finalización, lo que facilita la trazabilidad y control del avance.
+
+Durante la revisión de iteraciones, el Kanban Board permite analizar el diseño actual del sistema, identificando cuellos de botella, tareas retrasadas o dependencias críticas que puedan afectar el flujo de trabajo. Esta visualización contribuye a la toma de decisiones informadas, fomentando la mejora continua del diseño y de los procesos de desarrollo.
+
+En el contexto del proyecto SeniorHub, el uso del Kanban Board no solo permite gestionar eficientemente las tareas del equipo, sino también alinear los objetivos de iteración con las prioridades del producto, garantizando que cada sprint o ciclo de revisión aporte valor tangible al sistema. Asimismo, el análisis constante del tablero facilita la detección de oportunidades de optimización en la arquitectura, la experiencia de usuario y las funcionalidades clave del sistema.
+
+<div align="center">
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/277e6cdd-9ff7-4f00-a3d4-368a289ca1e6" />
+</div>
 
 
 
