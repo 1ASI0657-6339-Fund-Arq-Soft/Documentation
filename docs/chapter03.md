@@ -131,7 +131,43 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 
 ### 3.2.1. Requisitos Funcionales
 
-### 3.2.1. Requisitos No Funcionales
+|ID|Titulo | Descripcion|
+|--|-------|------------|
+| RF01 |	Notificación de cambios de salud |	El sistema debe permitir enviar notificaciones automáticas cuando se detecten cambios relevantes en el estado de salud de un residente.|
+| RF02 |	Recordatorio de medicamentos |	El sistema debe permitir programar y enviar recordatorios de medicamentos al personal responsable.|
+| RF03	| Preferencia de canal	| El sistema debe permitir configurar la preferencia de canal de notificación (correo, aplicación móvil, SMS o panel web).|
+| RF04 |	Confirmación de recepción |	El sistema debe registrar la confirmación de recepción de cada notificación enviada.|
+| RF05 |	Historial de notificaciones |	El sistema debe permitir consultar el historial de notificaciones emitidas y recibidas por usuario.|
+| RF06 |	Reserva de cita |	El sistema debe permitir al usuario reservar una cita con el personal médico disponible.|
+| RF07 |	Visualización de calendario |	El sistema debe mostrar un calendario de citas disponible para residentes y personal médico. |
+| RF08 |	Recordatorio de citas |	El sistema debe generar recordatorios automáticos de citas próximas mediante notificaciones. |
+| RF09 |	Cancelar o reprogramar cita	| El sistema debe permitir cancelar o reprogramar citas médicas de manera flexible. |
+| RF10	| Lista de espera |	El sistema debe permitir gestionar una lista de espera cuando no existan horarios disponibles.|
+| RF11| 	Registro de residente|	El sistema debe permitir registrar los datos personales y médicos de cada residente.|
+| RF12| 	Perfil de residente	| El sistema debe generar y mostrar un perfil completo del residente con su información de salud, actividades y contactos.|
+| RF13 |	Reporte de estado |	El sistema debe permitir registrar reportes de estado físico, emocional y cognitivo del residente.|
+| RF14	| Historial médico simple	| El sistema debe almacenar y mostrar el historial médico básico de cada residente.|
+| RF15 |	Registro de actividades	| El sistema debe registrar y permitir visualizar las actividades diarias realizadas por el residente.|
+| RF16 |	Registro de enfermeras	| El sistema debe permitir registrar a las enfermeras y miembros del personal médico con sus datos laborales.|
+| RF17	| Gestión de turnos| 	El sistema debe permitir planificar y gestionar los turnos del personal médico.| 
+| RF18 |	Asignación de enfermera |	El sistema debe permitir asignar enfermeras o cuidadores específicos a cada residente.|
+| RF19 |	Evaluación del cuidado |	El sistema debe permitir registrar y evaluar el desempeño del personal en el cuidado brindado.|
+| RF20 |	Registro de dieta |	El sistema debe permitir registrar la dieta individual de cada residente.|
+| RF21 |	Visualización de menú	| El sistema debe mostrar el menú diario o semanal asignado a cada residente.|
+| RF22 |	Control de ingesta |	El sistema debe permitir registrar y controlar la ingesta alimentaria del residente.|
+| RF23 |	Preferencias alimenticias	| El sistema debe permitir definir y modificar las preferencias o restricciones alimenticias de cada residente.|
+| RF24	| Pago en línea |	El sistema debe permitir realizar pagos en línea mediante plataformas seguras.|
+| RF25 |	Registro de pagos	| El sistema debe registrar cada transacción de pago realizada.|
+| RF26 |	Comprobante digital	| El sistema debe generar y enviar comprobantes digitales a los familiares o responsables financieros.|
+| RF27 |	Recordatorio de pago |	El sistema debe enviar recordatorios automáticos de pagos pendientes.|
+| RF28 |	Historial de pagos |	El sistema debe permitir consultar el historial completo de pagos efectuados.|
+| RF29	| Información del servicio|	El sistema debe mostrar información clara y actualizada sobre los servicios que ofrece SeniorHub.|
+| RF30 |	Formulario de contacto |	El sistema debe incluir un formulario de contacto para consultas o solicitudes de información.|
+| RF31 |	Testimonios |	El sistema debe permitir mostrar testimonios de familiares o usuarios.|
+| RF32 |	Call to Action |	El sistema debe incluir botones de llamada a la acción (Call to Action) que redirijan al registro o contacto.|
+| RF33 |	Optimización SEO |	El sistema debe optimizar el contenido de la página para motores de búsqueda (SEO).|
+
+### 3.2.2. Requisitos No Funcionales
 
 |ID|Titulo | Descripcion| Criterios de Aceptacion |
 |--|-------|------------|-------------------------|
