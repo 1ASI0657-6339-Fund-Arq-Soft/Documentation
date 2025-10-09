@@ -338,8 +338,25 @@ Aqui se evidencia que el landing page esta desplegado de manera correcta. Link d
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
 
+El tablero Kanban es una herramienta visual que permite gestionar y monitorear el flujo de trabajo del equipo durante el desarrollo del Sprint 1 del proyecto SeniorHub. Su propósito es asegurar que las tareas se encuentren organizadas y priorizadas, facilitando el seguimiento del progreso de cada historia de usuario desde su planificación hasta su implementación final.
 
+El tablero se estructuró en cuatro columnas principales:
 
+- To Do (Por hacer): Tareas planificadas pendientes de iniciar.
+- In Progress (En progreso): Tareas que se encuentran actualmente en desarrollo.
+- Review (En revisión): Tareas terminadas que están siendo verificadas y probadas.
+- Done (Hecho): Tareas completadas y validadas por el equipo.
+
+**Evidencia del Tablero Kanban**
+
+Herramienta utilizada: Trello.
+Sprint: 1
+Objetivo del Sprint: Desarrollar el landing page y los microservicios Auth y User para el backend de SeniorHub.
+Duración: 28/09/2025 – 9/10/2025
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/65488336-1092-402f-8568-f868a151a66a" />
+</div>
 
 
 
