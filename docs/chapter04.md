@@ -379,6 +379,24 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 
     ![Users Diagram](../assets/users-service.png)
 
+
+  - Activity Service
+ 
+    ![Activity Diagram](../assets/ActivityService.png)
+
+
+  - Notification Service
+ 
+    ![Notification Diagram](../assets/NotificationService.png)
+
+  - Report/Analytics Service
+
+    ![Report Diagram](../assets/Report_AnalyticsService.png)
+
+  -  Resident Service
+
+    ![Resident Diagram](../assets/ResidentService.png)
+
 #### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
 El Kanban Board implementado en SeniorHub constituye una herramienta visual esencial para la gestión ágil del flujo de trabajo, enfocada en el análisis del diseño actual del sistema y la revisión de los objetivos de iteración dentro del ciclo de desarrollo del proyecto. Este tablero se emplea para organizar, priorizar y dar seguimiento a las actividades del equipo de desarrollo, ofreciendo una visión clara del progreso y del estado actual de cada tarea.
@@ -398,6 +416,7 @@ En el contexto del proyecto SeniorHub, el uso del Kanban Board no solo permite g
 <div align="center">
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/277e6cdd-9ff7-4f00-a3d4-368a289ca1e6" />
 </div>
+
 
 
 
