@@ -364,9 +364,8 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 #### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
 - Containers Diagram
 
-<div align="center">
-![Containers Diagram](../assets/DiagramaContenedores.png)
-</div>
+ ![Containers Diagram](../assets/DiagramaContenedores.png)
+
 
 - Components 
     - Auth Component
@@ -404,6 +403,7 @@ En el contexto del proyecto SeniorHub, el uso del Kanban Board no solo permite g
 <div align="center">
 <img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/277e6cdd-9ff7-4f00-a3d4-368a289ca1e6" />
 </div>
+
 
 
 
