@@ -328,8 +328,16 @@ En esta sección de presentan los endpoints desarrollados en el presente sprint 
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/566f8dfc-36b9-4e1d-b9be-76f9d632abdc" />
 
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
+
+Aqui se evidencia que el landing page esta desplegado de manera correcta. Link de deployment:[https://seniorhub.vercel.app/](https://seniorhub.vercel.app/)
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/34932c24-880b-4102-b7cd-371806f7a36f" />
+</div>
+
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
