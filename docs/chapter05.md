@@ -214,6 +214,40 @@ Se sigue la convención de Gitflow, usando prefijos en cada commit para indicar 
 Con estas pautas, garantizamos que nuestro código fuente sea legible, mantenible y consistente, favoreciendo la colaboración y la evolución a largo plazo del proyecto.
 
 ### 5.2.4  Software Deployment Configuration
+
+**Landing page:**
+
+Para el despliegue de la landing page utilizaremos el servicio de Vercel (https://vercel.com/). A continuación se presentará el proceso para realizarlo:
+
+1.	Crear o tener una cuenta de Vercel ingresando a su página web oficial (https://vercel.com/). Esta cuenta se puede crear con Github, Gitlab o Bitbucket o con un correo convencional.
+   
+<div align="center">
+  	<img width="200" height="250" alt="image" src="https://github.com/user-attachments/assets/7bc1e459-89d1-4201-a3d5-1732c2e242de" />
+</div>
+
+2.	Una vez con la sesión iniciado, dirigirse a la sección de sitios y seleccionar “Import Git Repositoryt”
+
+**Codigo ya creado:**
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/146fa885-8845-4882-8652-c6b21d2306f9" />
+</div>
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/a7daa246-bd7b-4ade-a619-cee5a69c3d0c" />
+</div>
+
+3.	Seleccionamos el repositorio y luego nos aparecerá el botón “Deploy Site” al final del formulario.
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/015ac12e-a379-4f53-ba58-9149d506f693" />
+</div>
+
+4.	De esta manera, la página ya estaría deployada en unos instantes. Link de deployment:[https://seniorhub.vercel.app/](https://seniorhub.vercel.app/)
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/34932c24-880b-4102-b7cd-371806f7a36f" />
+</div>
+
 ## 5.3 Microservices Implementation
 ### 5.2.1  Sprint 1
 #### 5.2.1.1     Sprint Backlog 1
@@ -224,6 +258,7 @@ Con estas pautas, garantizamos que nuestro código fuente sea legible, mantenibl
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
