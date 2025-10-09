@@ -336,6 +336,37 @@ Aqui se evidencia que el landing page esta desplegado de manera correcta. Link d
 </div>
 
 #### 5.2.1.7     Team Collaboration Insights during Sprint
+
+A continuación se presentan los insights de colaboración en los repositorios de Github:
+Link de organización Github: [https://github.com/1ASI0657-6339-Fund-Arq-Soft](https://github.com/1ASI0657-6339-Fund-Arq-Soft)
+
+Documentation. [https://github.com/1ASI0657-6339-Fund-Arq-Soft/Documentation](https://github.com/1ASI0657-6339-Fund-Arq-Soft/Documentation)
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/d2bd97cf-08a4-47dc-8542-8a90e43fec07" />
+</div>
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/86834b72-b690-4633-8bfc-a2125ab61557" />
+</div>
+
+<div align="center">
+<img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/cccb9000-4793-410e-b5b7-10914895ab29" />
+</div>
+
+<div align="center">
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e3dc53dd-b8f6-456c-867d-e0260cc2cafe" />
+</div>
+
+<div align="center">
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/fd18650a-2644-464c-ba33-6c8a4efdd583" />
+</div>
+
+Landing Page: [https://github.com/1ASI0657-6339-Fund-Arq-Soft/landing-page](https://github.com/1ASI0657-6339-Fund-Arq-Soft/landing-page)
+
+<div align="center">
+<img width="1025" height="569" alt="image" src="https://github.com/user-attachments/assets/bb1507cb-2276-469d-8e7b-2ccd5c03bca0" />
+</div>
+
 #### 5.2.1.8     Kanban Board --> TP1
 
 El tablero Kanban es una herramienta visual que permite gestionar y monitorear el flujo de trabajo del equipo durante el desarrollo del Sprint 1 del proyecto SeniorHub. Su propósito es asegurar que las tareas se encuentren organizadas y priorizadas, facilitando el seguimiento del progreso de cada historia de usuario desde su planificación hasta su implementación final.
@@ -357,6 +388,7 @@ Duración: 28/09/2025 – 9/10/2025
 <div align="center">
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/65488336-1092-402f-8568-f868a151a66a" />
 </div>
+
 
 
 
