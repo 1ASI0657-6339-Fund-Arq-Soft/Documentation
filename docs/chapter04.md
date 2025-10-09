@@ -363,11 +363,7 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 #### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
 - Containers Diagram
 
-<<<<<<< HEAD
 ![Containers Diagram](../assets/c4-container.png)
-=======
- ![Containers Diagram](../assets/DiagramaContenedores.png)
->>>>>>> f2f5d75c94e5f8dc53f2ed5e87b9f2ea1e15764f
 
 
 - Components 
