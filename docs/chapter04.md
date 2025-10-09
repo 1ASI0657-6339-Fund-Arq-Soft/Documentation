@@ -364,26 +364,21 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 #### 4.3.1.6	Sketch Views (C4 & UML) and Record Design Decisions
 - Containers Diagram
 
-<div align="center">
-![Containers Diagram](../assets/DiagramaContenedores.png)
-</div>
+![Containers Diagram](../assets/c4-container.png)
+
 
 - Components 
     - Auth Component
       
-        ![PSC Diagram](../assets/Auth%20Service.png)
+        ![auth Diagram](../assets/auth-service.png)
 
     - Payment Component
       
-     ![PSC Diagram](../assets/PaymentService.png)
-  
-    - Reports Component
- 
-     ![rsc Diagram](../assets/ReportsService.png)
-     
-    - Notifications Component
+     ![PSC Diagram](../assets/payment-service.png)
+    
+    - Users Component
 
-        ![PSC Diagram](../assets/NotificatiosnService.png)
+    ![Users Diagram](../assets/users-service.png)
 
 #### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
