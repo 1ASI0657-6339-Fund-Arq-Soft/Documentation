@@ -268,6 +268,53 @@ A continuación, se presentará el sprint planning 1 donde se mostrarán las evi
 |Sum of Story Points|	14|
 
 #### 5.2.1.1     Sprint Backlog 1
+
+Se presenta el sprint backlog, donde hemos utilizado Trello para visualizar el progreso de las tareas.
+Link de Trello: [https://trello.com/invite/b/68e547015b3e5338979e9169/ATTIb0ff9795cc89dcfecc531e9f16c08c02644A6A9F/tf1asi0657202520](https://trello.com/invite/b/68e547015b3e5338979e9169/ATTIb0ff9795cc89dcfecc531e9f16c08c02644A6A9F/tf1asi0657202520)
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/65488336-1092-402f-8568-f868a151a66a" />
+</div>
+
+| User Story |	Work Item / Task |	Id	| Title	| Description |	Estimation (Hours)|	Assigned To |	Status|
+|-|-|-|-|-|-|-|-|
+|US-29| Información del servicio	|	T1	|Diseño de estructura base del Landing Page	|Crear el esqueleto de la página incluyendo header, footer y secciones principales.	|6	|equipo SeniorHub |	Done |
+| | |		T2	|Maquetado de contenido informativo	| Redactar y estructurar la información de los servicios ofrecidos en el landing page.|	5	| equipo SeniorHub |	Done|
+|	|	|T3	| Implementación del diseño responsivo	|Adaptar el sitio para visualización correcta en diferentes dispositivos usando HTML, CSS y Bootstrap. |	6	| equipo SeniorHub |	In Process|
+|	|	|T4	| Publicación en GitHub|	Subir la primera versión funcional del Landing Page al repositorio oficial.|	3	|equipo SeniorHub |	To Review|
+
+| User Story |	Work Item / Task |	Id	| Title	| Description |	Estimation (Hours)|	Assigned To |	Status|
+|-|-|-|-|-|-|-|-|
+|US-30 | Formulario de contacto	|	T1|	Diseño del formulario de contacto |	Crear el formulario con los campos nombre, correo y mensaje.	|4	|equipo SeniorHub|	Done|
+|	|	|T2	|Implementar validaciones básicas|	Validar formato de email y campos obligatorios antes del envío.|	3	|equipo SeniorHub|	Done|
+| |	|	T3	|Conexión con endpoint simulado	| Implementar envío del formulario hacia un servicio simulado o endpoint temporal.|	5	|equipo SeniorHub	|In Process|
+| |	|	T4	|Mensaje de confirmación visual|	Mostrar mensaje “mensaje enviado con éxito” tras enviar el formulario.|	2|	equipo SeniorHub|	Done|
+| |	|	T5|	Pruebas funcionales del formulario	|Verificar el correcto envío, validaciones y visualización.|	3	|equipo SeniorHub	|To Review|
+    
+| User Story |	Work Item / Task |	Id	| Title	| Description |	Estimation (Hours)|	Assigned To |	Status|
+|-|-|-|-|-|-|-|-|
+| US-32| Call to Action (CTA)	|	T1	|Definición de mensajes CTA	|Crear textos estratégicos para los botones principales (“Contáctanos”, “Conoce más”).|	3	|equipo SeniorHub|	Done|
+| | |	T2	|Diseño y ubicación de botones CTA	|Implementar los botones y su posición dentro del landing page.|	3|	equipo SeniorHub |	In Process|
+| |	|	T3	|Implementación de anclajes y redirecciones	Configurar redirecciones internas a secciones específicas.|	3|	equipo SeniorHub |	To Review|
+|	| |	T4|	Estilos visuales interactivos	| Añadir efectos hover y colores llamativos.|	2	|equipo SeniorHub|	Done |
+| |	|	T5|	Prueba de consistencia general	|Verificar que los CTA sean funcionales y coherentes con el diseño.|	2|	equipo SeniorHub |	To Review|
+
+| User Story |	Work Item / Task |	Id	| Title	| Description |	Estimation (Hours)|	Assigned To |	Status|
+|-|-|-|-|-|-|-|-|
+| US-A01| Implementación de autenticación y roles (Auth Service)	|	T1	|Configurar proyecto base Auth-Service|	Crear proyecto Spring Boot con estructura base y dependencias.|	5|	equipo SeniorHub|	Done|
+| |	|	T2|	Implementar autenticación con JWT|	Configurar seguridad y generación de tokens JWT.|	6	|equipo SeniorHub|	In Process|
+| |	|	T3|	Crear entidades User, Role y Permission|	Diseñar modelos y relaciones JPA.|	5|	equipo SeniorHub|	Done|
+| |	|	T4|	Definir endpoints principales	|Implementar /login, /register y /validate-token.|	6|	equipo SeniorHub| In Process|
+| |	|	T5|	Probar autenticación y protección de endpoints|	Validar correcto flujo de autenticación.|	4	|equipo SeniorHub|	To Review|
+| |	|	T6	|Documentar configuración de seguridad|	Redactar documentación técnica y README.	|3	|equipo SeniorHub|	Done|
+
+| User Story |	Work Item / Task |	Id	| Title	| Description |	Estimation (Hours)|	Assigned To |	Status|
+|-|-|-|-|-|-|-|-|
+|US-A02| CRUD de usuarios (User Service)|		T1	|Crear proyecto User-Service|	Generar proyecto Spring Boot para el servicio de usuarios.|	4	|equipo SeniorHub|	Done|
+| |	|	T2|	Implementar entidad User y repositorio	|Crear modelo y repositorio JPA.|	3	|equipo SeniorHub|	Done|
+|	| |	T3 |	Desarrollar endpoints CRUD|	Implementar GET, POST, PUT, DELETE con validaciones.|	6|	equipo SeniorHub|	In Process|
+| |	|	T4|	Conectar con Auth-Service	|Integrar validación JWT con el microservicio de autenticación.|	5|	equipo SeniorHub|	To Review|
+| |		|T5|	Documentar endpoints en Swagger|	Añadir especificaciones de API.	|3|equipo SeniorHub|	To Review|
 #### 5.2.1.2     Development Evidence for Sprint Review
 #### 5.2.1.3     Testing Suite Evidence for Sprint Review
 #### 5.2.1.4     Execution Evidence for Sprint Review
@@ -275,6 +322,7 @@ A continuación, se presentará el sprint planning 1 donde se mostrarán las evi
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
