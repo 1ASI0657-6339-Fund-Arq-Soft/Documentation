@@ -315,13 +315,22 @@ Link de Trello: [https://trello.com/invite/b/68e547015b3e5338979e9169/ATTIb0ff97
 |	| |	T3 |	Desarrollar endpoints CRUD|	Implementar GET, POST, PUT, DELETE con validaciones.|	6|	equipo SeniorHub|	In Process|
 | |	|	T4|	Conectar con Auth-Service	|Integrar validación JWT con el microservicio de autenticación.|	5|	equipo SeniorHub|	To Review|
 | |		|T5|	Documentar endpoints en Swagger|	Añadir especificaciones de API.	|3|equipo SeniorHub|	To Review|
+
 #### 5.2.1.2     Development Evidence for Sprint Review
 #### 5.2.1.3     Testing Suite Evidence for Sprint Review
 #### 5.2.1.4     Execution Evidence for Sprint Review
 #### 5.2.1.5     Microservices Documentation Evidence for Sprint Review
+
+En esta sección de presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas:
+
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/52aa1139-2a12-4358-bf9f-d3c288c702f7" />
+
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/566f8dfc-36b9-4e1d-b9be-76f9d632abdc" />
+
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 #### 5.2.1.7     Team Collaboration Insights during Sprint
 #### 5.2.1.8     Kanban Board --> TP1
+
 
 
 
