@@ -416,6 +416,23 @@ A continuación, se presentará el sprint planning 2 donde se mostrarán las evi
 #### 5.2.2.7	Team Collaboration Insights during Sprint
 #### 5.2.2.8	Kanban Board --> (Avance 3)
 ### 5.2.3	Sprint 3
+
+A continuación, se presentará el sprint planning 3 donde se mostrarán las evidencias de planificación para la implementación de SeniorHub.
+
+| Sprint # |	Sprint 3|
+|----------|----------|
+||Sprint Planning Background|
+| Date |	1/11/2025 |
+| Time |	15:00 horas (GMT -5) |
+| Location |	Modalidad remota por Discord |
+| Prepared By |	Fatima Asmad |
+| Attendees (to planning meeting) |	Todos los miembros del equipo SeniorHub |
+| Sprint n – 0 Review Summary | En este sprint se espera desarrollar el 40% del frontend del proyecto .|
+| Sprint n – 1 Retrospective Summary	 | En este presente sprint se tiene como objetivo desarrollar el  40% del frontend del proyecto.|
+||Sprint Goal & User Stories|
+|Sprint 1 Velocity	|19 |
+|Sum of Story Points|	14|
+
 #### 5.2.3.1	Sprint Backlog 3
 #### 5.2.3.2	Development Evidence for Sprint Review
 #### 5.2.3.3	Testing Suite Evidence for Sprint Review
@@ -424,6 +441,7 @@ A continuación, se presentará el sprint planning 2 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
