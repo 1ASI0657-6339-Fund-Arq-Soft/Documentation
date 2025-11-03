@@ -390,6 +390,23 @@ Duración: 28/09/2025 – 9/10/2025
 </div>
 
 ### 5.2.2	Sprint 2
+
+A continuación, se presentará el sprint planning 2 donde se mostrarán las evidencias de planificación para la implementación de SeniorHub.
+
+| Sprint # |	Sprint 2|
+|----------|----------|
+||Sprint Planning Background|
+| Date |	20/10/2025 |
+| Time |	15:00 horas (GMT -5) |
+| Location |	Modalidad remota por Discord |
+| Prepared By |	Fatima Asmad |
+| Attendees (to planning meeting) |	Todos los miembros del equipo SeniorHub |
+| Sprint n – 0 Review Summary |	El proyecto ya tenia avanzado en el anterior sprint 2 microservicios , en esta entrega se espera concluir el backend de los microservicios. |
+| Sprint n – 1 Retrospective Summary	 | En este presente sprint se tiene como objetivo desarrollar seis microservicos. Asimismo, vamos a conectarlos a la API inicial a través de un API Gateway facilitado por Netflix Eureka y Spring Cloud.|
+||Sprint Goal & User Stories|
+|Sprint 1 Velocity	|19 |
+|Sum of Story Points|	41 |
+
 #### 5.2.2.1	Sprint Backlog 2
 #### 5.2.2.2	Development Evidence for Sprint Review
 #### 5.2.2.3	Testing Suite Evidence for Sprint Review
@@ -407,6 +424,7 @@ Duración: 28/09/2025 – 9/10/2025
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
