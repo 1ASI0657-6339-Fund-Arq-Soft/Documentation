@@ -151,11 +151,7 @@ Segmento 2: Profesionales de la salud y cuidadores en asilos de ancianos
 | RF23 |	Registro de pagos	| El sistema debe registrar cada transacción de pago realizada.|
 | RF24 |	Comprobante digital	| El sistema debe generar y enviar comprobantes digitales a los familiares o responsables financieros.|
 | RF25 |	Historial de pagos |	El sistema debe permitir consultar el historial completo de pagos efectuados.|
-| RF26	| Información del servicio|	El sistema debe mostrar información clara y actualizada sobre los servicios que ofrece SeniorHub.|
-| RF27 |	Formulario de contacto |	El sistema debe incluir un formulario de contacto para consultas o solicitudes de información.|
-| RF28 |	Testimonios |	El sistema debe permitir mostrar testimonios de familiares o usuarios.|
-| RF29 |	Call to Action |	El sistema debe incluir botones de llamada a la acción (Call to Action) que redirijan al registro o contacto.|
-| RF30 |	Optimización SEO |	El sistema debe optimizar el contenido de la página para motores de búsqueda (SEO).|
+
 
 ### 3.2.2. Requisitos No Funcionales
 
