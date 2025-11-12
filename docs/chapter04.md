@@ -86,7 +86,7 @@ Se muestra el diagrama de estado que representa los estados posibles de un resid
 
 El modelo relacional propuesto organiza la información en entidades principales como Residente, Familiar, Enfermera, Médico y Hogar de Cuidado, garantizando la integridad de los datos mediante claves primarias y foráneas. Además, se incluyen tablas específicas para gestionar historiales médicos, registros de salud mental, medicamentos y actividades. El modelo también contempla funcionalidades clave como la comunicación entre familiares y cuidadores, la gestión de alertas de salud y la programación de citas, lo que permite una administración estructurada y consistente de la información.
 
-<img src="../assets/DBSeniorHub.jpg" alt="DataBaseDiagram"/>
+<img src="../assets/DBSeniorHub.png" alt="DataBaseDiagram"/>
 
 #### 4.1.6	Design Patterns
 
@@ -187,18 +187,14 @@ Con este enfoque, SeniorHub no solo será un sistema de gestión, sino también 
 
 #### 4.2.3	Quality Attribute Scenarios
 
-| ID |	Atributo de Calidad |	Escenario |	Origen |	Estímulo |	Artefacto |	Métrica |	US Asociadas |
-|----|----------------------|-----------|--------|-----------|------------|---------|--------------|
-| QA-01 |	Usabilidad |	El familiar debe poder reservar una cita en menos de 5 minutos, sin necesitar capacitación previa. |	Usuario familiar |	Reserva de cita |	Calendario de citas |	Tiempo en minutos ≤ 5	| US6, US7, US9 |
-| QA-02 |	Rendimiento |	La aplicación debe enviar una notificación de cambio de salud en menos de 3 segundos desde que se registra el evento. |	Sistema |	Cambio de estado de salud |	Componente de notificaciones |	Tiempo en segundos ≤ 3 |	US1, US4 |
-| QA-03 |	Seguridad |	Los historiales médicos solo pueden ser accedidos por cuidadores y familiares autorizados, tras autenticación exitosa en máximo 3 intentos.	| Usuario cuidador/familiar |	Solicitud de acceso	| Módulo de seguridad	| Nº de intentos ≤ 3 |	US11, US12, US14 |
-| QA-04 |	Fiabilidad |	Los reportes generados deben almacenarse y estar disponibles al 100% después de crearse. |	Sistema |	Generación de reportes |	Componente de reportes |	% de reportes guardados con éxito = 100%	| US13, US25 |
-| QA-05 |	Disponibilidad |	La aplicación debe estar disponible las 24 horas del día, los 7 días de la semana. |	Usuario final	| Ingreso a la aplicación |	Sistema |	Disponibilidad 24/7	| US1 a US38 |
-| QA-06 |	Escalabilidad |	La aplicación debe soportar al menos 7,500 usuarios concurrentes sin degradación del rendimiento. |	Sistema	| Conexiones simultáneas |	Infraestructura backend	| Nº usuarios concurrentes ≥ 7,500 |	US34, US38 |
-| QA-07 |	Modificabilidad |	Los desarrolladores deben poder agregar nuevas funcionalidades modificando máximo 5 clases. |	Desarrolladores	| Agregar una funcionalidad |	Backend Spring Boot	| Nº de clases modificadas ≤ 5 |	US20, US27 |
-| QA-08 |	Capacidad de Prueba (Testabilidad) |	El 95% de las funcionalidades críticas debe aprobar las pruebas automatizadas. | 	Desarrolladores |	Ejecución de pruebas |	Sistema	| % de pruebas satisfactorias ≥ 95%	| US1–US28 |
-| QA-09 |	Seguridad de datos |	Los archivos personales de postulantes y familiares deben almacenarse cifrados en la BD y no pueden ser compartidos con terceros. |	Sistema	 | Subida de documentos |	Módulo de almacenamiento |	Cifrado AES-256 aplicado en 100% de archivos |	US11, US12 |
-| QA-10 |	Mantenibilidad |	El sistema debe recibir actualizaciones de mejoras/corrección de errores al menos 1 vez al mes.	| Desarrolladores	| Despliegue de mejoras |	Sistema |	Nº de releases mensuales ≥ 1	| US4, US24, US32 |
+| ID | Atributo de Calidad | Escenario | Origen | Estímulo | Artefacto | Métrica | US Asociadas|
+|---|---|---|---|---|---|---|---|
+| QA-01 | Disponibilidad | La aplicación debe estar disponible las 24 horas del día, los 7 días de la semana. | Usuario final | Ingreso a la aplicación | Sistema | Disponibilidad 24/7 | US1–US38 |
+| QA-02 | Seguridad |	Los historiales médicos solo pueden ser accedidos por cuidadores y familiares autorizados, tras autenticación exitosa en máximo 3 intentos.	| Usuario cuidador/familiar | Solicitud de acceso | Módulo de seguridad | Nº intentos ≤ 3 | US11, US12, US14 |
+| QA-03 | Usabilidad | El familiar debe poder reservar una cita en menos de 5 minutos, sin necesitar capacitación previa. | Usuario familiar | Reserva de cita | Calendario de citas | Tiempo ≤ 5 min | US6, US7, US9 |
+| QA-04 | Rendimiento | La aplicación debe enviar una notificación de cambio de salud en menos de 3 segundos desde que se registra el evento. | Sistema | Cambio de estado de salud | Componente de notificaciones | Tiempo en segundos ≤ 3 | US1, US4 |
+
+
 
 #### 4.2.4	Constraints
 
