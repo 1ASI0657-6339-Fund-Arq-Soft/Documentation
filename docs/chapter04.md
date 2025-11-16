@@ -373,25 +373,30 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
     
     - Users Component
 
-    ![Users Diagram](../assets/users-service.png)
+   ![User Diagram](../assets/User_Service.png)
 
 
   - Activity Service
  
-    ![Activity Diagram](../assets/ActivityService.png)
+    ![Activity Diagram](../assets/Activity_Service.png)
 
 
   - Notification Service
  
-    ![Notification Diagram](../assets/NotificationService.png)
+    ![Notification Diagram](../assets/Notification_Service.png)
 
   - Report/Analytics Service
 
-    ![Report Diagram](../assets/Report_AnalyticsService.png)
+    ![Report Diagram](../assets/Reports_Service.png)
 
   -  Resident Service
 
-    ![Resident Diagram](../assets/ResidentService.png)
+    ![Resident Diagram](../assets/Resident_Service.png)
+
+  -  Ingesta Service
+
+    ![Ingesta Diagram](../assets/Ingesta_Service.png)
+
 
 #### 4.3.1.7 Analysis of Current Design and Review Iteration Goal (Kanban Board)  (Avance 2)
 
