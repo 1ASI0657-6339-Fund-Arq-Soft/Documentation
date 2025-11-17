@@ -961,12 +961,42 @@ Para la gestión y visualización del avance de tareas, se utilizó el tablero d
 https://trello.com/invite/b/691a884e7b31705544dd9e36/ATTI4f62995f41ced52a4026c5500a3d3e1f73E98F8E/seniorhub-sprint3 
 
 #### 5.2.3.2	Development Evidence for Sprint Review
+
+Durante este Sprint se implementaron y documentaron avances significativos en el frontend de la solución SeniorHub. El equipo trabajó en la creación de interfaces de usuario interactivas y componentes reutilizables que permiten la interacción con los microservicios desarrollados en el backend. 
+
+Frontend (Angular – Componentes y Vistas)
+
+- Durante este Sprint se completaron los módulos y componentes esenciales de SeniorHub:
+
+- Dashboard: Visualización y registro de la información nutricional de los residentes, con filtros por fecha, tipo de comida y clasificación de historial.
+
+- Appointments: Gestión y visualización de citas médicas, incluyendo creación, edición y notificación de citas.
+
+- Payments: Consulta de historial de pagos, emisión de recibos y registro de transacciones financieras de los residentes.
+
+- Notifications: Recepción, visualización y marcado de notificaciones en tiempo real para residentes y personal.
+
+Para cada componente se realizó lo siguiente:
+
+- Creación de módulos y componentes Angular con estructura modular y escalable.
+
+- Implementación de formularios reactivos y binding de datos con servicios REST.
+
+- Integración con los endpoints del backend mediante servicios Angular.
+
+- Pruebas de funcionamiento y validación de la interacción con la API.
+
+- Aplicación de estilos consistentes utilizando CSS
+
+Se evidencia con esto que el desarrollo del frontend se completó durante este Sprint, quedando preparado para la integración completa con los microservicios del backend y la experiencia final de usuario.
+
 #### 5.2.3.3	Testing Suite Evidence for Sprint Review
 #### 5.2.3.4	Execution Evidence for Sprint Review
 #### 5.2.3.5	Microservices Documentation Evidence for Sprint Review
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
