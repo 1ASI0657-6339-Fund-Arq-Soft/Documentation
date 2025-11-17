@@ -381,6 +381,137 @@ En esta sección de presentan los endpoints desarrollados en el presente sprint 
 
 #### 5.2.1.5     Microservices Documentation Evidence for Sprint Review
 
+Durante este Sprint se completó el primer conjunto de endpoints funcionales del sistema SeniorHub – Vitalia, correspondientes a los microservicios IAM-service (autenticación y roles) y Users-service (gestión de doctores y familiares). Toda la documentación de los servicios fue generada y validada mediante Swagger OpenAPI 3, habilitada en cada microservicio para su consulta durante el desarrollo y la integración.
+
+Estos servicios constituyen la base para la autenticación de usuarios, la administración de roles y la gestión de los recursos principales del ecosistema Vitalia. A continuación, se presenta la evidencia de la documentación generada para los servicios REST expuestos en este sprint.
+
+**Resumen General de los Microservicios**
+
+|Microservicio|	URL Base|	Versión|	Descripción|
+|-------------|---------|--------|-------------|
+|IAM-service|	http://localhost:8080/api/v1|	v1.0.0|	Gestión de autenticación, inicio de sesión y administración de roles.|
+|Users-service|	http://localhost:8083/api/v1|	v1.0.0|	Operaciones relacionadas a doctores y familiares.|
+
+A continuación se presentan los endpoints trabajados durante el Sprint, con su descripción técnica, ejemplo de uso y la explicación del response, siguiendo el formato del modelo de ejemplo proporcionado.
+
+**1. IAM-SERVICE — Authentication Endpoints**
+
+**1.1. POST /api/v1/authentication/sign-up**
+
+|Campo	|Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Registro de nuevos usuarios|
+|Sintaxis de Llamada|	/api/v1/authentication/sign-up|
+|Método|	POST|
+|Parámetros|	Body JSON (email, password, firstName, lastName, roleId)|
+|Ejemplo de Body|	{ "email": "user@example.com", "password": "123456", "firstName": "Ana", "lastName": "Soto", "roleId": 1 }|
+|Explicación del Response|	Devuelve un objeto con la información del usuario creado junto con su ID asignado.|
+
+**1.2. POST /api/v1/authentication/sign-in**
+
+|Campo|	Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Inicio de sesión y generación de token|
+|Sintaxis de Llamada|	/api/v1/authentication/sign-in|
+|Método|	POST|
+|Parámetros|	Body JSON (email, password)|
+|Ejemplo de Llamada|	POST http://localhost:8080/api/v1/authentication/sign-in|
+|Explicación del Response|	Retorna un token JWT y los datos básicos del usuario autenticado.|
+
+**2. IAM-SERVICE — Roles Endpoints**
+
+**2.1. GET /api/v1/roles**
+
+|Campo|	Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Obtención de todos los roles del sistema|
+|Sintaxis de Llamada|	/api/v1/roles|
+|Método|	GET|
+|Parámetros|	No requiere|
+|Ejemplo de Llamada	|GET http://localhost:8080/api/v1/roles|
+|Explicación del Response|	Devuelve un listado JSON con los roles registrados en el microservicio IAM.|
+
+**3. USERS-SERVICE — Doctors Endpoints**
+
+**3.1. GET /api/v1/doctors**
+
+|Campo|	Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Obtener la lista de doctores|
+|Sintaxis de Llamada|	/api/v1/doctors|
+|Método|	GET|
+|Parámetros|	Ninguno|
+|Ejemplo de Llamada	|GET http://localhost:8083/api/v1/doctors|
+|Explicación del Response|	Devuelve un arreglo JSON con todos los doctores registrados y sus datos relevantes.|
+
+**3.2. GET /api/v1/doctors/{id}**
+
+|Campo|	Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Obtener un doctor por su ID|
+|Sintaxis de Llamada|	/api/v1/doctors/{id}|
+|Método|	GET|
+|Parámetros	|id (path param, numérico)|
+|Ejemplo de Llamada|	GET http://localhost:8083/api/v1/doctors/1|
+|Explicación del Response|	Devuelve la información detallada del doctor especificado.|
+
+**3.3. POST /api/v1/doctors**
+   
+|Campo|	Descripción|
+|-----|------------|
+|Acciones Implementadas	|Crear un nuevo doctor|
+|Sintaxis de Llamada|	/api/v1/doctors|
+|Método|	POST|
+|Parámetros|	Body JSON con datos del doctor|
+|Ejemplo de Body|	{ "firstName":"Luis", "lastName":"Pérez", "specialty":"Geriatría" }|
+|Explicación del Response	|Retorna el nuevo doctor creado con su ID generado.|
+
+**3.4. PUT /api/v1/doctors/{id}**
+   
+|Campo|	Descripción|
+|-----|------------|
+|Acciones Implementadas	|Actualización de doctor existente|
+|Sintaxis de Llamada|	/api/v1/doctors/{id}|
+|Método	|PUT|
+|Parámetros	|Path param: id + Body JSON|
+|Ejemplo	|PUT http://localhost:8083/api/v1/doctors/3|
+|Explicación del Response	|Confirma la actualización y devuelve el recurso modificado.|
+
+**4. USERS-SERVICE — Family Members Endpoints**
+   
+**4.1. GET /api/v1/family-members**
+   
+|Campo	|Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Obtener todos los familiares|
+|Sintaxis de Llamada|	/api/v1/family-members|
+|Método	|GET|
+|Parámetros|	Ninguno|
+|Ejemplo de Llamada|	GET http://localhost:8083/api/v1/family-members|
+|Explicación del Response	|Retorna un arreglo JSON con todos los miembros registrados.|
+
+**4.2. POST /api/v1/family-members**
+
+|Campo	|Descripción|
+|-------|-----------|
+|Acciones Implementadas|	Crear un familiar|
+|Sintaxis de Llamada|	/api/v1/family-members|
+|Método|	POST|
+|Parámetros|	Body JSON|
+|Ejemplo de Body|	{ "fullName": "Carla Rivas", "relation": "Hija", "doctorId": 2 }|
+|Explicación del Response	|Devuelve el familiar creado junto con su ID generado.|
+
+**4.3. GET /api/v1/family-members/{id}**
+
+|Campo|	Descripción|
+|-----|------------|
+|Acciones Implementadas	|Obtener un familiar por ID|
+|Sintaxis de Llamada	|/api/v1/family-members/{id}|
+|Método	|GET|
+|Parámetros|	id (path param)|
+|Ejemplo de Llamada	|GET http://localhost:8083/api/v1/family-members/1|
+|Explicación del Response	|Devuelve los datos completos del familiar.|
+
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
 
 Aqui se evidencia que el landing page esta desplegado de manera correcta. Link de deployment:[https://seniorhub.vercel.app/](https://seniorhub.vercel.app/)
@@ -495,6 +626,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
