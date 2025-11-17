@@ -603,6 +603,7 @@ Para la gestión y visualización del avance de tareas, se utilizó el tablero d
 </div>
 
 **US1 — Recordatorio de medicamentos**
+
 |Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|	N1-T1|	Modelo y entidad |MedicationReminder|	Crear entidad, atributos y relaciones básicas para recordatorios.	|5h|	Equipo Vitalia|	Done|
@@ -610,51 +611,59 @@ Para la gestión y visualización del avance de tareas, se utilizó el tablero d
 |T3|	N1-T3|	Generación automática de notificación	|Implementar evento que dispare notificación al residente y familiar.|	7h|	Equipo Vitalia	|To Review|
 
 **US2 — Confirmación de recepción**
-|Work Item / Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|N2-T1|Botón de lectura|Implementar acción para marcar notificación como leída.|3h|Equipo Vitalia|Done| 
 |T2|N2-T2|Actualización de estado|Cambiar estado de “unread → read”.|2h|Equipo Vitalia|Done| 
 |T3|N2-T3|Reenvío automático|Implementar reenvío si no se confirma en 30 minutos.|4h|Equipo Vitalia|In Process|
 
 **US3 — Historial de notificaciones**
-|Work Item / Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|N3-T1|Listado de notificaciones|Endpoint GET para historial ordenado.|5h|Equipo Vitalia|Done| 
 |T2|N3-T2|Exportación PDF|Generar PDF del historial.|6h|Equipo Vitalia|To Review|
 
 **US4 — Reserva de cita**
-|Work Item / Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status| 
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|C4-T1|Modelo Cita|Crear entidad y validaciones básicas.|4h|Equipo Vitalia|Done| 
 |T2|C4-T2|Reserva desde app|Endpoint para crear cita y bloquear horario.|6h|Equipo Vitalia|In Process| 
 |T3|C4-T3|Notificación automática|Cada vez que se crea una cita, enviar notificación al cuidador.|3h|Equipo Vitalia|Done|
 
 **US5 — Visualización de calendario**
-|Work Item /Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|C5-T1|Vista diaria/semanal|Implementar estructura del calendario.|6h|EquipoVitalia|In Process| 
 |T2|C5-T2|Filtro por residente|Endpoint conparámetro dinámico para filtros.|4h|Equipo Vitalia|To Review|
 
 **US6 — Recordatorio de citas**
-|Work Item /Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|C6-T1|Notificación 24h|Servicio programado para disparar recordatorio.|5h|Equipo Vitalia|Done| 
 |T2|C6-T2|Notificación 1h antes|Segundo recordatorio.|3h|Equipo Vitalia|Done|
 
 **US7 — Cancelar/Reprogramar cita**
-|Work Item / Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------| 
 |T1|C7-T1|Cancelar cita|Endpoint DELETE.|4h|Equipo Vitalia|In Process|
 |T2|C7-T2|Reprogramar cita|Endpoint PATCH con nuevo horario y reenvío de notificación.|5h|Equipo Vitalia|To Review|
 
 **US9 — Registro de residente**
-|Work Item /Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|R9-T1|Crear entidadResident|Datos básicos + validaciones.|6h|Equipo Vitalia|Done|
 |T2|R9-T2|Registro vía API|Endpoint POST.|5h|Equipo Vitalia|In Process|
 
 **US10 — Perfil de residente**
-|Work Item /Task|Id|Title|Description|Estimation (Hours)|Assigned To|Status|
+
+|Work Item / Task|	Id|	Title|	Description	|Estimation (Hours)	|Assigned To	Status|
 |----------------|----|------|--------------|-------------------|-------------------|
 |T1|R10-T1|Vista perfil|Estructura JSON con salud, citas y dieta.|6h|Equipo Vitalia|To
 Review|
@@ -692,6 +701,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
