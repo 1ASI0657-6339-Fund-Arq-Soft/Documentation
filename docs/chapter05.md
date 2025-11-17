@@ -757,6 +757,16 @@ En esta sección de presentan los endpoints desarrollados en el presente sprint 
 #### 5.2.2.5	Microservices Documentation Evidence for Sprint Review
 
 #### 5.2.2.6	Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 no se realizó ningún despliegue hacia entornos externos. Esto se debió a que las actividades del Sprint estuvieron enfocadas exclusivamente en:
+
+- Documentación y validación de los microservicios (Residents, Nutrition, Appointments, Payments y Notifications).
+- Revisión de endpoints expuestos mediante Swagger / OpenAPI.
+- Ajustes internos en la arquitectura y preparación de los servicios para futuras integraciones.
+- Consolidación del desarrollo backend previo a habilitar pipelines o despliegues formales.
+
+Como consecuencia, todas las implementaciones permanecieron en ambiente local de desarrollo y dentro de sus respectivos repositorios, quedando preparadas para ser integradas a un flujo de CI/CD en el siguiente Sprint.
+
 #### 5.2.2.7	Team Collaboration Insights during Sprint
 #### 5.2.2.8	Kanban Board --> (Avance 3)
 
@@ -806,6 +816,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
