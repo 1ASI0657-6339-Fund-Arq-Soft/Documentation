@@ -755,9 +755,31 @@ En esta sección de presentan los endpoints desarrollados en el presente sprint 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/457d2d07-fbb0-45b1-9999-269d82ba1175" />
 
 #### 5.2.2.5	Microservices Documentation Evidence for Sprint Review
+
 #### 5.2.2.6	Software Deployment Evidence for Sprint Review
 #### 5.2.2.7	Team Collaboration Insights during Sprint
 #### 5.2.2.8	Kanban Board --> (Avance 3)
+
+El tablero Kanban es una herramienta visual utilizada para organizar, priorizar y monitorear el flujo de trabajo del equipo durante el desarrollo del Sprint 2 del proyecto SeniorHub. Gracias a este tablero, fue posible mantener visibilidad sobre el estado actual de cada actividad técnica relacionada con los microservicios desarrollados y asegurar que el progreso del Sprint se alineara con los objetivos establecidos.
+
+El tablero se estructuró en cuatro columnas principales:
+
+- To Do (Por hacer): Tareas planificadas y pendientes de iniciar.
+- In Progress (En progreso): Tareas actualmente en desarrollo.
+- Review (En revisión): Tareas implementadas que están siendo verificadas o probadas.
+- Done (Hecho): Tareas completadas, validadas y listas para integración.
+
+**Evidencia del Tablero Kanban**
+
+Herramienta utilizada: Trello
+Sprint: 2
+Objetivo del Sprint: Documentar y validar los microservicios Residents, Nutrition, Appointments, Payments y Notifications; asegurar la correcta exposición de endpoints mediante Swagger/OAS3; y avanzar en la integración técnica del backend.
+Duración: 2/11/2025 – 16/11/2025
+
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/65488336-1092-402f-8568-f868a151a66a" />
+</div>
+
 ### 5.2.3	Sprint 3
 
 A continuación, se presentará el sprint planning 3 donde se mostrarán las evidencias de planificación para la implementación de SeniorHub.
@@ -784,6 +806,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
