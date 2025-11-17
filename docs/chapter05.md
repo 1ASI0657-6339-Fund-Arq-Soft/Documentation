@@ -995,9 +995,35 @@ Se evidencia con esto que el desarrollo del frontend se completó durante este S
 #### 5.2.3.5	Microservices Documentation Evidence for Sprint Review
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
+
+![evidence](feature/chapter04/assets/Evidence.png)
+![evidence](../../assets/front.png)
+
 ####  5.2.3.8	Kanban Board --> (Avance 4)
 
+El tablero Kanban es una herramienta visual utilizada para organizar, priorizar y monitorear el flujo de trabajo del equipo durante el desarrollo del Sprint 3 del proyecto SeniorHub. Gracias a este tablero, fue posible mantener visibilidad sobre el estado actual de cada actividad técnica relacionada con los componentes del frontend y asegurar que el progreso del Sprint se alineara con los objetivos establecidos.
 
+El tablero se estructuró en cuatro columnas principales:
+
+- To Do (Por hacer): Tareas planificadas y pendientes de iniciar.
+
+- In Progress (En progreso): Tareas actualmente en desarrollo.
+
+- Review (En revisión): Tareas implementadas que están siendo verificadas o probadas.
+
+- Done (Hecho): Tareas completadas, validadas y listas para integración.
+
+Evidencia del Tablero Kanban – Frontend
+
+Herramienta utilizada: Trello
+
+Sprint: 3
+
+Objetivo del Sprint: Implementar y validar los módulos y componentes de frontend (Appointments, Payments y Notifications); asegurar la correcta interacción con los endpoints del backend; y garantizar la experiencia de usuario final.
+
+Duración: 2/11/2025 – 16/11/2025
+
+![Sprint3](../assets/ASprint3.png)
 
 
 
