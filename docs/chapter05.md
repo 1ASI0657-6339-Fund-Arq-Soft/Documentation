@@ -809,6 +809,13 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 |Sum of Story Points|	14|
 
 #### 5.2.3.1	Sprint Backlog 3
+
+A continuación, se presenta el Sprint Backlog del Sprint 1.
+Para la gestión y visualización del avance de tareas, se utilizó el tablero de Trello.
+![Sprint3](../assets/ASprint3.png)
+
+https://trello.com/invite/b/691a884e7b31705544dd9e36/ATTI4f62995f41ced52a4026c5500a3d3e1f73E98F8E/seniorhub-sprint3 
+
 #### 5.2.3.2	Development Evidence for Sprint Review
 #### 5.2.3.3	Testing Suite Evidence for Sprint Review
 #### 5.2.3.4	Execution Evidence for Sprint Review
@@ -816,6 +823,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
