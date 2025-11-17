@@ -318,14 +318,67 @@ Link de Trello: [https://trello.com/invite/b/68e547015b3e5338979e9169/ATTIb0ff97
 
 #### 5.2.1.2     Development Evidence for Sprint Review
 
+Durante este Sprint se implementaron y documentaron avances significativos en los distintos componentes de la solución SeniorHub – Vitalia. El equipo trabajó en tres frentes principales: Web Services (Backend – Microservicios IAM y Users), Web Application (Landing Page) y la configuración general del proyecto. Todas las implementaciones fueron versionadas en GitHub y se muestran los commits relevantes del Sprint.
+
+**Resumen de los avances del Sprint**
+
+**Web Services (Backend – IAM Service y Users Service)**
+
+Se crearon los dos microservicios centrales del sistema:
+
+- IAM-service: responsable de la gestión de autenticación, inicio de sesión y administración inicial de credenciales.
+- Users-service: encargado de la gestión de usuarios internos y externos.
+
+Para ambos servicios se realizó:
+
+- La inicialización completa de cada proyecto.
+- Configuración base del repositorio y estructura del microservicio.
+- Preparación para la futura integración mediante API Gateway.
+
+**Web Application (Landing Page)**
+
+Se avanzó de manera importante en la capa de presentación:
+
+- Implementación completa inicial de la landing page.
+- Reestructuración del código para mejorar legibilidad, mantenibilidad y escalabilidad.
+- Integración del branch develop hacia main.
+- Ajustes visuales coherentes con la identidad del proyecto Vitalia.
+
+**Evidencias de Desarrollo (Commits del Sprint)**
+
+**Web Services (Backend)**
+
+IAM Service — [1ASI0657-6339-Fund-Arq-Soft / IAM-service](https://github.com/1ASI0657-6339-Fund-Arq-Soft/IAM-service)
+
+| Repository|	Branch|	Commit ID|	Commit Message|	Commit Body|	Date|
+|-----------|-------|----------|----------------|------------|------|
+|IAM-service|	main|	148da5f	|chore: initial commit|	Initial commit|	05/10/2025|
+|IAM-service|	main|	189f61e	|chore: initial commit|	Initial commit|	05/10/2025|
+
+Users Service — [1ASI0657-6339-Fund-Arq-Soft / users-service](https://github.com/1ASI0657-6339-Fund-Arq-Soft/users-service)
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body|	Date|
+|----------|--------|----------|----------------|------------|------|
+|users-service|	main	|af1d8e5|	chore: initial commit	|Initial commit	|06/10/2025|
+
+Landing Page — [1ASI0657-6339-Fund-Arq-Soft / landing-page](https://github.com/1ASI0657-6339-Fund-Arq-Soft/landing-page)
+
+|Repository|	Branch|	Commit ID|	Commit Message	|Commit Body|	Date|
+|----------|--------|----------|------------------|-----------|-----|
+|landing-page|	main|	449ec42	|initial: first commit & full landing page |impl	Implementación completa inicial de la landing page|	08/10/2025|
+|landing-page	|main|	c4c3774|	Merge branch 'develop'|	Integración de los cambios del branch develop|	08/10/2025|
+|landing-page|	main|	cf97290|	Refactor code structure for improved readability and maintainability|	Reestructuración del código para mejorar mantenibilidad y orden	|08/10/2025|
+|landing-page|	main|	8ea0992|	Initial commit|	Initial commit|	08/10/2025|
+
+#### 5.2.1.3     Testing Suite Evidence for Sprint Review
+#### 5.2.1.4     Execution Evidence for Sprint Review
+
 En esta sección de presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas:
 
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/52aa1139-2a12-4358-bf9f-d3c288c702f7" />
 
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/566f8dfc-36b9-4e1d-b9be-76f9d632abdc" />
 
-#### 5.2.1.3     Testing Suite Evidence for Sprint Review
-#### 5.2.1.4     Execution Evidence for Sprint Review
 #### 5.2.1.5     Microservices Documentation Evidence for Sprint Review
 
 #### 5.2.1.6     Software Deployment Evidence for Sprint Review
@@ -442,6 +495,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
