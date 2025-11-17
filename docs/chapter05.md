@@ -669,8 +669,65 @@ Para la gestión y visualización del avance de tareas, se utilizó el tablero d
 Review|
 
 #### 5.2.2.2	Development Evidence for Sprint Review
+
+Durante este Sprint se implementaron y documentaron avances significativos en los distintos componentes de la solución SeniorHub – Vitalia.
+El equipo trabajó en cuatro frentes principales correspondientes a la arquitectura basada en microservicios: Nutrition Service, Appointment Service, Payment Service y Notification Service.
+Cada microservicio fue implementado, configurado y documentado utilizando Swagger – OpenAPI 3.0, asegurando su preparación para la integración vía API Gateway y Eureka.
+
+**Web Services (Backend – Microservicios Nutrition, Appointment, Payment, Resident y Notification)**
+
+Durante este Sprint se desarrollaron los cuatro microservicios esenciales de SeniorHub:
+
+- Nutrition Service: Gestión de registros alimenticios, historial nutricional y clasificación por fecha, tipo de comida y residente.
+- Appointment Service: Administración de citas médicas, consultas y coordinación entre doctores y residentes.
+- Payment Service: Gestión de recibos, historial de pagos y consultas financieras asociadas al residente.
+- Notification Service: Sistema de envío, archivado y lectura de notificaciones en tiempo real.
+
+Para cada uno de los microservicios se realizó lo siguiente:
+
+- Inicialización completa del proyecto Spring Boot.
+- Creación de controladores REST y definición de endpoints funcionales.
+- Documentación automática a través de Swagger OpenAPI.
+- Configuración base para futura integración mediante API Gateway.
+- Validación de cada endpoint mediante pruebas locales.
+
+A continuación se detallan los avances y la evidencia del desarrollo.
+
+**Nutrition Service — 1ASI0657-6339-Fund-Arq-Soft / Nutrition-service**
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body	|Date|
+|----------|--------|----------|----------------|-------------|----|
+|nutrition-service|	main|	f05def8|	feat: Implement Food Entry Management|	Implementación del CRUD completo de Food |	16/11/2025|
+|nutrition-service|	main|	895e2fa|	Initial commit|	Initial commit|	13/11/2025|
+
+**Appointments Service — 1ASI0657-6339-Fund-Arq-Soft / appointments-service**
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body	|Date|
+|----------|--------|----------|----------------|-------------|----|
+|appointments-service|	main|	a4d71ab|	feat: Implement appointment management service with CRUD operations	|Implementación del servicio de citas con CRUD completo|	16/11/2025|
+|appointments-service|	main|	efdfa3e|	Initial commit|	Initial commit|	13/11/2025|
+
+**Residents Service — 1ASI0657-6339-Fund-Arq-Soft / residents-services**
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body	|Date|
+|----------|--------|----------|----------------|-------------|----|
+|residents-services|	main|	476afb2	|Initial commit: residents-services|	Initial commit	|09/11/2025|
+
+**Payment Service — SeniorHub / payment-service**
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body	|Date|
+|----------|--------|----------|----------------|-------------|----|
+|Payment-Service|	main|	68054f2|	initial commit: Payment Service|	Initial commit	|03/11/2025|
+
+**Notification Service — SeniorHub / notification-service**
+
+|Repository|	Branch|	Commit ID|	Commit Message|	Commit Body	|Date|
+|----------|--------|----------|----------------|-------------|----|
+|Notification-Service|	main|	b7410a1|	initial commit: Notification Service|	Initial commit|	03/11/2025|
+
 #### 5.2.2.3	Testing Suite Evidence for Sprint Review
 #### 5.2.2.4	Execution Evidence for Sprint Review
+
 #### 5.2.2.5	Microservices Documentation Evidence for Sprint Review
 #### 5.2.2.6	Software Deployment Evidence for Sprint Review
 #### 5.2.2.7	Team Collaboration Insights during Sprint
@@ -701,6 +758,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
