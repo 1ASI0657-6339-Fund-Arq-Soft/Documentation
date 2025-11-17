@@ -728,6 +728,32 @@ A continuación se detallan los avances y la evidencia del desarrollo.
 #### 5.2.2.3	Testing Suite Evidence for Sprint Review
 #### 5.2.2.4	Execution Evidence for Sprint Review
 
+En esta sección de presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas:
+
+**Nutrition Service**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f9a29428-e6e4-456b-8a90-63d5c0200cf3" />
+
+**Appointments Service**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5914258f-51ae-49ca-9f84-87336461b2fc" />
+
+**Residents Service**
+
+<img width="1280" height="672" alt="image" src="https://github.com/user-attachments/assets/f5d6cf7f-ec80-497d-8a53-bf78df21e753" />
+
+<img width="1272" height="672" alt="image" src="https://github.com/user-attachments/assets/1591206d-d9f2-4a3e-8601-a5f51992aa27" />
+
+<img width="1280" height="677" alt="image" src="https://github.com/user-attachments/assets/7856bdd9-2640-4dbe-9209-2320147a9c7a" />
+
+**Payment Service**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a91ed606-97f1-4f56-8c8a-3727b912e977" />
+
+**Notification Service**
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/457d2d07-fbb0-45b1-9999-269d82ba1175" />
+
 #### 5.2.2.5	Microservices Documentation Evidence for Sprint Review
 #### 5.2.2.6	Software Deployment Evidence for Sprint Review
 #### 5.2.2.7	Team Collaboration Insights during Sprint
@@ -758,6 +784,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
