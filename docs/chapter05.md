@@ -881,6 +881,37 @@ Durante el Sprint 2 no se realizó ningún despliegue hacia entornos externos. E
 Como consecuencia, todas las implementaciones permanecieron en ambiente local de desarrollo y dentro de sus respectivos repositorios, quedando preparadas para ser integradas a un flujo de CI/CD en el siguiente Sprint.
 
 #### 5.2.2.7	Team Collaboration Insights during Sprint
+
+A continuación se presentan los insights de colaboración en los repositorios de Github:
+Link de organización Github: [https://github.com/1ASI0657-6339-Fund-Arq-Soft](https://github.com/1ASI0657-6339-Fund-Arq-Soft)
+
+Documentation. [https://github.com/1ASI0657-6339-Fund-Arq-Soft/Documentation](https://github.com/1ASI0657-6339-Fund-Arq-Soft/Documentation)
+<div align="center">
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/d2bd97cf-08a4-47dc-8542-8a90e43fec07" />
+</div>
+
+<div align="center">
+<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/86834b72-b690-4633-8bfc-a2125ab61557" />
+</div>
+
+<div align="center">
+<img width="1000" height="900" alt="image" src="https://github.com/user-attachments/assets/cccb9000-4793-410e-b5b7-10914895ab29" />
+</div>
+
+<div align="center">
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e3dc53dd-b8f6-456c-867d-e0260cc2cafe" />
+</div>
+
+<div align="center">
+<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/fd18650a-2644-464c-ba33-6c8a4efdd583" />
+</div>
+
+Landing Page: [https://github.com/1ASI0657-6339-Fund-Arq-Soft/landing-page](https://github.com/1ASI0657-6339-Fund-Arq-Soft/landing-page)
+
+<div align="center">
+<img width="1025" height="569" alt="image" src="https://github.com/user-attachments/assets/bb1507cb-2276-469d-8e7b-2ccd5c03bca0" />
+</div>
+
 #### 5.2.2.8	Kanban Board --> (Avance 3)
 
 El tablero Kanban es una herramienta visual utilizada para organizar, priorizar y monitorear el flujo de trabajo del equipo durante el desarrollo del Sprint 2 del proyecto SeniorHub. Gracias a este tablero, fue posible mantener visibilidad sobre el estado actual de cada actividad técnica relacionada con los microservicios desarrollados y asegurar que el progreso del Sprint se alineara con los objetivos establecidos.
@@ -936,6 +967,7 @@ https://trello.com/invite/b/691a884e7b31705544dd9e36/ATTI4f62995f41ced52a4026c55
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
