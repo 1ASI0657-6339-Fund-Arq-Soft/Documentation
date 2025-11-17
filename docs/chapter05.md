@@ -261,7 +261,7 @@ A continuación, se presentará el sprint planning 1 donde se mostrarán las evi
 | Location |	Modalidad remota por Discord |
 | Prepared By |	Fatima Asmad |
 | Attendees (to planning meeting) |	Todos los miembros del equipo SeniorHub |
-| Sprint n – 0 Review Summary |	El proyecto de JobSync ya tenía implementado el backend API con el framework .NET. Por lo tanto, lo hemos migrado a Spring Boot para utilizar sus librerías y trabajar con microservicios. Asimismo, la aplicación web front-end estaba en su mayor parte terminada. Sin embargo, hemos hecho cambios en la lógica del negocio en cuanto al tema de organizaciones de los reclutadores, donde ahora los reclutadores pueden pertenecer a sólo una organización.|
+| Sprint n – 0 Review Summary |	El proyecto se desarrollo de manera parcial para esta enttrega , se espera hacer un avance del backend de los microservicios.|
 | Sprint n – 1 Retrospective Summary	 | En este presente sprint se tiene como objetivo desarrollar tres microservicios que conecten con APIs externos: -	Servicio para subir archivos blob a la nube -	Servicio para subir imagenes y media a la nube -	API de Stripe para realizar pagos. Asimismo, vamos a conectarlos a la API inicial a través de un API Gateway facilitado por Netflix Eureka y Spring Cloud.|
 ||Sprint Goal & User Stories|
 |Sprint 1 Velocity	|19 |
@@ -441,6 +441,7 @@ A continuación, se presentará el sprint planning 3 donde se mostrarán las evi
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
