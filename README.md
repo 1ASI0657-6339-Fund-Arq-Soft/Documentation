@@ -26,6 +26,7 @@ Grupo: 02
 |   Fatima Andrea Asmad Padilla  | U20221b490 |
 |  Andrés Fernado Rodriguez Zuluoeta  |u202124213 |
 | Fabian Alonso Reyes Trujillano | U202218233|
+| Adriana Maria Diestra Zambrano | U202218110|
 
 
 Agosto 2025
