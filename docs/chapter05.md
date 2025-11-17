@@ -756,6 +756,119 @@ En esta sección de presentan los endpoints desarrollados en el presente sprint 
 
 #### 5.2.2.5	Microservices Documentation Evidence for Sprint Review
 
+Durante este Sprint se documentaron y verificaron los endpoints de los microservicios que conforman la arquitectura distribuida de SeniorHub – Vitalia.
+
+La siguiente evidencia demuestra la correcta exposición, organización y funcionamiento de cada API, basadas en Swagger / OpenAPI 3.0.
+
+Los microservicios cubiertos en este Sprint son:
+
+- Residents Service 
+- Nutrition Service
+- Appointment Service
+- Payment Service
+- Notification Service
+
+** Residents Microservice API – Documentation Evidence **
+
+- Base URL: http://localhost:8081
+- Versión: v1.0.0
+- Descripción: Gestión integral del residente, incluyendo historiales médicos, salud mental y medicación.
+
+**Resident Management Endpoints**
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/residents/{residentId}|	Obtener residente por ID|
+|DELETE	|/api/v1/residents/{residentId}	|Eliminar residente|
+|GET	|/api/v1/residents	Listar todos |los residentes|
+|GET	|/api/v1/residents/{residentId}/details|	Obtener detalles completos del residente|
+|GET	|/api/v1/residents/searchByDni|	Buscar residente por DNI|
+|POST	|/api/v1/residents	|Crear nuevo residente|
+|PUT	|/api/v1/residents/{residentId}	|Actualizar datos del residente|
+
+**Medical Histories – Medical History Management**
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/residents/{residentId}/medical-histories	|Listar historiales médicos|
+|POST	|/api/v1/residents/{residentId}/medical-histories	|Crear historial médico|
+
+**Mental Health Records – Mental Health Management**
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/residents/{residentId}/mental-health-records	|Listar registros de salud mental|
+|POST|	/api/v1/residents/{residentId}/mental-health-records	|Registrar nuevo evento de salud mental|
+
+**Medications – Medication Management**
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/residents/{residentId}/medications	|Listar medicamentos|
+|POST	|/api/v1/residents/{residentId}/medications	|Agregar medicamento|
+|DELETE	|/api/v1/residents/{residentId}/medications/{medicationId}	|Eliminar medicamento|
+
+**Nutrition Service API – Documentation Evidence**
+
+- Base URL: http://localhost:8086
+- Versión: v1.0.0
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/food-entries/{foodEntryId}	|Obtener entrada alimentaria por ID|
+|PUT	|/api/v1/food-entries/{foodEntryId}	|Actualizar entrada alimentaria|
+|DELETE	|/api/v1/food-entries/{foodEntryId}	|Eliminar entrada|
+|GET	|/api/v1/food-entries	|Listar todas las entradas|
+|POST	|/api/v1/food-entries	|Crear entrada alimentaria|
+|GET	|/api/v1/food-entries/target/{targetId}	|Obtener por target|
+|GET	|/api/v1/food-entries/meal/{mealType}	|Filtrar por tipo de comida|
+|GET	|/api/v1/food-entries/date/{date}	|Filtrar por fecha|
+
+**Appointment Service API – Documentation Evidence**
+
+- Base URL: http://localhost:8085
+- Versión: v1.0.0
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|GET|	/api/v1/appointments/{appointmentId}|	Obtener cita por ID|
+|PUT|	/api/v1/appointments/{appointmentId}	|Actualizar cita|
+|DELETE|	/api/v1/appointments/{appointmentId}|	Eliminar cita|
+|GET|	/api/v1/appointments	|Listar citas|
+|POST|	/api/v1/appointments|	Crear nueva cita|
+|GET	|/api/v1/appointments/searchByResidentId	|Buscar por residente|
+|GET	|/api/v1/appointments/searchByDoctorId|	Buscar por doctor|
+
+**Payment Microservice API – Documentation Evidence**
+
+- Base URL: http://localhost:8082
+- Versión: v1.0.0
+
+|Método|	Endpoint	|Descripción|
+|-------|--------|-------------|
+|DELETE	|/api/v1/receipts/{receiptId}|	Eliminar recibo|
+|GET	|/api/v1/receipts/{receiptId}	|Obtener recibo|
+|GET	|/api/v1/receipts|	Listar recibos|
+|GET	|/api/v1/receipts/resident/{residentId}|	Filtrar por residente|
+|POST	|/api/v1/receipts|	Crear recibo|
+|PUT	|/api/v1/receipts/{receiptId}	|Actualizar recibo|
+
+**Notification Microservice API – Documentation Evidence**
+
+- Base URL: http://localhost:8083
+- Versión: v1.0.0
+
+|Método	|Endpoint|	Descripción|
+|-------|--------|-------------|
+|GET	|/api/v1/notifications	|Listar notificaciones|
+|POST|	/api/v1/notifications|	Crear notificación|
+|GET	|/api/v1/notifications/notifications/{userId}|	Listar por usuario|
+|GET	|/api/v1/notifications/search|	Filtrar por estado|
+|POST	|/api/v1/notifications/{id}/mark-as-read	|Marcar como leída|
+|POST|	/api/v1/notifications/{id}/archive|	Archivar|
+|POST	|/api/v1/notifications/{id}/unarchive	|Desarchivar|
+|DELETE|	/api/v1/notifications/{id}|	Eliminar|
+
 #### 5.2.2.6	Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 no se realizó ningún despliegue hacia entornos externos. Esto se debió a que las actividades del Sprint estuvieron enfocadas exclusivamente en:
@@ -823,6 +936,7 @@ https://trello.com/invite/b/691a884e7b31705544dd9e36/ATTI4f62995f41ced52a4026c55
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
 ####  5.2.3.8	Kanban Board --> (Avance 4)
+
 
 
 
