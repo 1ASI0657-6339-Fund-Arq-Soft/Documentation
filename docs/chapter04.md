@@ -86,7 +86,7 @@ Se muestra el diagrama de estado que representa los estados posibles de un resid
 
 El modelo relacional propuesto organiza la información en entidades principales como Residente, Familiar, Enfermera, Médico y Hogar de Cuidado, garantizando la integridad de los datos mediante claves primarias y foráneas. Además, se incluyen tablas específicas para gestionar historiales médicos, registros de salud mental, medicamentos y actividades. El modelo también contempla funcionalidades clave como la comunicación entre familiares y cuidadores, la gestión de alertas de salud y la programación de citas, lo que permite una administración estructurada y consistente de la información.
 
-<img src="../assets/DBSeniorHub.png" alt="DataBaseDiagram"/>
+![Database](../assets/DBSeniorHub.png)
 
 #### 4.1.6	Design Patterns
 
