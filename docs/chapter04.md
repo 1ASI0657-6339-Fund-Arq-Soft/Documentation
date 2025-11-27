@@ -378,9 +378,9 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
 
   - Appointment Service
  
-    ![Appoinment](../assets/Appointment_service.png)
+    ![Appointment](../assets/AppointmentService.png)
 
-  - Notification Service
+   - Notification Service
  
     ![Notification Diagram](../assets/Notification_Service.png)
 
