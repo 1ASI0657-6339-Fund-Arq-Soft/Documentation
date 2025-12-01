@@ -960,6 +960,49 @@ Para la gestión y visualización del avance de tareas, se utilizó el tablero d
 
 https://trello.com/invite/b/691a884e7b31705544dd9e36/ATTI4f62995f41ced52a4026c5500a3d3e1f73E98F8E/seniorhub-sprint3 
 
+Historia de usuario: US-01 – Pantalla de Login
+
+| Historia | Elemento de trabajo | ID | Título                                | Descripción                                                                        | Horas | Asignado         | Estado       |
+| -------- | ------------------- | -- | ------------------------------------- | ---------------------------------------------------------------------------------- | ----- | ---------------- | ------------ |
+| US-01  | Login               | T1 | Maquetado visual del Login            | Crear la interfaz inicial: layout de dos columnas, texto informativo y formulario. | 1     | equipo SeniorHub | Hecho        |
+|          |                     | T2 | Implementar conexión con Auth-Service | Consumir `/login`.                                                   | 2     | equipo SeniorHub | Hecho        |
+|          |                     | T3 | Manejo de errores                     | Mostrar mensajes ante credenciales inválidas.                                      | 1     | equipo SeniorHub | Hecho        |
+|          |                     | T4 | Estilos responsivos                   | Ajustar UI para mobile y desktop.                                                  | 1     | equipo SeniorHub | Hecho        |
+|          |                     | T5 | Pruebas funcionales                   | Validar ingreso exitoso por rol (Familiar, Cuidador, Doctor).                      | 2     | equipo SeniorHub | Para revisar |
+
+
+Historia de usuario: US-02 – Registro de usuarios
+
+| Historia | Elemento de trabajo | ID | Título                        | Descripción                                                    | Horas | Asignado         | Estado       |
+| -------- | ------------------- | -- | ----------------------------- | -------------------------------------------------------------- | ----- | ---------------- | ------------ |
+| US-02  | Registro            | T1 | UI del formulario de registro | Implementar layout, inputs y diseño general.                   | 2     | equipo SeniorHub | Hecho        |
+|          |                     | T2 | Validaciones del formulario   | Confirmación de contraseña, email válido, campos obligatorios. | 1     | equipo SeniorHub | Hecho        |
+|          |                     | T3 | Conexión con Auth-Service     | Consumir endpoint `/register`.                                 | 2     | equipo SeniorHub | Hecho        |
+|          |                     | T4 | Mensajes de estado            | Mostrar mensajes de éxito y errores del backend.               | 2     | equipo SeniorHub | Hecho        |
+|          |                     | T5 | Pruebas funcionales           | Crear cuentas según roles y validarlas.                        | 2     | equipo SeniorHub | Para revisar |
+
+
+Historia de usuario: US-03 – Dashboard Familiar
+
+| Historia | Elemento de trabajo | ID | Título                    | Descripción                                                               | Horas | Asignado         | Estado       |
+| -------- | ------------------- | -- | ------------------------- | ------------------------------------------------------------------------- | ----- | ---------------- | ------------ |
+| US-03  | Dashboard Familiar  | T1 | Diseño del dashboard      | Crear el layout con tarjetas informativas (citas, notificaciones, pagos). | 2     | equipo SeniorHub | Hecho        |
+|          |                     | T2 | Lista de próximas citas   | Implementar tarjetas con fecha, tipo y profesional.                       | 3     | equipo SeniorHub | Hecho        |
+|          |                     | T3 | Información del residente | Conectar UI con datos del residente (nombre, edad, estado).               | 4     | equipo SeniorHub | Hecho        |
+|          |                     | T4 | Navegación lateral        | Crear menú lateral con secciones: Dashboard, Notificaciones, Pagos, etc.  | 4     | equipo SeniorHub | Hecho        |
+|          |                     | T5 | Pruebas UI/UX             | Validar navegación, responsividad y carga de datos.                       | 2     | equipo SeniorHub | Para revisar |
+
+
+Historia de usuario: US-04 – Navbar y manejo de sesión
+
+| Historia | Elemento de trabajo | ID | Título             | Descripción                                                | Horas | Asignado         | Estado |
+| -------- | ------------------- | -- | ------------------ | ---------------------------------------------------------- | ----- | ---------------- | ------ |
+| US-04  | Sesión              | T1 | Implementar Navbar | Agregar nombre del usuario según JWT.                      | 3     | equipo SeniorHub | Hecho  |
+|          |                     | T2 | Cerrar sesión      | Vaciar JWT y redirigir al login.                           | 2     | equipo SeniorHub | Hecho  |
+|          |                     | T3 | Ruta protegida     | Verificación automática del token al acceder al Dashboard. | 4     | equipo SeniorHub | Hecho  |
+|          |                     | T4 | Estilos del Navbar | Aplicar diseño consistente con el sistema.                 | 2     | equipo SeniorHub | Hecho  |
+
+
 #### 5.2.3.2	Development Evidence for Sprint Review
 
 Durante este Sprint se implementaron y documentaron avances significativos en el frontend de la solución SeniorHub. El equipo trabajó en la creación de interfaces de usuario interactivas y componentes reutilizables que permiten la interacción con los microservicios desarrollados en el backend. 
@@ -1070,6 +1113,7 @@ Objetivo del Sprint: Implementar y validar los módulos y componentes de fronten
 Duración: 2/11/2025 – 16/11/2025
 
 ![Sprint3](../assets/ASprint3.png)
+
 
 
 
