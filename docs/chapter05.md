@@ -1226,6 +1226,48 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 
 5.2.2.4 Sprint Backlog 4
 
+### US-29 Front
+
+| Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
+| :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
+| T1               |    | Diseño de estructura base del Front                        | Crear el esqueleto principal de la aplicación incluyendo header, footer y secciones principales.         | 6                  | equipo Senior | Done             |
+| T2               |    | Maquetado de contenido informativo                         | Redactar y estructurar la información clave a mostrar en el Front.                                       | 5                  | equipo Senior | Done             |
+| T3               |    | Implementación del diseño responsivo                       | Adaptar la interfaz para visualización correcta en diferentes dispositivos usando HTML, CSS y Bootstrap. | 6                  | equipo Senior | Done       |
+| T4               |    | Publicación en GitHub                                      | Subir la primera versión funcional del Front al repositorio oficial.                                    | 3                  | equipo Senior | Done        |
+| **T5** |    | **Verificación de conexión Back-Front** | **Asegurar la correcta comunicación e integración del frontend con los microservicios del backend.** | **4** | **equipo Senior** | Done |
+
+### US-30 Registro
+
+| Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
+| :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
+| T1               |    | Diseño del formulario de contacto                          | Crear el formulario con los campos nombre, correo y mensaje.                                            | 4                  | equipo Senior | Done             |
+| T2               |    | Implementar validaciones básicas                           | Validar formato de email y campos obligatorios antes del envío.                                         | 3                  | equipo Senior | Done             |
+| T3               |    | Conexión con endpoint simulado                             | Implementar envío del formulario hacia un servicio simulado o endpoint temporal.                        | 5                  | equipo Senior | Done       |
+| T4               |    | Mensaje de confirmación visual                             | Mostrar mensaje “mensaje enviado con éxito” tras enviar el formulario.                                  | 2                  | equipo Senior | Done             |
+| T5               |    | Pruebas funcionales del registro                         | Verificar el correcto envío, validaciones y visualización.                                              | 3                  | equipo Senior | Done        |
+
+### US-02 CRUD de usuarios (User Service)
+
+| Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
+| :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
+| T1               |    | Crear proyecto User-Service                                | Generar proyecto Spring Boot para el servicio de usuarios.                                              | 4                  | equipo Senior | Done             |
+| T2               |    | Implementar entidad User y repositorio                     | Crear modelo y repositorio JPA.                                                                         | 3                  | equipo Senior | Done             |
+| T3               |    | Desarrollar endpoints CRUD                                 | Implementar GET, POST, PUT, DELETE con validaciones.                                                    | 6                  | equipo Senior | Done       |
+| T4               |    | Conectar con Auth-Service                                  | Integrar validación JWT con el microservicio de autenticación.                                          | 5                  | equipo Senior | Done        |
+| T5               |    | Documentar endpoints en Swagger                            | Añadir especificaciones de API.                                                                         | 3                  | equipo Senior | Done       |
+
+### Conexión de Microservicios (7 Microservicios)
+
+| Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
+| :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
+| T1               |    | Configuración de Gateway API                               | Implementar un API Gateway para orquestar las llamadas a los 7 microservicios.                          | 8                  | equipo Senior | Done       |
+| T2               |    | Integración con Residents Service                          | Conectar el frontend con el microservicio de residentes para gestión de información.                    | 5                  | equipo Senior | Done       |
+| T3               |    | Integración con Notification Service                       | Implementar la conexión para el envío y recepción de notificaciones.                                    | 5                  | equipo Senior | Done       |
+| T4               |    | Integración con Appointments Service                       | Enlazar el frontend con el microservicio de citas para agendamiento.                                    | 5                  | equipo Senior | Done        |
+| T5               |    | Integración con Nutrition Service                          | Conectar el frontend con el microservicio de nutrición para planes y seguimiento.                       | 5                  | equipo Senior | Done        |
+| T6               |    | Integración con Payment Service                            | Implementar la conexión segura con el microservicio de pagos.                                           | 6                  | equipo Senior | Done        |
+| T7               |    | Integración con IAM Service (Internal)                     | Conexión interna del backend con el IAM Service para gestión de identidad y acceso.                     | 4                  | equipo Senior | Done             |
+| T8               |    | Pruebas de integración de Microservicios                   | Realizar pruebas end-to-end para verificar la comunicación y el flujo de datos entre todos los microservicios. | 10                 | equipo Senior | Done        |
 
 
 
