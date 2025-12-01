@@ -1290,8 +1290,121 @@ Se avanzó de manera importante en la capa de presentación:
 * **Reestructuración del código**: Mejoras en la legibilidad, mantenibilidad y escalabilidad del código del Front.
 * **Ajustes visuales**: Consistencia con la identidad del proyecto.
 
+#### 5.2.4.5   Microservices Documentation Evidence for Sprint Review
 
+urante este Sprint, se ha completado la documentación y verificación final de los endpoints de todos los microservicios que conforman la arquitectura distribuida de SeniorHub – Vitalia. Esta evidencia demuestra la correcta exposición, organización y funcionamiento de cada API, basadas en Swagger / OpenAPI 3.0. Estos microservicios son los pilares que permiten la **interconexión fluida y operativa con el Frontend y el resto del Backend**, consolidando así el sistema completo y culminado.
 
+Los microservicios completamente documentados y verificados en este Sprint son:
+* Residents Service
+* Nutrition Service
+* Appointment Service
+* Payment Service
+* Notification Service
+
+#### Residents Microservice API – Documentation Evidence
+
+* **Base URL**: `http://localhost:8081`
+* **Versión**: `v1.0.0`
+* **Descripción**: Gestión integral del residente, incluyendo historiales médicos, salud mental y medicación. **Sus endpoints son consumidos por el Frontend para la gestión de residentes.**
+
+**Resident Management Endpoints**
+
+| Método   | Endpoint                             | Descripción                          |
+| :------- | :----------------------------------- | :----------------------------------- |
+| `GET`    | `/api/v1/residents/{residentId}`     | Obtener residente por ID             |
+| `DELETE` | `/api/v1/residents/{residentId}`     | Eliminar residente                   |
+| `GET`    | `/api/v1/residents`                  | Listar todos los residentes          |
+| `GET`    | `/api/v1/residents/{residentId}/details` | Obtener detalles completos del residente |
+| `GET`    | `/api/v1/residents/searchByDni`      | Buscar residente por DNI             |
+| `POST`   | `/api/v1/residents`                  | Crear nuevo residente                |
+| `PUT`    | `/api/v1/residents/{residentId}`     | Actualizar datos del residente       |
+
+**Medical Histories – Medical History Management**
+
+| Método | Endpoint                                    | Descripción                  |
+| :----- | :------------------------------------------ | :--------------------------- |
+| `GET`  | `/api/v1/residents/{residentId}/medical-histories` | Listar historiales médicos   |
+| `POST` | `/api/v1/residents/{residentId}/medical-histories` | Crear historial médico       |
+
+**Mental Health Records – Mental Health Management**
+
+| Método | Endpoint                                        | Descripción                           |
+| :----- | :---------------------------------------------- | :------------------------------------ |
+| `GET`  | `/api/v1/residents/{residentId}/mental-health-records` | Listar registros de salud mental      |
+| `POST` | `/api/v1/residents/{residentId}/mental-health-records` | Registrar nuevo evento de salud mental |
+
+**Medications – Medication Management**
+
+| Método   | Endpoint                                              | Descripción        |
+| :------- | :---------------------------------------------------- | :----------------- |
+| `GET`    | `/api/v1/residents/{residentId}/medications`          | Listar medicamentos |
+| `POST`   | `/api/v1/residents/{residentId}/medications`          | Agregar medicamento |
+| `DELETE` | `/api/v1/residents/{residentId}/medications/{medicationId}` | Eliminar medicamento |
+
+#### Nutrition Service API – Documentation Evidence
+
+* **Base URL**: `http://localhost:8086`
+* **Versión**: `v1.0.0`
+* **Descripción**: Gestión de las entradas alimentarias y planes de nutrición. **Endpoints esenciales para la interacción con el Frontend en la sección de nutrición.**
+
+| Método | Endpoint                             | Descripción                          |
+| :----- | :----------------------------------- | :----------------------------------- |
+| `GET`  | `/api/v1/food-entries/{foodEntryId}` | Obtener entrada alimentaria por ID   |
+| `PUT`  | `/api/v1/food-entries/{foodEntryId}` | Actualizar entrada alimentaria       |
+| `DELETE` | `/api/v1/food-entries/{foodEntryId}` | Eliminar entrada                     |
+| `GET`  | `/api/v1/food-entries`               | Listar todas las entradas            |
+| `POST` | `/api/v1/food-entries`               | Crear entrada alimentaria            |
+| `GET`  | `/api/v1/food-entries/target/{targetId}` | Obtener por target                   |
+| `GET`  | `/api/v1/food-entries/meal/{mealType}` | Filtrar por tipo de comida           |
+| `GET`  | `/api/v1/food-entries/date/{date}`   | Filtrar por fecha                    |
+
+#### Appointment Service API – Documentation Evidence
+
+* **Base URL**: `http://localhost:8085`
+* **Versión**: `v1.0.0`
+* **Descripción**: Gestión de citas médicas y de otros servicios. **Integrado con el Front para permitir a los usuarios agendar y consultar citas.**
+
+| Método | Endpoint                               | Descripción             |
+| :----- | :------------------------------------- | :---------------------- |
+| `GET`  | `/api/v1/appointments/{appointmentId}` | Obtener cita por ID     |
+| `PUT`  | `/api/v1/appointments/{appointmentId}` | Actualizar cita         |
+| `DELETE` | `/api/v1/appointments/{appointmentId}` | Eliminar cita           |
+| `GET`  | `/api/v1/appointments`                 | Listar citas            |
+| `POST` | `/api/v1/appointments`                 | Crear nueva cita        |
+| `GET`  | `/api/v1/appointments/searchByResidentId` | Buscar por residente    |
+| `GET`  | `/api/v1/appointments/searchByDoctorId` | Buscar por doctor       |
+
+#### Payment Microservice API – Documentation Evidence
+
+* **Base URL**: `http://localhost:8082`
+* **Versión**: `v1.0.0`
+* **Descripción**: Procesamiento y gestión de recibos y transacciones de pago. **Conectado al Frontend para funcionalidades de facturación y pagos.**
+
+| Método   | Endpoint                             | Descripción           |
+| :------- | :----------------------------------- | :-------------------- |
+| `DELETE` | `/api/v1/receipts/{receiptId}`     | Eliminar recibo       |
+| `GET`    | `/api/v1/receipts/{receiptId}`     | Obtener recibo        |
+| `GET`    | `/api/v1/receipts`                   | Listar recibos        |
+| `GET`    | `/api/v1/receipts/resident/{residentId}` | Filtrar por residente |
+| `POST`   | `/api/v1/receipts`                   | Crear recibo          |
+| `PUT`    | `/api/v1/receipts/{receiptId}`     | Actualizar recibo     |
+
+#### Notification Microservice API – Documentation Evidence
+
+* **Base URL**: `http://localhost:8083`
+* **Versión**: `v1.0.0`
+* **Descripción**: Envío y gestión de notificaciones a usuarios. **Permite al Frontend mostrar alertas y mensajes importantes.**
+
+| Método   | Endpoint                                    | Descripción           |
+| :------- | :------------------------------------------ | :-------------------- |
+| `GET`    | `/api/v1/notifications`                     | Listar notificaciones |
+| `POST`   | `/api/v1/notifications`                     | Crear notificación    |
+| `GET`    | `/api/v1/notifications/notifications/{userId}` | Listar por usuario    |
+| `GET`    | `/api/v1/notifications/search`              | Filtrar por estado    |
+| `POST`   | `/api/v1/notifications/{id}/mark-as-read`   | Marcar como leída     |
+| `POST`   | `/api/v1/notifications/{id}/archive`        | Archivar              |
+| `POST`   | `/api/v1/notifications/{id}/unarchive`      | Desarchivar           |
+| `DELETE` | `/api/v1/notifications/{id}`                | Eliminar              |
 
 
 
