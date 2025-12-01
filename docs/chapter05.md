@@ -1464,6 +1464,28 @@ Los microservicios completamente documentados y verificados en este Sprint son:
 
 #### 5.2.4.6	Software Deployment Evidence for Sprint Review
 
+En este sprint, el equipo logró desplegar exitosamente todos los microservicios que conforman la plataforma SeniorHub. Esta entrega demuestra la capacidad del equipo para implementar una arquitectura basada en microservicios, garantizando que cada servicio funcione de manera independiente y, al mismo tiempo, mantenga una comunicación fluida entre ellos.
+
+El despliegue incluye los bounded contexts principales —Residents, Appointments, Payments, Notifications, User Management y Care Management— cada uno ejecutándose en su entorno correspondiente y exponiendo correctamente sus endpoints REST.
+
+Esta sección presenta la evidencia requerida para el Sprint Review, incluyendo las URLs de los servicios, capturas del entorno en ejecución, logs relevantes y la verificación de la documentación API generada por cada microservicio. El objetivo es proporcionar pruebas claras de que todos los microservicios fueron desplegados correctamente, están accesibles y funcionan conforme a la Definition of Done del sprint.
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a90b0198-879b-4767-8717-e89e1356bbc8" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/093a7642-58f5-4fe6-a734-7c8b69881b4c" />
+
+<img width="1916" height="1079" alt="image" src="https://github.com/user-attachments/assets/d15a722f-c377-4a5b-9b03-9ae51365cda5" />
+
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/94da36c2-fc47-470f-ab8b-c609843d2275" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6e339169-94ee-4b51-bb98-2ef592f74e37" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/438eaa25-c44d-4348-ae7e-90ecd25a28a3" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a2279bb0-3699-4dc9-982d-6ccecb482d48" />
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f6467dd5-461d-4189-a8b2-3de764161924" />
+
 #### 5.2.4.7	Team Collaboration Insights during Sprint
 
 #### 5.2.4.8	Kanban Board
@@ -1473,6 +1495,7 @@ Los microservicios completamente documentados y verificados en este Sprint son:
 ### 5.4.1	Cloud Architecture Diagram
 
 ### 5.4.2	Cloud Architecture Deployment (AWS, Microsoft Azure or Google Cloud) 
+
 
 
 
