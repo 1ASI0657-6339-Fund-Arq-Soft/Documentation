@@ -384,10 +384,6 @@ Este módulo es el núcleo del sistema SeniorHub, ya que concentra la informaci�
  
     ![Notification Diagram](../assets/Notification_Service.png)
 
-  - Report/Analytics Service
-
-    ![Report Diagram](../assets/Reports_Service.png)
-
   -  Resident Service
 
     ![Resident Diagram](../assets/Resident_Service.png)
