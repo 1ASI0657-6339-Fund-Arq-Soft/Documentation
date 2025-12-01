@@ -1488,6 +1488,14 @@ Esta sección presenta la evidencia requerida para el Sprint Review, incluyendo 
 
 #### 5.2.4.7	Team Collaboration Insights during Sprint
 
+Durante este sprint, la colaboración en equipo se reflejó en aportes constantes y coordinados a lo largo de múltiples repositorios dentro de la arquitectura de microservicios de SeniorHub. Mi participación abarcó tanto áreas de backend (Resident, Nutrition, Appointments, Payment, IAM, Notification y Users Services) como del frontend y documentación general del proyecto.
+
+Cada contribución se enfocó en mantener la coherencia entre servicios, asegurar la integración continua y contribuir al objetivo del sprint: avanzar en funcionalidades clave mientras fortalecíamos la calidad del código y la comunicación entre integrantes del equipo.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a97fe26f-2fd8-48f6-ab40-a8f51ea66f0f" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ec2f26b5-b88c-4b3e-a54b-1836a030f21e" />
+
 #### 5.2.4.8	Kanban Board
 
 ## 5.4	Microservices Deployment
@@ -1495,6 +1503,7 @@ Esta sección presenta la evidencia requerida para el Sprint Review, incluyendo 
 ### 5.4.1	Cloud Architecture Diagram
 
 ### 5.4.2	Cloud Architecture Deployment (AWS, Microsoft Azure or Google Cloud) 
+
 
 
 
