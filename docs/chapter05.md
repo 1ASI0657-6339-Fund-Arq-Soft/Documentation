@@ -1067,34 +1067,111 @@ Se evidencia con esto que el desarrollo del frontend se completó durante este S
 
 #### 5.2.3.5	Microservices Documentation Evidence for Sprint Review
 
-Durante este Sprint se documentaron y verificaron los componentes y módulos del frontend de la solución SeniorHub.
+Durante este Sprint se avanzó en la **integración completa del Frontend de AgeCare** con los microservicios ya implementados en sprints previos: **Auth-Service (autenticación y registro)** y **User-Service** (gestión de información de usuarios y residentes).
 
-La siguiente evidencia demuestra la correcta implementación, estructura y funcionamiento de cada componente, asegurando la correcta interacción con los endpoints del backend y la experiencia de usuario final.
+Toda la documentación oficial de estos servicios fue consultada mediante **Swagger OpenAPI 3**, habilitado en cada microservicio, lo que permitió validar la estructura de los endpoints, sus parámetros y las respuestas esperadas durante la integración del login, registro y dashboard del rol Familiar.
 
-Los módulos cubiertos en este Sprint son:
-- Dashboard
+El propósito de este sprint no fue crear nuevos endpoints, sino **consumir y validar los existentes**, garantizando su correcta integración desde el Frontend.  
+A continuación, se presenta la evidencia de endpoints utilizados durante el Sprint 3.
 
-- Appointments
+## **Resumen General de los Microservicios Integrados**
 
-- Payments
+| Microservicio   | URL Base                       | Versión | Descripción |
+|-----------------|--------------------------------|---------|-------------|
+| Auth-Service    | http://localhost:8080/api/v1   | v1.0.0  | Autenticación, registro de usuarios y validación de tokens. |
+| User-Service    | http://localhost:8083/api/v1   | v1.0.0  | Gestión de usuarios, residentes e información general. |
 
-- Notifications
+Estos endpoints fueron esenciales para implementar:
 
-Appointments Dashboard – Implementation Evidence
+- Pantalla de Login  
+- Pantalla de Registro  
+- Dashboard Familiar dinámico con información real   
+- Obtención de datos del residente y citas próximas  
 
-URL de acceso (local): http://localhost:4200/appointments
+# **1. AUTH-SERVICE — Authentication Endpoints**
 
-Versión: v1.0.0
+## **1.1. POST /api/v1/auth/login**
 
-Descripción: Gestión de citas médicas, incluyendo creación, edición y notificación de citas. Integra validación de datos y consumo de los endpoints de Appointment Service.
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Inicio de sesión, validación de credenciales y generación de token JWT. |
+| **Sintaxis de Llamada**    | `/api/v1/auth/login` |
+| **Método**                 | POST |
+| **Parámetros**             | Body JSON: `{ "email": "", "password": "" }` |
+| **Ejemplo de Body**        | `{ "email": "familiar@agecare.com", "password": "123456" }` |
+| **Explicación del Response** | Retorna un objeto que incluye:<br>• token JWT<br>• nombre del usuario<br>• rol del usuario |
 
-Payments – Implementation Evidence
+Integrado directamente con la pantalla de Login para autenticar a los usuarios del sistema.
 
-URL de acceso (local): http://localhost:4200/payments
+## **1.2. POST /api/v1/auth/register**
 
-Versión: v1.0.0
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Registro completo de nuevos usuarios desde la UI. |
+| **Sintaxis de Llamada**    | `/api/v1/auth/register` |
+| **Método**                 | POST |
+| **Parámetros**             | Body JSON con datos del usuario |
+| **Ejemplo de Body**        | `{ "fullName": "Ana López", "email": "ana@example.com", "password": "123456", "role": "FAMILIAR" }` |
+| **Explicación del Response** | Devuelve el usuario creado con su ID asignado. |
 
-Descripción: Consulta de historial de pagos, emisión de recibos y registro de transacciones financieras de los residentes. Conexión completa con Payment Service y validación de datos.
+Consumido desde el formulario de Registro para crear cuentas nuevas según el rol.
+
+# **2. AUTH-SERVICE — Token Validation**
+
+## **2.1. GET /api/v1/auth/validate-token**
+
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Validación del token JWT usado en rutas protegidas. |
+| **Sintaxis de Llamada**    | `/api/v1/auth/validate-token` |
+| **Método**                 | GET |
+| **Parámetros**             | Header: `Authorization: Bearer <token>` |
+| **Explicación del Response** | Confirma si el token es válido y retorna los datos del usuario. |
+
+Utilizado para proteger el Dashboard y validar la sesión activa.
+
+# **3. USER-SERVICE — Resident & Dashboard Data Endpoints**
+
+Estos endpoints fueron fundamentales para llenar las tarjetas y paneles del Dashboard Familiar.
+
+## **3.1. GET /api/v1/residents/{id}**
+
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Obtener información del residente asignado. |
+| **Sintaxis de Llamada**    | `/api/v1/residents/{id}` |
+| **Método**                 | GET |
+| **Parámetros**             | id (path param) |
+| **Ejemplo**                | `GET http://localhost:8083/api/v1/residents/1` |
+| **Explicación del Response** | Retorna datos como nombre, edad, estado general, y última revisión. |
+
+Población de la sección “Información del Residente” del Dashboard.
+
+## **3.2. GET /api/v1/residents/{id}/appointments**
+
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Obtención de próximas citas médicas del residente. |
+| **Sintaxis de Llamada**    | `/api/v1/residents/{id}/appointments` |
+| **Método**                 | GET |
+| **Ejemplo de Llamada**     | `GET http://localhost:8083/api/v1/residents/1/appointments` |
+| **Explicación del Response** | Devuelve un arreglo JSON con tipo de cita, fecha, hora, y profesional. |
+
+Usado para construir la sección “Próximas Citas” del Dashboard.
+
+
+## **3.3. GET /api/v1/residents/{id}/notifications**
+
+| Campo                 | Descripción |
+|----------------------|-------------|
+| **Acciones Implementadas** | Obtener notificaciones recientes. |
+| **Sintaxis de Llamada**    | `/api/v1/residents/{id}/notifications` |
+| **Método**                 | GET |
+| **Ejemplo**                | `GET http://localhost:8083/api/v1/residents/1/notifications` |
+| **Explicación del Response** | Lista de notificaciones asociadas al residente. |
+
+Alimentó la tarjeta de “Notificaciones” del Dashboard.
+
 
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
 #### 5.2.3.7	Team Collaboration Insights during Sprint
@@ -1127,6 +1204,7 @@ Objetivo del Sprint: Implementar y validar los módulos y componentes de fronten
 Duración: 2/11/2025 – 16/11/2025
 
 ![Sprint3](../assets/ASprint3.png)
+
 
 
 
