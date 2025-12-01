@@ -386,6 +386,17 @@ Landing Page — [1ASI0657-6339-Fund-Arq-Soft / landing-page](https://github.com
 |landing-page|	main|	8ea0992|	Initial commit|	Initial commit|	08/10/2025|
 
 #### 5.2.1.3     Testing Suite Evidence for Sprint Review
+
+Esta sección presenta el conjunto completo de evidencias de pruebas generadas durante el sprint, con el propósito de validar las funcionalidades implementadas y asegurar su cumplimiento con los estándares de calidad del proyecto. La evidencia incluye pruebas unitarias, pruebas de integración y pruebas end-to-end ejecutadas en los microservicios y módulos del frontend. Cada resultado respalda la confiabilidad, corrección y estabilidad del incremento entregado, brindando transparencia y trazabilidad para el Sprint Review. A través de esta suite de pruebas, confirmamos que el incremento cumple los criterios de aceptación, funciona según lo esperado y está listo para su evaluación por parte de los interesados.
+
+<img width="1675" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e00efad-0fd8-46c1-93fe-3a2971a1c487" />
+
+<img width="1675" height="1082" alt="image" src="https://github.com/user-attachments/assets/c61de175-2c26-4bcb-bdc9-03840ef32183" />
+
+<img width="1688" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c6006fc-edc8-4704-a8c5-7c05022a3aa6" />
+
+<img width="1670" height="1089" alt="image" src="https://github.com/user-attachments/assets/654d6686-eb87-4cd7-a07a-f310e07c1848" />
+
 #### 5.2.1.4     Execution Evidence for Sprint Review
 
 En esta sección de presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas:
@@ -741,6 +752,17 @@ A continuación se detallan los avances y la evidencia del desarrollo.
 |Notification-Service|	main|	b7410a1|	initial commit: Notification Service|	Initial commit|	03/11/2025|
 
 #### 5.2.2.3	Testing Suite Evidence for Sprint Review
+
+Esta sección presenta el conjunto completo de evidencias de pruebas generadas durante el sprint, con el propósito de validar las funcionalidades implementadas y asegurar su cumplimiento con los estándares de calidad del proyecto. La evidencia incluye pruebas unitarias, pruebas de integración y pruebas end-to-end ejecutadas en los microservicios y módulos del frontend. Cada resultado respalda la confiabilidad, corrección y estabilidad del incremento entregado, brindando transparencia y trazabilidad para el Sprint Review. A través de esta suite de pruebas, confirmamos que el incremento cumple los criterios de aceptación, funciona según lo esperado y está listo para su evaluación por parte de los interesados.
+
+<img width="1675" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e00efad-0fd8-46c1-93fe-3a2971a1c487" />
+
+<img width="1675" height="1082" alt="image" src="https://github.com/user-attachments/assets/c61de175-2c26-4bcb-bdc9-03840ef32183" />
+
+<img width="1688" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c6006fc-edc8-4704-a8c5-7c05022a3aa6" />
+
+<img width="1670" height="1089" alt="image" src="https://github.com/user-attachments/assets/654d6686-eb87-4cd7-a07a-f310e07c1848" />
+
 #### 5.2.2.4	Execution Evidence for Sprint Review
 
 En esta sección de presentan los endpoints desarrollados en el presente sprint y se adjuntan capturas:
@@ -1024,7 +1046,7 @@ Durante este Sprint se implementaron y documentaron avances significativos en la
 El equipo trabajó principalmente en tres frentes: **Autenticación Frontend**, **Módulo de Registro**, y **Dashboard del Usuario (Rol Familiar)**, además de la construcción de componentes reutilizables y la navegación general de la aplicación.  
 Todas las implementaciones fueron versionadas en GitHub, y se presentan los commits más relevantes del Sprint.
 
-### **1. Frontend – Autenticación (Login)**
+##### **1. Frontend – Autenticación (Login)**
 
 Se completó la implementación del módulo de inicio de sesión:
 
@@ -1034,7 +1056,7 @@ Se completó la implementación del módulo de inicio de sesión:
 - Redirección al Dashboard según el rol del usuario.
 - Ajustes visuales finales (tipografía, espaciado, layout).
 
-### **2. Frontend – Registro de Usuarios**
+##### **2. Frontend – Registro de Usuarios**
 
 Se implementó la pantalla completa de registro, con:
 
@@ -1044,7 +1066,7 @@ Se implementó la pantalla completa de registro, con:
 - Mensajes de éxito y errores del backend.
 - Diseño responsivo y consistente con la identidad de AgeCare.
 
-### **3. Dashboard para Rol Familiar**
+##### **3. Dashboard para Rol Familiar**
 
 Se desarrolló el 40% del dashboard general del usuario:
 
@@ -1053,7 +1075,7 @@ Se desarrolló el 40% del dashboard general del usuario:
 - Panel de información del residente (edad, estado, último chequeo).
 - Layout tipo tarjeta (Cards) con diseño moderno y limpio.
 
-### **4. Navegación general y Manejo de Sesión**
+##### **4. Navegación general y Manejo de Sesión**
 
 - Implementación del **Navbar** con nombre del usuario autenticado.
 - Funcionalidad **Cerrar Sesión**.
@@ -1063,7 +1085,20 @@ Se desarrolló el 40% del dashboard general del usuario:
 Se evidencia con esto que el desarrollo del frontend se completó durante este Sprint, quedando preparado para la integración completa con los microservicios del backend y la experiencia final de usuario.
 
 #### 5.2.3.3	Testing Suite Evidence for Sprint Review
+Esta sección presenta el conjunto completo de evidencias de pruebas generadas durante el sprint, con el propósito de validar las funcionalidades implementadas y asegurar su cumplimiento con los estándares de calidad del proyecto. La evidencia incluye pruebas unitarias, pruebas de integración y pruebas end-to-end ejecutadas en los microservicios y módulos del frontend. Cada resultado respalda la confiabilidad, corrección y estabilidad del incremento entregado, brindando transparencia y trazabilidad para el Sprint Review. A través de esta suite de pruebas, confirmamos que el incremento cumple los criterios de aceptación, funciona según lo esperado y está listo para su evaluación por parte de los interesados.
+
+<img width="1675" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e00efad-0fd8-46c1-93fe-3a2971a1c487" />
+
+<img width="1675" height="1082" alt="image" src="https://github.com/user-attachments/assets/c61de175-2c26-4bcb-bdc9-03840ef32183" />
+
+<img width="1688" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c6006fc-edc8-4704-a8c5-7c05022a3aa6" />
+
+<img width="1670" height="1089" alt="image" src="https://github.com/user-attachments/assets/654d6686-eb87-4cd7-a07a-f310e07c1848" />
+
 #### 5.2.3.4	Execution Evidence for Sprint Review
+
+Esta sección presenta la evidencia concreta del trabajo realizado durante el sprint. Incluye demostraciones de las funcionalidades implementadas, capturas de pantalla de los componentes en funcionamiento, resúmenes de la integración entre backend y frontend, y la verificación del cumplimiento de las User Stories. El objetivo es validar que los entregables del sprint se completaron según lo planificado, asegurar el cumplimiento de la Definition of Done y brindar transparencia sobre el avance y la calidad del incremento desarrollado.
+
 ![evidence](../../assets/E1.png)
 ![evidence](../../assets/E2.png)
 ![evidence](../../assets/E3.png)
@@ -1089,7 +1124,7 @@ Toda la documentación oficial de estos servicios fue consultada mediante **Swag
 El propósito de este sprint no fue crear nuevos endpoints, sino **consumir y validar los existentes**, garantizando su correcta integración desde el Frontend.  
 A continuación, se presenta la evidencia de endpoints utilizados durante el Sprint 3.
 
-## **Resumen General de los Microservicios Integrados**
+##### **Resumen General de los Microservicios Integrados**
 
 | Microservicio   | URL Base                       | Versión | Descripción |
 |-----------------|--------------------------------|---------|-------------|
@@ -1103,9 +1138,9 @@ Estos endpoints fueron esenciales para implementar:
 - Dashboard Familiar dinámico con información real   
 - Obtención de datos del residente y citas próximas  
 
-# **1. AUTH-SERVICE — Authentication Endpoints**
+##### **1. AUTH-SERVICE — Authentication Endpoints**
 
-## **1.1. POST /api/v1/auth/login**
+##### **1.1. POST /api/v1/auth/login**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1118,7 +1153,7 @@ Estos endpoints fueron esenciales para implementar:
 
 Integrado directamente con la pantalla de Login para autenticar a los usuarios del sistema.
 
-## **1.2. POST /api/v1/auth/register**
+##### **1.2. POST /api/v1/auth/register**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1131,9 +1166,9 @@ Integrado directamente con la pantalla de Login para autenticar a los usuarios d
 
 Consumido desde el formulario de Registro para crear cuentas nuevas según el rol.
 
-# **2. AUTH-SERVICE — Token Validation**
+##### **2. AUTH-SERVICE — Token Validation**
 
-## **2.1. GET /api/v1/auth/validate-token**
+##### **2.1. GET /api/v1/auth/validate-token**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1145,11 +1180,11 @@ Consumido desde el formulario de Registro para crear cuentas nuevas según el ro
 
 Utilizado para proteger el Dashboard y validar la sesión activa.
 
-# **3. USER-SERVICE — Resident & Dashboard Data Endpoints**
+##### **3. USER-SERVICE — Resident & Dashboard Data Endpoints**
 
 Estos endpoints fueron fundamentales para llenar las tarjetas y paneles del Dashboard Familiar.
 
-## **3.1. GET /api/v1/residents/{id}**
+##### **3.1. GET /api/v1/residents/{id}**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1162,7 +1197,7 @@ Estos endpoints fueron fundamentales para llenar las tarjetas y paneles del Dash
 
 Población de la sección “Información del Residente” del Dashboard.
 
-## **3.2. GET /api/v1/residents/{id}/appointments**
+##### **3.2. GET /api/v1/residents/{id}/appointments**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1175,7 +1210,7 @@ Población de la sección “Información del Residente” del Dashboard.
 Usado para construir la sección “Próximas Citas” del Dashboard.
 
 
-## **3.3. GET /api/v1/residents/{id}/notifications**
+##### **3.3. GET /api/v1/residents/{id}/notifications**
 
 | Campo                 | Descripción |
 |----------------------|-------------|
@@ -1187,9 +1222,15 @@ Usado para construir la sección “Próximas Citas” del Dashboard.
 
 Alimentó la tarjeta de “Notificaciones” del Dashboard.
 
-
 #### 5.2.3.6	Software Deployment Evidence for Sprint Review
+
+Durante este sprint no se realizó ningún despliegue a los entornos existentes (desarrollo, pruebas o producción). Esto se debió a que las actividades del Sprint estuvieron enfocadas en tareas internas de integración, corrección de incidencias, mejoras técnicas y desarrollo de funcionalidades que aún no alcanzan un nivel de completitud apto para su liberación.
+
+Aunque no se generó un nuevo deployment, los avances realizados preparan la base técnica para futuras entregas y reducen riesgos en los próximos ciclos de integración.
+
 #### 5.2.3.7	Team Collaboration Insights during Sprint
+
+Durante este sprint, la colaboración dentro del equipo desempeñó un papel fundamental para orientar tanto el proceso de desarrollo como los resultados obtenidos. Gracias al trabajo conjunto, el intercambio constante de retroalimentación y la adaptación ante los desafíos, pudimos coordinar tareas de manera más eficiente y mantener un avance continuo. Esta sección presenta los principales aprendizajes, mejoras e insights derivados del trabajo en equipo, destacando cómo el esfuerzo colectivo apoyó los objetivos del sprint y fortaleció nuestra capacidad para funcionar como un equipo de desarrollo cohesionado.
 
 ![evidence](feature/chapter04/assets/Evidence.png)
 ![evidence](../../assets/front.png)
@@ -1241,7 +1282,7 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 
 ### 5.2.2.4 Sprint Backlog 4
 
-### US-29 Front
+#### US-29 Front
 
 | Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
 | :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
@@ -1251,7 +1292,7 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 | T4               |    | Publicación en GitHub                                      | Subir la primera versión funcional del Front al repositorio oficial.                                    | 3                  | equipo Senior | Done        |
 | **T5** |    | **Verificación de conexión Back-Front** | **Asegurar la correcta comunicación e integración del frontend con los microservicios del backend.** | **4** | **equipo Senior** | Done |
 
-### US-30 Registro
+#### US-30 Registro
 
 | Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
 | :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
@@ -1261,7 +1302,7 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 | T4               |    | Mensaje de confirmación visual                             | Mostrar mensaje “mensaje enviado con éxito” tras enviar el formulario.                                  | 2                  | equipo Senior | Done             |
 | T5               |    | Pruebas funcionales del registro                         | Verificar el correcto envío, validaciones y visualización.                                              | 3                  | equipo Senior | Done        |
 
-### US-02 CRUD de usuarios (User Service)
+#### US-02 CRUD de usuarios (User Service)
 
 | Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
 | :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
@@ -1271,7 +1312,7 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 | T4               |    | Conectar con Auth-Service                                  | Integrar validación JWT con el microservicio de autenticación.                                          | 5                  | equipo Senior | Done        |
 | T5               |    | Documentar endpoints en Swagger                            | Añadir especificaciones de API.                                                                         | 3                  | equipo Senior | Done       |
 
-### Conexión de Microservicios (7 Microservicios)
+##### Conexión de Microservicios (7 Microservicios)
 
 | Work Item / Task | Id | Title                                                      | Description                                                                                             | Estimation (Hours) | Assigned To   | Status           |
 | :--------------- | :- | :--------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ | :----------------- | :------------ | :--------------- |
@@ -1420,6 +1461,19 @@ Los microservicios completamente documentados y verificados en este Sprint son:
 | `POST`   | `/api/v1/notifications/{id}/archive`        | Archivar              |
 | `POST`   | `/api/v1/notifications/{id}/unarchive`      | Desarchivar           |
 | `DELETE` | `/api/v1/notifications/{id}`                | Eliminar              |
+
+#### 5.2.4.6	Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.7	Team Collaboration Insights during Sprint
+
+#### 5.2.4.8	Kanban Board
+
+## 5.4	Microservices Deployment
+
+### 5.4.1	Cloud Architecture Diagram
+
+### 5.4.2	Cloud Architecture Deployment (AWS, Microsoft Azure or Google Cloud) 
+
 
 
 
