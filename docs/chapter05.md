@@ -1,6 +1,21 @@
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1 Testing Suites & General Patterns
 ### 5.1.1 Backend Application Core Testing Suite 
+
+La sección Backend Application Core Testing Suite reúne el conjunto de pruebas diseñadas para validar el funcionamiento esencial del núcleo de la aplicación. Su objetivo principal es garantizar que las reglas de negocio, los servicios internos, los casos de uso y los componentes que conforman la lógica central operen de manera correcta, consistente y confiable.
+
+Este módulo de pruebas asegura la integridad del dominio, la correcta interacción entre los distintos bounded contexts y el cumplimiento de los contratos definidos por la arquitectura DDD y los patrones aplicados (CQRS, repositorios, agregados, etc.).
+
+A través de pruebas unitarias, pruebas de integración y validaciones automatizadas, esta suite permite detectar errores tempranos, prevenir regresiones y mantener un backend estable, escalable y preparado para su despliegue continuo dentro del ecosistema de microservicios.
+
+<img width="1675" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e00efad-0fd8-46c1-93fe-3a2971a1c487" />
+
+<img width="1675" height="1082" alt="image" src="https://github.com/user-attachments/assets/c61de175-2c26-4bcb-bdc9-03840ef32183" />
+
+<img width="1688" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c6006fc-edc8-4704-a8c5-7c05022a3aa6" />
+
+<img width="1670" height="1089" alt="image" src="https://github.com/user-attachments/assets/654d6686-eb87-4cd7-a07a-f310e07c1848" />
+
 ### 5.1.2 Pattern Based Backend Application(s)
 
 El modelo de Backend Application Core Testing Suite representa un componente esencial en la garantía de calidad del software dentro de SeniorHub, pues asegura la confiabilidad y consistencia de las funcionalidades críticas de la aplicación. En lugar de validar manualmente cada módulo de manera aislada, este conjunto de pruebas se ejecuta de forma automatizada, permitiendo detectar fallos rápidamente y garantizando que las nuevas funcionalidades no rompan comportamientos previos.
@@ -1405,6 +1420,7 @@ Los microservicios completamente documentados y verificados en este Sprint son:
 | `POST`   | `/api/v1/notifications/{id}/archive`        | Archivar              |
 | `POST`   | `/api/v1/notifications/{id}/unarchive`      | Desarchivar           |
 | `DELETE` | `/api/v1/notifications/{id}`                | Eliminar              |
+
 
 
 
