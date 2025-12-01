@@ -1005,31 +1005,45 @@ Historia de usuario: US-04 – Navbar y manejo de sesión
 
 #### 5.2.3.2	Development Evidence for Sprint Review
 
-Durante este Sprint se implementaron y documentaron avances significativos en el frontend de la solución SeniorHub. El equipo trabajó en la creación de interfaces de usuario interactivas y componentes reutilizables que permiten la interacción con los microservicios desarrollados en el backend. 
+Durante este Sprint se implementaron y documentaron avances significativos en la capa Frontend de la solución **SeniorHub – AgeCare**.  
+El equipo trabajó principalmente en tres frentes: **Autenticación Frontend**, **Módulo de Registro**, y **Dashboard del Usuario (Rol Familiar)**, además de la construcción de componentes reutilizables y la navegación general de la aplicación.  
+Todas las implementaciones fueron versionadas en GitHub, y se presentan los commits más relevantes del Sprint.
 
-Frontend (Angular – Componentes y Vistas)
+### **1. Frontend – Autenticación (Login)**
 
-- Durante este Sprint se completaron los módulos y componentes esenciales de SeniorHub:
+Se completó la implementación del módulo de inicio de sesión:
 
-- Dashboard: Visualización y registro de la información nutricional de los residentes, con filtros por fecha, tipo de comida y clasificación de historial.
+- Creación de la pantalla de Login con diseño responsivo.
+- Integración con el servicio de autenticación (Auth-Service) utilizando JWT.
+- Manejo de errores visuales (credenciales inválidas).
+- Redirección al Dashboard según el rol del usuario.
+- Ajustes visuales finales (tipografía, espaciado, layout).
 
-- Appointments: Gestión y visualización de citas médicas, incluyendo creación, edición y notificación de citas.
+### **2. Frontend – Registro de Usuarios**
 
-- Payments: Consulta de historial de pagos, emisión de recibos y registro de transacciones financieras de los residentes.
+Se implementó la pantalla completa de registro, con:
 
-- Notifications: Recepción, visualización y marcado de notificaciones en tiempo real para residentes y personal.
+- Validaciones del formulario: email, contraseña, campos obligatorios.
+- Selección de rol (Familiar, Cuidador, Doctor).
+- Consumo del endpoint `/register`.
+- Mensajes de éxito y errores del backend.
+- Diseño responsivo y consistente con la identidad de AgeCare.
 
-Para cada componente se realizó lo siguiente:
+### **3. Dashboard para Rol Familiar**
 
-- Creación de módulos y componentes Angular con estructura modular y escalable.
+Se desarrolló el 40% del dashboard general del usuario:
 
-- Implementación de formularios reactivos y binding de datos con servicios REST.
+- Sección de métricas (próximas citas, notificaciones, pagos pendientes, estado general).
+- Componente de próximas citas con fecha, especialidad y profesional.
+- Panel de información del residente (edad, estado, último chequeo).
+- Layout tipo tarjeta (Cards) con diseño moderno y limpio.
 
-- Integración con los endpoints del backend mediante servicios Angular.
+### **4. Navegación general y Manejo de Sesión**
 
-- Pruebas de funcionamiento y validación de la interacción con la API.
-
-- Aplicación de estilos consistentes utilizando CSS
+- Implementación del **Navbar** con nombre del usuario autenticado.
+- Funcionalidad **Cerrar Sesión**.
+- Protección de rutas mediante verificación del token JWT.
+- Menú lateral con secciones: Dashboard, Notificaciones, Pagos, Citas Médicas, Perfil del Residente.
 
 Se evidencia con esto que el desarrollo del frontend se completó durante este Sprint, quedando preparado para la integración completa con los microservicios del backend y la experiencia final de usuario.
 
@@ -1113,6 +1127,7 @@ Objetivo del Sprint: Implementar y validar los módulos y componentes de fronten
 Duración: 2/11/2025 – 16/11/2025
 
 ![Sprint3](../assets/ASprint3.png)
+
 
 
 
