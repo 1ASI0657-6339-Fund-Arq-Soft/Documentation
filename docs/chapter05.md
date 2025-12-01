@@ -1206,7 +1206,25 @@ Duración: 2/11/2025 – 16/11/2025
 ![Sprint3](../assets/ASprint3.png)
 
 
+### 5.2.4	Sprint 4
 
+A continuación, se presentará el sprint planning 4 donde se mostrarán las evidencias de planificación para la implementación de SeniorHub.
+
+| Sprint # |	Sprint 4|
+|----------|----------|
+||Sprint Planning Background|
+| Date |	20/11/2025 |
+| Time |	19:00 horas (GMT -5) |
+| Location |	Modalidad remota por Discord |
+| Prepared By |	Fatima Asmad |
+| Attendees (to planning meeting) |	Todos los miembros del equipo SeniorHub |
+| Sprint n – 0 Review Summary | En este sprint se espera desarrollar el 100% del frontend del proyecto y completar la integración con todos los microservicios.|
+| Sprint n – 1 Retrospective Summary	 | En este presente sprint se tiene como objetivo finalizar al 100% el frontend del proyecto y asegurar que todos los microservicios estén correctamente conectados e integrados.|
+||Sprint Goal & User Stories|
+|Sprint 1 Velocity	|22 |
+|Sum of Story Points|	17|
+
+5.2.2.4 Sprint Backlog 4
 
 
 
