@@ -1224,7 +1224,7 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 |Sprint 1 Velocity	|22 |
 |Sum of Story Points|	17|
 
-5.2.2.4 Sprint Backlog 4
+### 5.2.2.4 Sprint Backlog 4
 
 ### US-29 Front
 
@@ -1269,8 +1269,26 @@ A continuación, se presentará el sprint planning 4 donde se mostrarán las evi
 | T7               |    | Integración con IAM Service (Internal)                     | Conexión interna del backend con el IAM Service para gestión de identidad y acceso.                     | 4                  | equipo Senior | Done             |
 | T8               |    | Pruebas de integración de Microservicios                   | Realizar pruebas end-to-end para verificar la comunicación y el flujo de datos entre todos los microservicios. | 10                 | equipo Senior | Done        |
 
+#### 5.2.4.4	Development Evidence for Sprint Review
 
+Durante este Sprint se implementaron y documentaron avances significativos en los distintos componentes de la solución SeniorHub. El equipo trabajó en tres frentes principales: Microservicios (Backend - Auth Service, User Service, Residents Service, Notification Service, Appointments Service, Nutrition Service, Payment Service), Aplicación Web (Front) y la configuración general del proyecto. Todas las implementaciones fueron versionadas en GitHub y se muestran los commits relevantes del Sprint.
 
+#### Resumen de los avances del Sprint
+
+**Microservicios (Backend – Auth Service, User Service, Residents Service, Notification Service, Appointments Service, Nutrition Service, Payment Service)**
+Se avanzó en la implementación de los microservicios centrales del sistema y se estableció la base para la conexión:
+* **Auth-service**: responsable de la gestión de autenticación, generación de tokens JWT y administración de roles.
+* **Users-service**: encargado del CRUD de usuarios.
+* **Residents Service, Notification Service, Appointments Service, Nutrition Service, Payment Service**: Se inició la configuración del API Gateway y se definieron los puntos de entrada para la integración de estos microservicios.
+* **Inicialización completa de cada proyecto**: Se realizó la configuración base del repositorio y la estructura de cada microservicio.
+* **Configuración para la futura integración**: Preparación de endpoints y servicios para interactuar con el Front.
+
+**Aplicación Web (Front)**
+Se avanzó de manera importante en la capa de presentación:
+* **Implementación inicial de la estructura del Front**: Creación de los componentes base y secciones principales.
+* **Diseño de formularios y elementos CTA**: Se desarrollaron los formularios de contacto y los Call to Action con sus respectivos estilos y validaciones.
+* **Reestructuración del código**: Mejoras en la legibilidad, mantenibilidad y escalabilidad del código del Front.
+* **Ajustes visuales**: Consistencia con la identidad del proyecto.
 
 
 
